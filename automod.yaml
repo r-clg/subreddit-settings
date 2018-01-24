@@ -1,0 +1,84 @@
+    type: submission
+    domain: self.clg
+    body_shorter_than: 50
+    comment: Your submission has been removed because self posts must be at least 50 characters long.
+    action: remove
+
+---
+
+###Tagging automation####
+#LoL
+    title (includes): ["LoL", "League", "LCS", "Academy", "Darshan", "Reignover", "Huhi", "Stixxay", "Biofrost", "Zikz", "Fallenbandit", "Omargod", "Tuesday", "Auto", "Fill"]
+    set_flair: ["LoL", "lol-link"]
+
+---
+
+#CS:GO
+    title (includes): ["CS:GO", "CSGO", "CLG Red", "CLG.Red", "potter", "Benita", "di", "refinnej", "Emy"]
+    set_flair: ["CS:GO", "cs-link"]
+
+---
+
+#Smash
+    title (includes): ["Smash", "SSB", "SSBM", "Sm4sh", "Smash 4", "PewPewU", "PPU", "SFAT", "PewFat", "VoiD", "Bobby"]
+    set_flair: ["Smash", "smashlink"]
+
+---
+
+#H1Z1
+    title (includes): ["H1Z1", "H1PL", "Flamehopper", "Grimmybear", "Nightwalker", "dafps", "Callzy"]
+    set_flair: ["H1Z1", "h1z1-link"]
+    
+---
+
+#Store
+    title (includes): ["Store", "Shipping", "Jersey", "order", "ordered", "buy", "bought", "merch"]
+    set_flair: ["Store", "store-link"]
+
+---
+
+###Miscellaneous###
+ # Send an alert to modmail if anything gets 2+ reports
+    reports: 2
+    modmail_subject: "[AutoModerator] NO ACTION - Potential Rule Violating Thread"
+    modmail: The above item has received 2+ reports, please investigate.
+
+---
+
+    # Automatically remove anything that gets 5+ reports and send modmail
+    reports: 5
+    action: remove
+    modmail_subject: "[AutoModerator] Removal Action was done. Please Verify"
+    modmail: The above item was automatically removed due to receiving 5+ reports. Please verify that this action was correct.
+    action_reason: "removed for 5 reports"
+
+
+####################################
+#                                  #
+# Some stuff from /r/LoL -picflute#
+#                                  #
+####################################
+
+
+---
+    title+body (regex): ["get aids", "kill (yo)?urself", "hang (yo)?urself"]
+    type: any
+    action: filter
+    action_reason: "Potential insult ({{match-1}})"
+---
+
+#### Removed words 
+---
+    title+body (regex, includes): ['goll[yi]wogs?', 'nig(ger|ga|g?let)s?', '\bcoons?', 'fag(g?[eo]t)?s?', '\bfgt', 'jew(tard|plank)s?', '\bchinks?', '\bgooks?', '\brap(es|ed|e|ing)', '(ameri|euro)[- ]?(trash|fat|fag|cunt|cancer)', '\bautis(t(ic)?|m)', '\bcunts?\b', 'ching ?chongs?','tran(svestite|ny|ssexual)s?']
+    action: filter
+    action_reason: "Blacklisted word, {{match-1}}"
+---
+    title+body (regex, includes): ['\btranny\b', '\bshemale\b']
+    action: remove
+    action_reason: "Blacklisted word, {{match-1}}"
+    
+    modmail_subject: "[AutoModerator] REMOVED - Potentially offensive word"
+    modmail: |
+        Word: {{match-1}}
+        
+        Post: {{permalink}}

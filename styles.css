@@ -1,0 +1,1486 @@
+.subscribers .word, .users-online .word
+{
+  display:none;
+}
+
+/* Hide gulvan
+
+a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-child(2) .flair.flair-clg-lolmithie {display:none;}
+.tagline a[username="gulvan"] 
+
+.tagline .author.id-t2_c5wat {display:inline} */
+.subscribers .number:after
+{
+  content: " CLG Fans";
+}
+
+.users-online .number:after
+{
+  content: " CLG Fans currently have Faith";
+}
+
+.thumbnail
+{
+  float:left;
+  font-size:0;
+  margin:0px 5px;
+  margin-bottom:2px;
+  overflow:hidden;
+  width:70px;
+}
+
+.thumbnail.self
+{
+  background:url(%%clg50White%%);
+  width:50px;
+  height:50px;
+  background-repeat:no-repeat;
+}
+
+.flair 
+{
+  border: none!important;
+  padding:0px;
+  background:url(%%sprites-optimized-160501v2%%) no-repeat -9999px -9999px;
+  display:inline-block;
+  min-width:22px;
+  text-indent:22px;
+  height:25px;
+  line-height:26px;
+}
+
+.tagline
+{
+  line-height: 18px;
+}
+
+
+
+.flair-aphro { background-position: -5px -3px; }
+.flair-bigfat { background-position: -5px -33px; }
+.flair-clg-blue { background-position: -5px -63px; }
+.flair-clg-logo { background-position: -5px -92px; }
+.flair-clg-white { background-position: -5px -123px; }
+.flair-clg-red { background-position: -5px -1442px; }
+.flair-dexter { background-position: -5px -153px; }
+.flair-doublelift { background-position: -5px -183px; }
+.flair-hotshot { background-position: -5px -213px; }
+.flair-huhi { background-position: -5px -243px; }
+.flair-limes { background-position: -5px -273px; }
+.flair-link { background-position: -5px -303px; }
+.flair-nien { background-position: -5px -333px; }
+.flair-pewpewu { background-position: -5px -363px; }
+.flair-pob { background-position: -5px -393px; }
+.flair-saint { background-position: -5px -423px; }
+.flair-scarra { background-position: -5px -453px; }
+.flair-seraph { background-position: -5px -483px; }
+.flair-spinner { background-position: -5px -513px; }
+.flair-stixxay { background-position: -5px -543px; }
+.flair-xmithie { background-position: -5px -573px; }
+.flair-zikz { background-position: -5px -603px; }
+.flair-zion { background-position: -5px -635px; }
+.flair-lolbelter {background-position: -5px -663px;}
+.flair-clg-royal2 {background-position: -5px -1025px;}
+.flair-clg-snakebite {background-position: -5px -1052px;}
+.flair-clg-hazed {background-position: -5px -1385px;}
+.flair-clg-stixxay {background-position: -5px -545px;}
+.flair-clg-mattcom {background-position: -5px -843px;}
+.flair-clg-benita {background-position: -5px -1143px;}
+.flair-clg-harvey {background-position: -5px -1232px;}
+.flair-clg-potter {background-position: -5px -1202px;}
+.flair-clg-di {background-position: -5px -1113px;}
+.flair-clg-cath {background-position: -5px -1172px;}
+.flair-clg-sfat {background-position: -5px -963px;}
+.flair-clg-nakat {background-position: -5px -934px;}
+.flair-clg-frosty {background-position: -5px -992px;}
+.flair-clg-lethxl {background-position: -5px -1082px;text-indent:25px;}
+.flair-clg-fugly {background-position: -5px -1262px;}
+.flair-clg-loungin {background-position: -5px -1415px;text-indent:28px;}
+.flair-clg-letsgo {background-position: -5px -1326px;}
+.flair-clg-cutler {background-position: -5px -1352px;}
+.flair-clg-turok {background-position: -5px -1292px;}
+.flair-clg-salt {background-position: -5px -904px;}
+.flair-clg-trick2g {background-position: -5px -812px;}
+.flair-clg-lolmithie {background-position: -5px -782px;}
+.flair-clg-hotshock {background-position: -5px -873px;}
+.flair-clg-darshann {background-position: -5px -753px;}
+.flair-clg-whoishe {background-position: -5px -723px;}
+.flair-clg-zikztrust {background-position: -5px -692px;text-indent:25px;}
+
+.flair-clg-void
+{
+  border: none!important;
+  padding:0px;
+  background:url(%%void-flair%%) no-repeat;
+  display:inline-block;
+  min-width:22px;
+  text-indent:22px;
+  height:25px;
+  line-height:26px;
+}
+
+/* ALTERATIONS */
+.link .title {margin-bottom:3px;}
+body {
+  background:#0f0f0f;
+}
+
+
+.sheets label[for="reason"] {color:#eee;}
+
+.RES-keyNav-activeElement, body .RES-keyNav-activeElement .md-container {background:none !important;}
+html .res-commentBoxes, html  .res-commentBoxes .comment .comment, html .res-commentBoxes .comment .comment .comment {background:#0f0f0f !important;}
+#header {
+  border-bottom:1px solid #3C9CCD;
+  height:150px;
+  background:#0f0f0f url(%%CLG-Banner-BG%%);
+  background:#000;
+  background-position:right;
+}
+
+#header #header-bottom-left {
+  margin:10px 0 0 50px;
+}
+
+#header {
+  position:relative;
+}
+
+#header #header-bottom-right {
+  background-color:#0a79e3;
+  padding:4px 6px 4px 6px;
+}
+#header #header-bottom-right a {
+  color:#eee;
+}
+#header #header-bottom-right .userkarma {
+  color:#fff;
+}
+#header #header-img-a {
+  position:relative;
+  top:-23px;
+  content:url(%%resizedAlien%%);
+  margin-right:80px;
+}
+
+
+
+/* Sidebar Edits */
+
+.side .md-container ul {
+  margin:0 !important;
+  list-style:none;
+  padding:0 0 10px !important;
+}
+
+.side .md-container p {
+  margin:0 !important;
+}
+
+/* Responsive Edits */
+
+#header-img.default-header {display:none;}
+
+#header span.pagename.redditname a:before{
+  content:"";
+}
+
+#header #header-bottom-right {
+  max-height:20px;
+  margin: 0;
+  top: auto;
+}
+
+span.pagename.redditname {
+  display:block;
+  position:absolute !important;
+  left:50% !important;
+  margin-left:-75px;
+  width:150px;
+  height:150px;
+  top:0px !important;
+}
+
+#header-img.default-header {
+  top:50px !important;
+  left:75px;
+}
+
+#header-img.default-header {
+  top: 15px !important;
+  left: 50%;
+  margin-left: -100px;
+
+}
+
+span.pagename.redditname a {
+  display:block;
+  width:100%;
+  height:150px;
+}
+
+#header {
+  border-bottom-color:#333;
+  height:200px;
+  border-bottom:none;
+  background:url(%%CLG-Banner-BG-16-01%%) 0 19px repeat-x;
+}
+#sr-header-area {z-index:9999;position:relative;}
+
+#header #header-bottom-left {
+  background:url(%%clg-temp-17-1%%) top center no-repeat;
+  position:absolute;
+  top:19px;
+  width:100%;
+  z-index:9;
+  left:0;
+  margin:0;
+  height:150px;
+  border-bottom: 1px solid #222;
+}
+
+#header #header-bottom-right {
+  background-color:#0a79e3;
+  padding:4px 6px 4px 6px;z-index:99999 !important;
+  bottom:0px;
+}
+#header #header-bottom-right a {
+  color:#eee;
+}
+#header #header-bottom-right .userkarma {
+  color:#fff;
+}
+#header #header-img-a {
+  position:relative;
+  top:-23px;
+  content:url(%%resizedAlien%%);
+  margin-right:80px;
+}
+
+.content {
+  width:100%;
+  padding-right:300px;
+  padding-right: 320px !important;
+  box-sizing: border-box;
+}
+
+.sidecontentbox .content {
+  padding-right:0 !important;
+}
+
+.tabmenu {
+  list-style-type: none;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: bottom;
+}
+
+@media screen and (min-width:1330px) {
+  #header #header-bottom-left {
+    background:url(%%clg-temp-17-1%%) top center no-repeat !important;
+
+
+  }
+
+}
+
+@media screen and (min-width:880px) and (max-width:1329px) {
+
+  #header #header-bottom-left {
+    background:url(%%clg-temp-17-1%%) top center no-repeat !important;
+
+  }
+}
+
+
+@media screen and (max-width:880px) {
+  #header-img.default-header {
+    top: 15px !important;
+    left: 50%;
+    margin-left: -100px;
+
+  }
+
+}
+
+@media screen and (max-width:450px) {
+  #header #header-bottom-left {
+    background:url(%%clg-temp-17-1%%) top center no-repeat !important;
+  }
+
+}
+
+@media screen and (max-width:380px) {
+  #header #header-bottom-left {
+
+  }
+
+}
+
+@media screen and (max-width:805px){
+
+}
+
+
+/* End responsive */
+
+
+/* Special Events 
+#header {height:270px !important;height:520px !important;
+}
+
+.content[role="main"] {
+padding-top:55px !important;
+}
+
+.content {
+padding-top:5px !important;
+}
+body .side p>a[href$="rclgpromo"] {top:305px !important; top:555px !important;}
+
+html #header #header-bottom-left {
+height:250px !important;
+height:500px !important;
+background-color:#000 !important;
+}
+
+#header #header-bottom-right {
+bottom:-30px !important;
+}
+
+
+.side p>a[href$="rclgpromo"] {
+top:305px !important;top:355px !important;
+}
+
+.side {
+margin-top:250px !important;
+}
+
+
+
+
+#header #header-bottom-left {
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+
+
+@media screen and (min-width:1501px) {
+#header #header-bottom-left {
+background:#45150c url(%%CLG-LOL-Hypev3bb-16-8-23%%) top center no-repeat !important;}
+html #header #header-bottom-left {background-color:#45150c !important;}
+
+
+}
+
+@media screen and (min-width:1150px) and (max-width:1500px) {
+
+#header #header-bottom-left {
+
+background:url(%%CLG-WinnerSplit-15-11-9%%) top center no-repeat !important;
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+
+}
+
+@media screen and (min-width:850px) and (max-width:1149px){
+#header #header-bottom-left {
+
+background:url(%%CLG-WinnerSplit980-15-11-9%%) top center no-repeat !important; 
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+}
+
+@media screen and (min-width:321px) and (max-width:520px) {
+#header #header-bottom-left {
+background:url(%%CLG-NEW450new-15-7%%) top center no-repeat !important;
+}
+}
+
+
+
+
+Special Events End */
+
+.morelink {
+  background-image: url(%%clgIcons%%);
+  border:1px solid #399eff;
+}
+.morelink:hover {
+  background-image: url(%%clgIcons%%);
+  border:1px solid #62d0ff;
+}
+.morelink .nub {
+  background:#222;
+  background-image: url(%%clgIcons%%);
+  background-position:-31px -547px;
+}
+.morelink:hover .nub {
+  background-image: url(%%clgIcons%%);
+
+}
+.morelink a {
+  color:#eee;
+}
+
+.content {
+  margin:0;
+  padding:7px 5px 0px 5px;
+  background:url(%%mainBackground%%) #0f0f0f no-repeat;
+
+}
+
+.entry {
+  background: url(%%entryBackground%%);
+  padding: 10px 10px 10px 20px;		
+}
+
+.entry .flat-list li > b {
+  color: #FF0000;
+}
+
+.wikirevisionlisting td {
+  color: #FFF;
+}
+
+.wiki-page-content em {
+  color: #FFF;
+}
+
+.thing .title {
+  color: #3C9CCD;	
+}
+
+.thing .title:visited, .thing.visited .title {
+  color: #eee;
+}
+
+.thumbnail {
+  width:50px;	
+}
+
+.thumbnail img {
+  width:50px;
+  height:auto;	
+}
+
+.submit_text .content {background:none;}
+.submit_text .content p {color:#000;}
+.side {
+  background-color:#222;
+  padding:6px;	
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #eee;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #eee;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #eee;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #eee;
+}
+
+.side #search input {
+  background:#0a79e3;
+  border:1px solid #399eff;
+}
+
+.side .titlebox h1.redditname a {
+  color: #3C9CCD;  
+  position:relative;
+  top:-14px;
+  font-size:24px;
+  left:5px;
+  display:none;
+}
+
+
+.side .titlebox:before {
+  content: url(%%fullColorLogo%%);
+}
+
+.side .usertext {
+  color:#aaa;
+}
+.side .usertext a {
+  color:#3C9CCD;
+}
+
+.side span.subscribers span.number,
+.side .users-online span.number{
+  color:#aaa;    
+}
+
+.side .leavemoderator {
+  background:#222;
+  color:#aaa !important;
+}
+.side .leavemoderator a {
+  color:#3C9CCD;
+}
+
+.side .titlebox .flairtoggle {
+  background-color:#222;
+  color:#aaa;
+}
+
+.side .tagline a {
+  color:#3C9CCD;
+}
+
+.side .bottom a.author {
+  color:#3C9CCD;
+}
+
+.sidebox.create .spacer {
+  background:#222;
+}
+.sidebox.create .spacer .subtitle {
+  color:#aaa;
+}
+
+.side #moderation_tools .content .icon-menu a {
+  background:none;
+  color:#3C9CCD;
+}
+
+.side .sidecontentbox a.helplink {
+  color:#3C9CCD;
+}
+
+.side .sidecontentbox .content a.author {
+  color:#3C9CCD;
+}
+
+.flair {
+  color:#aaa;
+}
+
+.side .sidecontentbox .gadget .click-gadget .reddit-entry a.reddit-link-title {
+  color:#3C9CCD;
+}
+
+.entry a.author {
+  color:#3C9CCD;
+}
+
+.comment.spam > .child, .message.spam > .child {
+  background-color: inherit;
+}
+
+span.pagename.redditname a:before {
+  content:url(%%headerLogo%%);
+}
+span.pagename.redditname {
+  font-size:0px;
+  position:relative;
+  left:-90px;
+  top:-4px;
+}
+#header-img.default-header {
+  background-image:url(%%clgIcons%%);
+}
+
+.tabmenu {
+  position:relative;
+  bottom:-26px;
+  height:20px;
+  left:-131px;
+  z-index:99999;
+  position: absolute;
+  bottom: -26px;
+  height: 20px;
+  left: -131px;
+  left: 0;
+}
+.tabmenu li a {
+  background:url(%%tabGradient%%);
+  color:#aaa;
+  height:20px;
+  padding:5px 10px;
+  border-radius:3px;
+}
+.tabmenu li.selected a {
+  background-color:#0a79e3; 
+  color:#fff;
+}
+
+.usertext-body {
+  background:none;
+}
+.usertext-body .md {
+  background-color:#222 !important;
+}
+
+.usertext-body .md a {
+  color:#3C9CCD;
+}
+
+.md {
+  color:#eee;
+}
+
+.livePreview .md {
+  color: #eee;
+}
+#BigPreview {color:#000;}
+
+.entry .md p {
+  color:#eee;
+}
+
+.commentarea .entry .usertext-body .md {
+  background:none !important;
+}
+
+.flat-list form {
+  color: #888
+}
+
+/* To fix that gold-highlight issue - now the comments are highlighted in a Blue Background w/ a white border.  */
+
+.new-comment .usertext-body {
+  color: black;
+  background-color: #3C9CCD;
+  border: 1px solid #ffffff;
+  margin: -1px 0;
+}
+
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed,
+.entry,
+.entry.noncollapsed,
+.RES-keyNav-activeElement.entry.likes div,
+.RES-keyNav-activeElement.entry.dislikes div,
+.RES-keyNav-activeElement,
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement .md,
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background-color:transparent !important;
+}
+
+/* MORE RES STUFF */
+
+.res-commentBoxes .commentarea .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+.res-commentBoxes .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+  background-color:transparent !important;
+}
+
+.RES-keyNav-activeElement,
+.entry.RES-keyNav-activeElement {
+  background:url(%%entryBackground%%) !important;
+  background-color:transparent !important;
+}
+
+.thing.comment {
+  border:none !important;
+  background-color:transparent !important;
+}
+
+.res-commentBoxes,
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment {
+  background-color:transparent !important;
+}
+
+#header-bottom-right.res-navTop {
+  margin-top:111px
+}
+
+.user {
+  color:#aaa;
+}
+.user a {
+  color:#fff;
+}
+
+/* ADMIN STYLING */
+
+#image-preview-list .description {
+  color:#aaa;
+}
+#image-preview-list a.preview {
+  background:url(%%entryBackground%%);
+  padding:2px;
+}
+#preview-table tr th {
+  color:#aaa;
+}
+
+#image-upload label {
+  color:#aaa;
+}
+
+
+/* DAT LIGHTER THEME! */
+
+body:lang(dd) { 
+  background: #fff; 
+  background-image:none;
+}
+
+.content:lang(dd){
+  background:#fff;
+}
+
+.thumbnail.self:lang(dd){
+  background:url(%%clg50%%);
+}
+
+.entry:lang(dd),
+.RES-keyNav-activeElement:lang(dd), 
+.entry.RES-keyNav-activeElement:lang(dd){
+  background:none !important;
+}
+
+.thing .title:lang(dd){
+  color:#000!important;
+}
+
+.entry .md p:lang(dd){
+  color:#000;
+}
+
+.entry:lang(dd){
+  padding:0 0 0 10px;
+}
+
+.side:lang(dd){
+  background-color:#fff;
+}
+
+.morelink .nub:lang(dd){
+  background-color:#fff;
+}
+
+.side span.subscribers span.number:lang(dd), 
+.side .users-online span.number:lang(dd){
+  color:#000;
+}
+
+.side .titlebox .flairtoggle:lang(dd),
+.side .leavemoderator:lang(dd) {
+  background:#fff;
+}
+
+.usertext-body .md:lang(dd){
+  background:none !important;
+}
+.md:lang(dd){
+  color:#000;
+}
+.sidebox.create .spacer:lang(dd){
+  background:#fff;
+}
+.sidebox.create .spacer .subtitle:lang(dd){
+  color:#000;
+}
+
+.thing .title:visited:lang(dd), 
+.thing.visited .title:lang(dd) {
+  color:#551a8b !important;
+}
+
+.sitetable:lang(dd){
+  padding:10px 0 0 0;
+}
+
+
+/* THIS HAS BEEN BOTHERING ME FOR AGES */
+
+#header-img.default-header {
+  position:relative;
+  top:-20px;
+}
+
+/* CONTEXT LINKS DISPLAYED WEIRD */
+
+.usertext.border .usertext-body {
+  background:none;
+}
+
+/* Infobar alerts are hard to read with white font color */
+.infobar .md {
+  color: #DA7C00;
+}
+
+/* Top Right Feature */
+.side p>a[href$="rclgfeature"] {
+  position: absolute;
+  top: 54px;
+  right: 45%;
+  padding: 6px 24px;
+  z-index: 100;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  color: #eee;
+  background-color: rgba(60,123,205,0.3);
+  border-radius: 40%/50%;
+
+  transition: background-color 0.5s ease,color 0.5s ease;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;animation-duration: 1s;
+  -webkit-animation-duration: 1s;animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;visibility: visible !important;
+}@keyframes fadeIn {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.0;
+    background-color: rgba(60,123,205,1);
+    right:25%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    background-color: rgba(60,123,205,0.3);
+    right:45%;
+  }
+}@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.4);
+    opacity: 0.0;
+    background-color: rgba(60,123,205,1);
+    right:60%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    background-color: rgba(60,123,205,0.3);
+    right:45%;
+  }
+}
+.side p>a[href$="rclgfeature"]:hover {
+  color: rgba(10, 121, 227, 1);
+  background-color: rgba(246,246,246,0.7);
+}
+
+/* Confirmed CLG Flair */
+a.author[href$='/dexterone']:after {
+  content: 'Dexter';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Say0cean']:after {
+  content: 'Kelby';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/doublelift1']:after {
+  content: 'Doublelift';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Zikzlol']:after {
+  content: 'Zikz';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/L1Nk115']:after {
+  content: 'Link';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/MaTTcom']:after {
+  content: 'MaTTcom';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/HotshotGG']:after {
+  content: 'HotshotGG';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Seraph_CLG']:after {
+  content: 'Seraph';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Aphromoo']:after {
+  content: 'Aphromoo';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/officialtarik']:after {
+  content: 'tarik';
+  background: #D4FFFA;  
+  border: 1px solid #4F73FF;  
+  color: #3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Mylixia']:after {
+  content: 'Mylixia';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/hazedlol']:after {
+  content: 'Hazed';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/NAKAT']:after {
+  content: 'NAKAT';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+
+}
+a.author[href$='/pewpewu']:after {
+  content: 'PewPewU';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/lolHuhi']:after {
+  content: 'Huhi';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/lxthul']:after {
+  content: 'Lxthul';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Zionspartan']:after {
+  content: 'Darshan';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Counter_Logic_Gaming']:after {
+  content: 'CLG';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+
+a.author[href$='/Keitaro123']:after {
+  content: 'Keitaro';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/BasedYoonas']:after {
+  content: 'Yoona';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Tnomad']:after {
+  content: 'Travis';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/uahc']:after {
+  content: 'Chauster';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/mnqcook']:after {
+  content: 'Cook';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/CLG_Ricky']:after {
+  content: 'Ricky (Video Guy)';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/lollicon']:after {
+  content: 'Angela';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/CLG_Trinitiii']:after {
+  content: 'Trinitiii';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Slicerwind']:after {
+  content: 'ItsSlicer';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Zaganox']:after {
+  content: 'Zaganox';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/CoachRico']:after {
+  content: 'Rico';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/FallenBandit']:after {
+  content: 'FallenBandit';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/TeemoLink']:after {
+  content: 'OmarGod';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/cptjack_']:after {
+  content: 'Video Producer';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/Stixxay']:after {
+  content: 'Stixxay';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+a.author[href$='/NickAllenGG']:after {
+  content: 'Nick Allen';
+  background: #D4FFFA;
+  border: 1px solid #4F73FF;
+  color:#3D5EC7;
+  padding: 0 2px;
+  margin-left: 4px;
+}
+
+/* CLG Promo */
+/*.side {
+margin-top:207px;
+}
+.side p>a[href$="rclgpromo"] {
+position: absolute;   
+top: 205px;
+height: 210px;
+display: block;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+width: 312px;
+background: url(%%SidebarSquare-CLG-WelcomeDardoch-17-5-12%%) top left;
+right: 5px;
+font-size: 25px;
+font-family: Helvetica, Arial;
+}*/
+/* .side p>a[href$="rclgpromo"]:after {
+content: "";
+position: relative;
+display: block;
+border-top: 1px solid #399eff;  
+text-indent:0;
+background-color: rgba(0,0,0,0);
+padding:0.5em;
+top: 200px;
+height:100px;
+white-space: normal;
+transition: all 1s;
+}
+.side p>a[href$="rclgpromo"]:hover:after {
+content: attr(title);
+background-color: rgba(0,0,0,0.5);
+color: #EFF3FA;
+top:80px;
+}
+.side p>a[href$="rclgpromo"]:hover:lang(dd):after {
+background-color: rgba(10, 121, 227,0.6);
+}
+ */
+
+/* Domain Filters for r/CLG 
+League of Legends f1
+Halo f2
+CS:GO f3
+Fluff f4
+Meta f5
+Smash f6
+ */
+
+html:lang(f1) .link:not(.linkflair-lol-link) {
+display: none    }
+html:lang(f2) .link:not(.linkflair-halo-link) {
+display: none    }
+html:lang(f3) .link:not(.linkflair-cs-link) {
+display: none    }
+html:lang(f4) .link:not(.linkflair-meta-link) {
+display: none    }
+html:lang(f5) .link:not(.linkflair-smash-link) {
+display: none    }
+
+/* Hide Rank Numbers */
+
+.rank { display: none; }
+
+/* Link Flairs */
+.linkflairlabel {
+  font-size: 12px;
+  font-weight: bold;
+  max-width: 10em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: #0a79e3;
+  border: 1px solid #399eff;
+  color: #eee;
+}
+
+/* Livestream Feed */
+
+/* Basically disable blockquotes */
+.side blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*
+ *  Uncomment these two rules if you want the height of the
+ *  livestream feed maxed out and require a hover to see all
+ *  listed streams
+ */
+/*
+.side .md blockquote > blockquote:before {
+display: block;
+content: "";
+position: relative;
+top: 120px;
+width: 340px;
+height: 0;
+z-index: 1;
+box-shadow: -55px 35px 50px 25px #010713 ;
+}
+
+.side .md > blockquote {
+max-height: 150px;
+overflow: hidden;
+}
+ */
+.side .md blockquote:hover > blockquote:before {display: none}
+.side .md > blockquote > blockquote > blockquote {
+  background: #0f141a;
+  margin: 0;
+  padding: 5px 40px 5px 55px;
+  height: 30px;
+  position: relative;
+}
+.side .md > blockquote:hover {
+  max-height: 100%;
+  background-image: none;
+}
+.side .md > blockquote > blockquote > blockquote h1 {
+  font-size: 13px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 210px;
+}
+.side .md > blockquote > blockquote > blockquote h1 a:before {
+  content: "";
+  height: 30px;
+  width: 45px;
+  position: absolute;
+  left: 5px;
+}
+.side .md a[href*='profile-0']:before {background-position: 0px 0px}
+.side .md a[href*='profile-1']:before {background-position: -45px 0px}
+.side .md a[href*='profile-2']:before {background-position: -90px 0px}
+.side .md a[href*='profile-3']:before {background-position: -135px 0px}
+.side .md a[href*='profile-4']:before {background-position: -180px 0px}
+.side .md a[href*='profile-5']:before {background-position: -225px 0px}
+.side .md a[href*='profile-6']:before {background-position: -270px 0px}
+.side .md a[href*='profile-7']:before {background-position: -315px 0px}
+.side .md a[href*='profile-8']:before {background-position: -360px 0px}
+.side .md a[href*='profile-9']:before {background-position: -405px 0px}
+.side .md a[href*='profile-10']:before {background-position: -450px 0px}
+
+.side .md > blockquote > blockquote > blockquote h1 a:after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  background: #0a79e3 url(%%stream-sources%%) no-repeat 0 0;
+  display: block;
+  position: absolute;
+  right: 0;
+  margin-top: -23px;
+}
+.side .md a[href*='twitch.tv']:after {background-position: 0 0}
+.side .md a[href*='tv.majorleaguegaming.com']:after {background-position: -40px 0}
+.side .md a[href*='hitbox.tv']:after {background-position: -80px 0}
+.side .md a[href*='azubu.tv']:after {background-position: -120px 0}
+
+.side .md > blockquote > blockquote > blockquote h3 {
+  font-size: 10px;
+  line-height: 15px;
+  margin: 0 0 0 15px;
+  font-weight: normal;
+  color: #fff;
+}
+.side .md > blockquote > blockquote > blockquote h3:before {
+  content: "";
+  height: 7px;
+  width: 11px;
+  background: url(%%extra-icons%%) no-repeat -80px 0;
+  display: block;
+  position: absolute;
+  left: 55px;
+  margin-top: 3px;
+}
+
+.side a[href*='#separator'] {
+  font-size: 0;
+  margin-bottom: 3px;
+  display: block;
+}
+.side a[href*='#eye-icon'] {width: 5px}
+
+/* --- Social Icons --- */
+
+.md a[href*="twitch.tv"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: 0px 0px;
+  opacity: 1;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.md a[href*="twitter.com"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: -20px 0px;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.md a[href*="instagram.com"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: -40px 0px;
+  opacity: 1;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.md a[href*="facebook.com"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: 0px -20px;
+  opacity: 1;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.md a[href*="youtube.com"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: -20px -20px;
+  opacity: 1;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.md a[href*="snapchat.com"]:empty {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background:url(%%socialicons%%) no-repeat;
+  background-position: -40px -20px;
+  opacity: 1;
+  text-decoration:none;
+  vertical-align: middle;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* Sidebar Headers */
+
+.side .md h6 {
+  background: url(%%tabGradient%%) repeat-x;
+  color: #eee;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.side .md h6 a {
+  color: #eee;
+  text-decoration:none !important;
+}
+
+.side .md h6 {text-decoration:none !important;}
+
+.down { display: none; }
+
+/* Code in GOB wiki pages */
+body[class*='wiki-page-gob'] code {
+  color: #000;
+}
+
+/* Smash Stock Icons (from r/smashbros) */
+a[href^="#S64"],a[href^="#Melee"],a[href^="#Brawl"],a[href^="#Pm"],a[href^="#Sm4sh"],a[href="/Bowser"],a[href="/CF"],a[href="/DK"],a[href="/DrMario"],a[href="/Falco"],a[href="/Fox"],a[href="/Ganon"],a[href="/Icies"],a[href="/Puff"],a[href="/Kirby"],a[href="/Link"],a[href="/Luigi"],a[href="/Mario"],a[href="/Marth"],a[href="/Mewtwo"],a[href="/GNW"],a[href="/Ness"],a[href="/Peach"],a[href="/Pichu"],a[href="/Pikachu"],a[href="/Roy"],a[href="/Samus"],a[href="/Sheik"],a[href="/Yoshi"],a[href="/YL"],a[href="/Zelda"]{background-image:url(%%smash-sprites%%);background-repeat:no-repeat;display:inline-block;vertical-align:middle;color:transparent !important;overflow:hidden} a[href="#S64CaptainFalcon"]{width:28px;height:28px;background-position:0 0}a[href="#S64DonkeyKong"]{width:28px;height:28px;background-position:-28px 0}a[href="#S64Fox"]{width:28px;height:28px;background-position:-56px 0}a[href="#S64Jigglypuff"]{width:28px;height:28px;background-position:-84px 0}a[href="#S64Kirby"]{width:28px;height:28px;background-position:-112px 0}a[href="#S64Link"]{width:28px;height:28px;background-position:-140px 0}a[href="#S64Luigi"]{width:28px;height:28px;background-position:-168px 0}a[href="#S64Mario"]{width:28px;height:28px;background-position:-196px 0}a[href="#S64Ness"]{width:28px;height:28px;background-position:-224px 0}a[href="#S64Pikachu"]{width:28px;height:28px;background-position:-252px 0}a[href="#S64Samus"]{width:28px;height:28px;background-position:-280px 0}a[href="#S64Yoshi"]{width:28px;height:28px;background-position:-308px 0}a[href="#BrawlBowser"],a[href="#PmBowser"]{width:28px;height:28px;background-position:0 -28px}a[href="#BrawlCaptainFalcon"],a[href="#PmCaptainFalcon"]{width:28px;height:28px;background-position:-28px -28px}a[href="#BrawlCharizard"],a[href="#PmCharizard"]{width:28px;height:28px;background-position:-56px -28px}a[href="#BrawlDiddyKong"],a[href="#PmDiddyKong"]{width:28px;height:28px;background-position:-84px -28px}a[href="#BrawlDonkeyKong"],a[href="#PmDonkeyKong"]{width:28px;height:28px;background-position:-112px -28px}a[href="#BrawlFalco"],a[href="#PmFalco"]{width:28px;height:28px;background-position:-140px -28px}a[href="#BrawlFox"],a[href="#PmFox"]{width:28px;height:28px;background-position:-168px -28px}a[href="#BrawlGanondorf"],a[href="#PmGanondorf"]{width:28px;height:28px;background-position:-196px -28px}a[href="#BrawlIceClimbers"],a[href="#PmIceClimbers"]{width:28px;height:28px;background-position:-224px -28px}a[href="#BrawlIke"],a[href="#PmIke"]{width:28px;height:28px;background-position:-252px -28px}a[href="#BrawlIvysaur"],a[href="#PmIvysaur"]{width:28px;height:28px;background-position:-280px -28px}a[href="#BrawlJigglypuff"],a[href="#PmJigglypuff"]{width:28px;height:28px;background-position:-308px -28px}a[href="#BrawlKingDeDeDe"],a[href="#PmKingDeDeDe"]{width:28px;height:28px;background-position:0 -56px}a[href="#BrawlKirby"],a[href="#PmKirby"]{width:28px;height:28px;background-position:-28px -56px}a[href="#BrawlLink"],a[href="#PmLink"]{width:28px;height:28px;background-position:-56px -56px}a[href="#BrawlLucario"],a[href="#PmLucario"]{width:28px;height:28px;background-position:-84px -56px}a[href="#BrawlLucas"],a[href="#PmLucas"]{width:28px;height:28px;background-position:-112px -56px}a[href="#BrawlLuigi"],a[href="#PmLuigi"]{width:28px;height:28px;background-position:-140px -56px}a[href="#BrawlMario"],a[href="#PmMario"]{width:28px;height:28px;background-position:-168px -56px}a[href="#BrawlMarth"],a[href="#PmMarth"]{width:28px;height:28px;background-position:-196px -56px}a[href="#BrawlMetaKnight"],a[href="#PmMetaKnight"]{width:28px;height:28px;background-position:-224px -56px}a[href="#PmMewtwo"]{width:28px;height:28px;background-position:-252px -56px}a[href="#BrawlMrGameAndWatch"],a[href="#PmMrGameAndWatch"]{width:28px;height:28px;background-position:-280px -56px}a[href="#BrawlNess"],a[href="#PmNess"]{width:28px;height:28px;background-position:-308px -56px}a[href="#BrawlOlimar"],a[href="#PmOlimar"]{width:28px;height:28px;background-position:0 -84px}a[href="#BrawlPeach"],a[href="#PmPeach"]{width:28px;height:28px;background-position:-28px -84px}a[href="#BrawlPikachu"],a[href="#PmPikachu"]{width:28px;height:28px;background-position:-56px -84px}a[href="#BrawlPit"],a[href="#PmPit"]{width:28px;height:28px;background-position:-84px -84px}a[href="#BrawlROB"],a[href="#PmROB"]{width:28px;height:28px;background-position:-112px -84px}a[href="#PmRoy"]{width:28px;height:28px;background-position:-140px -84px}a[href="#BrawlSamus"],a[href="#PmSamus"]{width:28px;height:28px;background-position:-168px -84px}a[href="#BrawlSheik"],a[href="#PmSheik"]{width:28px;height:28px;background-position:-196px -84px}a[href="#BrawlSnake"],a[href="#PmSnake"]{width:28px;height:28px;background-position:-224px -84px}a[href="#BrawlSonic"],a[href="#PmSonic"]{width:28px;height:28px;background-position:-252px -84px}a[href="#BrawlSquirtle"],a[href="#PmSquirtle"]{width:28px;height:28px;background-position:-280px -84px}a[href="#BrawlToonLink"],a[href="#PmToonLink"]{width:28px;height:28px;background-position:-308px -84px}a[href="#BrawlWario"],a[href="#PmWario"]{width:28px;height:28px;background-position:0 -112px}a[href="#BrawlWolf"],a[href="#PmWolf"]{width:28px;height:28px;background-position:-28px -112px}a[href="#BrawlYoshi"],a[href="#PmYoshi"]{width:28px;height:28px;background-position:-56px -112px}a[href="#BrawlZelda"],a[href="#PmZelda"]{width:28px;height:28px;background-position:-84px -112px}a[href="#BrawlZeroSuitSamus"],a[href="#PmZeroSuitSamus"]{width:28px;height:28px;background-position:-112px -112px}a[href="#MeleeBowser"],a[href="/Bowser"]{width:28px;height:28px;background-position:-140px -112px}a[href="#MeleeCaptainFalcon"],a[href="/CF"]{width:28px;height:28px;background-position:-168px -112px}a[href="#MeleeDonkeyKong"],a[href="/DK"]{width:28px;height:28px;background-position:-196px -112px}a[href="#MeleeDrMario"],a[href="/DrMario"]{width:28px;height:28px;background-position:-224px -112px}a[href="#MeleeFalco"],a[href="/Falco"]{width:28px;height:28px;background-position:-252px -112px}a[href="#MeleeFox"],a[href="/Fox"]{width:28px;height:28px;background-position:-280px -112px}a[href="#MeleeGanondorf"],a[href="/Ganon"]{width:28px;height:28px;background-position:-308px -112px}a[href="#MeleeIceClimbers"],a[href="/Icies"]{width:28px;height:28px;background-position:0 -140px}a[href="#MeleeJigglypuff"],a[href="/Puff"]{width:28px;height:28px;background-position:-28px -140px}a[href="#MeleeKirby"],a[href="/Kirby"]{width:28px;height:28px;background-position:-56px -140px}a[href="#MeleeLink"],a[href="/Link"]{width:28px;height:28px;background-position:-84px -140px}a[href="#MeleeLuigi"],a[href="/Luigi"]{width:28px;height:28px;background-position:-112px -140px}a[href="#MeleeMario"],a[href="/Mario"]{width:28px;height:28px;background-position:-140px -140px}a[href="#MeleeMarth"],a[href="/Marth"]{width:28px;height:28px;background-position:-168px -140px}a[href="#MeleeMewtwo"],a[href="/Mewtwo"]{width:28px;height:28px;background-position:-196px -140px}a[href="#MeleeMrGameAndWatch"],a[href="/GNW"]{width:28px;height:28px;background-position:-224px -140px}a[href="#MeleeNess"],a[href="/Ness"]{width:28px;height:28px;background-position:-252px -140px}a[href="#MeleePeach"],a[href="/Peach"]{width:28px;height:28px;background-position:-280px -140px}a[href="#MeleePichu"],a[href="/Pichu"]{width:28px;height:28px;background-position:-308px -140px}a[href="#MeleePikachu"],a[href="/Pikachu"]{width:28px;height:28px;background-position:0 -168px}a[href="#MeleeRoy"],a[href="/Roy"]{width:28px;height:28px;background-position:-28px -168px}a[href="#MeleeSamus"],a[href="/Samus"]{width:28px;height:28px;background-position:-56px -168px}a[href="#MeleeSheik"],a[href="/Sheik"]{width:28px;height:28px;background-position:-84px -168px}a[href="#MeleeYoshi"],a[href="/Yoshi"]{width:28px;height:28px;background-position:-112px -168px}a[href="#MeleeYoungLink"],a[href="/YL"]{width:28px;height:28px;background-position:-140px -168px}a[href="#MeleeZelda"],a[href="/Zelda"]{width:28px;height:28px;background-position:-168px -168px}a[href="#Sm4shAlph"]{width:28px;height:28px;background-position:-196px -168px}a[href="#Sm4shBayonetta"]{width:28px;height:28px;background-position:-336px -112px}a[href="#Sm4shBowser"]{width:28px;height:28px;background-position:-224px -168px}a[href="#Sm4shBowserJr"]{width:28px;height:28px;background-position:-252px -168px}a[href="#Sm4shCaptainFalcon"]{width:28px;height:28px;background-position:-280px -168px}a[href="#Sm4shCharizard"]{width:28px;height:28px;background-position:-308px -168px}a[href="#Sm4shCloud"]{width:28px;height:28px;background-position:-336px -28px;}a[href="#Sm4shDarkPit"]{width:28px;height:28px;background-position:0 -196px}a[href="#Sm4shDiddyKong"],a[href="#Sm4shDiddy"]{width:28px;height:28px;background-position:-28px -196px}a[href="#Sm4shDonkeyKong"]{width:28px;height:28px;background-position:-56px -196px}a[href="#Sm4shDrMario"]{width:28px;height:28px;background-position:-84px -196px}a[href="#Sm4shDuckHunt"]{width:28px;height:28px;background-position:-112px -196px}a[href="#Sm4shFalco"]{width:28px;height:28px;background-position:-140px -196px}a[href="#Sm4shFemaleCorrin"]{width:28px;height:28px;background-position:-336px -84px}a[href="#Sm4shFemaleRobin"]{width:28px;height:28px;background-position:-168px -196px}a[href="#Sm4shFemaleVillager"]{width:28px;height:28px;background-position:-196px -196px}a[href="#Sm4shFemaleWiiFitTrainer"]{width:28px;height:28px;background-position:-224px -196px}a[href="#Sm4shFox"]{width:28px;height:28px;background-position:-252px -196px}a[href="#Sm4shGanondorf"]{width:28px;height:28px;background-position:-280px -196px}a[href="#Sm4shGreninja"]{width:28px;height:28px;background-position:-308px -196px}a[href="#Sm4shIggy"]{width:28px;height:28px;background-position:0 -224px}a[href="#Sm4shIke"]{width:28px;height:28px;background-position:-28px -224px}a[href="#Sm4shJigglypuff"]{width:28px;height:28px;background-position:-56px -224px}a[href="#Sm4shKingDeDeDe"]{width:28px;height:28px;background-position:-84px -224px}a[href="#Sm4shKirby"]{width:28px;height:28px;background-position:-112px -224px}a[href="#Sm4shLarry"]{width:28px;height:28px;background-position:-140px -224px}a[href="#Sm4shLemmy"]{width:28px;height:28px;background-position:-168px -224px}a[href="#Sm4shLink"]{width:28px;height:28px;background-position:-196px -224px}a[href="#Sm4shLittleMac"]{width:28px;height:28px;background-position:-224px -224px}a[href="#Sm4shLucario"]{width:28px;height:28px;background-position:-252px -224px}a[href="#Sm4shLucas"]{width:28px;height:28px;background-position:-280px -224px}a[href="#Sm4shLucina"]{width:28px;height:28px;background-position:-308px -224px}a[href="#Sm4shLudwig"]{width:28px;height:28px;background-position:0 -252px}a[href="#Sm4shLuigi"]{width:28px;height:28px;background-position:-28px -252px}a[href="#Sm4shMaleCorrin"]{width:28px;height:28px;background-position:-336px -56px}a[href="#Sm4shMaleRobin"]{width:28px;height:28px;background-position:-56px -252px}a[href="#Sm4shMaleVillager"]{width:28px;height:28px;background-position:-84px -252px}a[href="#Sm4shMaleWiiFitTrainer"]{width:28px;height:28px;background-position:-112px -252px}a[href="#Sm4shMario"]{width:28px;height:28px;background-position:-140px -252px}a[href="#Sm4shMarth"]{width:28px;height:28px;background-position:-168px -252px}a[href="#Sm4shMegaman"]{width:28px;height:28px;background-position:-196px -252px}a[href="#Sm4shMetaKnight"]{width:28px;height:28px;background-position:-224px -252px}a[href="#Sm4shMewtwo"]{width:28px;height:28px;background-position:-252px -252px}a[href="#Sm4shMiiBrawler"]{width:28px;height:28px;background-position:-280px -252px}a[href="#Sm4shMiiGunner"]{width:28px;height:28px;background-position:-308px -252px}a[href="#Sm4shMiiSwordfighter"]{width:28px;height:28px;background-position:0 -280px}a[href="#Sm4shMorton"]{width:28px;height:28px;background-position:-28px -280px}a[href="#Sm4shMrGameAndWatch"],a[href="#Sm4shMrG&W"]{width:28px;height:28px;background-position:-56px -280px}a[href="#Sm4shNess"]{width:28px;height:28px;background-position:-84px -280px}a[href="#Sm4shOlimar"]{width:28px;height:28px;background-position:-112px -280px}a[href="#Sm4shPacman"]{width:28px;height:28px;background-position:-140px -280px}a[href="#Sm4shPalutena"]{width:28px;height:28px;background-position:-168px -280px}a[href="#Sm4shPeach"]{width:28px;height:28px;background-position:-196px -280px}a[href="#Sm4shPikachu"]{width:28px;height:28px;background-position:-224px -280px}a[href="#Sm4shPit"]{width:28px;height:28px;background-position:-252px -280px}a[href="#Sm4shROB"]{width:28px;height:28px;background-position:-280px -280px}a[href="#Sm4shRosalina"]{width:28px;height:28px;background-position:-308px -280px}a[href="#Sm4shRoy"]{width:28px;height:28px;background-position:0 -308px}a[href="#Sm4shRoyKoopa"]{width:28px;height:28px;background-position:-28px -308px}a[href="#Sm4shRyu"]{width:28px;height:28px;background-position:-56px -308px}a[href="#Sm4shSamus"]{width:28px;height:28px;background-position:-84px -308px}a[href="#Sm4shSheik"]{width:28px;height:28px;background-position:-112px -308px}a[href="#Sm4shShulk"]{width:28px;height:28px;background-position:-140px -308px}a[href="#Sm4shSonic"]{width:28px;height:28px;background-position:-168px -308px}a[href="#Sm4shToonLink"]{width:28px;height:28px;background-position:-196px -308px}a[href="#Sm4shWario"]{width:28px;height:28px;background-position:-224px -308px}a[href="#Sm4shWendy"]{width:28px;height:28px;background-position:-252px -308px}a[href="#Sm4shYoshi"]{width:28px;height:28px;background-position:-280px -308px}a[href="#Sm4shZelda"]{width:28px;height:28px;background-position:-308px -308px}a[href="#Sm4shZeroSuitSamus"],a[href="#Sm4shZSSamus"]{width:28px;height:28px;background-position:-336px 0}
+
+a[title="fade"] { opacity: .2; }
+
+.spoiler-stamp {
+  color: #d10023;
+}
+/* spoilers img */
+.thumbnail.spoiler {
+  background-image:url(%%clg-spoilericon-17-1%%);
+  background-position:0 0;
+}
+/* code block background */
+.md pre {
+  background-color: #343434;
+  border: 1px solid #000;
+}
+.md pre code {
+  background-color: #343434;
+}
+/* make blockquotes lighter */
+.md blockquote {
+  color: #888;
+}
+/* fix link text color in new comments */
+.new-comment .entry:not(.RES-keyNav-activeElement) .md p a {
+  color: purple !important;
+}
+/* Fix for RES select highlight */
+.thing .entry.res-selected,
+.thing .entry.res-selected .md-container,
+.usertext .entry.res-selected,
+.usertext .entry.res-selected .md-container {
+  background: transparent !important
+}
