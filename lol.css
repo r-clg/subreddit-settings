@@ -1,0 +1,4558 @@
+/*!
+* Hello friends! 
+*   /u/topCyder here. To my fellow mods, do not touch any lines that have a "~" in a
+*   comment. These lines are bot waypoints.
+*   Flairs are updated entirely automatically. 
+*  --------------------------------------------------------------------
+*  | AGAIN - DO NOT TOUCH LINES WITH MULTIPUL "~" IN THEM. THANK YOU. |
+*  --------------------------------------------------------------------
+*  /u/Alkser here - do not touch any of the css code, as you may break something. Ask first! 
+*  AnOddName here - lol 
+*/
+
+body {
+    color: #050505;
+    background-image: url(%%bg%%) !important;
+    /*background-color: #090b18 !important; OLD*/
+    background-color: #000000 !important;
+    /*MBG*/
+    background-repeat: no-repeat;
+    background-position: 100% calc(10% - 220px);
+    background-size: calc(700px - -350px);
+}
+
+@media (orientation: portrait) {
+    body {
+        background-position: 100% calc(10% - 220px);
+        background-size: calc(40% - -350px) auto;
+    }
+}
+
+a,
+.tagline a,
+html.res-nightmode .res-nightmode a,
+html.res-nightmode .res-nightmode a.option {
+    color: #0082f0;
+}
+
+textarea {
+    border: 1px solid #d3d3d3;
+}
+
+.link-transition {
+    transition: color 0.15s ease;
+    text-decoration: none !important;
+}
+
+#sr-header-area,
+.srdrop,
+#srList {
+    background-color: #161616 !important;
+    border-color: #2a2a2a !important;
+}
+
+#sr-header-area a,
+#sr-header-area #sr-more-link,
+#srList a,
+#srList td,
+#header-bottom-right a:not(.message-count),
+#RESShortcuts,
+#RESShortcutsEditContainer,
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    color: #969696 !important;
+}
+
+#sr-header-area a:hover {
+    color: white !important;
+    text-decoration: none;
+}
+
+#sr-header-area .separator,
+#sr-header-area .srSep {
+    color: #2a2a2a;
+}
+
+#sr-header-area #sr-more-link,
+#RESShortcuts,
+#RESShortcutsEditContainer,
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background-color: #161616 !important;
+}
+
+.srdrop .title,
+#srDropdown a,
+#header-bottom-right .user>a {
+    color: #0082f0 !important;
+}
+
+.srdrop .choice.bottom-option {
+    border-color: #2a2a2a;
+}
+
+.srdrop .choice:hover {
+    background-color: #2a2a2a !important;
+}
+
+#srList tr {
+    border-color: #2a2a2a;
+}
+
+#srList tr:hover {
+    background-color: #2a2a2a !important;
+}
+
+#header-bottom-right {
+    height: 16px !important;
+    top: 19px;
+    padding: 4px 8px 2px !important;
+    background-color: #161616 !important;
+    border-color: #2a2a2a;
+    border-width: 1px;
+    border-style: none none solid solid;
+    border-radius: 0 !important;
+}
+
+.res #header-bottom-right {
+    padding-bottom: 6px !important;
+}
+
+#header-bottom-right #mail.nohavemail {
+    opacity: 0.8;
+}
+
+#header-bottom-right #mail.havemail {
+    transition: all 1s ease-in-out;
+}
+
+#header-bottom-right #userbarToggle {
+    bottom: -1px;
+    background-color: #161616;
+    border-color: #2a2a2a;
+    border-width: 1px;
+    border-style: none none solid solid;
+    border-radius: 0;
+    color: #2a2a2a;
+}
+
+#header {
+    background: none;
+    border: none;
+    z-index: unset;
+}
+
+#header-bottom-left {
+    height: 180px;
+}
+
+#header-img-a {
+    width: 260px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    text-align: center;
+}
+
+#header .pagename {
+    position: absolute;
+    top: 38px;
+    left: 17%;
+    font-size: 0;
+}
+
+#header .pagename a {
+    display: block;
+    width: 354px;
+    height: 140px;
+    background-image: url(%%header-logo%%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 140px;
+}
+
+.tabmenu {
+    width: calc(100% - 20px);
+    height: 40px;
+    position: absolute;
+    top: 198px;
+    left: 0;
+    margin: 0 10px;
+    background-color: #161616;
+    box-shadow: 0 -2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+form .tabmenu.formtab {
+    width: calc(100% - 20px - 10px);
+    top: 198px;
+}
+
+form .tabmenu.formtab li a {
+    border: none;
+}
+
+.tabmenu li,
+form .tabmenu.formtab li {
+    display: inline-block;
+    margin: 11px 4px 0;
+}
+
+.tabmenu li:first-child,
+form .tabmenu.formtab li:first-child {
+    margin-left: 10px;
+}
+
+.tabmenu li a,
+form .tabmenu.formtab li a {
+    background: none !important;
+    color: #969696 !important;
+    font-size: 14px !important;
+    font-weight: normal;
+    transition: color 0.15s linear;
+}
+
+.tabmenu li:hover a,
+form .tabmenu.formtab li:hover a {
+    color: #f6f6f6 !important;
+}
+
+.tabmenu li.selected a,
+form .tabmenu.formtab li.selected a {
+    background: none;
+    border: none;
+    color: #f6f6f6 !important;
+    text-shadow: 0 0 2px rgba(246, 246, 246, 0.003);
+}
+
+body>.content,
+.modtools-page>div.content {
+    width: calc(100% - 341px);
+    margin: 39px 0 0 10px;
+    padding: 10px;
+    background-color: rgba(246, 246, 246, 0.96);
+}
+
+body>.content .rounded,
+.modtools-page>div.content .rounded {
+    border-radius: 0;
+}
+
+#siteTable {
+    position: relative;
+}
+
+.link.last-clicked {
+    border: none;
+}
+
+.thing.link {
+    margin-bottom: 10px !important;
+    padding: 0 0 10px 0 !important;
+    border-bottom: 1px solid rgba(233, 233, 233, 0.96);
+}
+
+.thing.link .rank {
+    display: none;
+}
+
+.thing.link .thumbnail.self {
+    background-image: url(%%default-thumbnail%%);
+    background-position: center;
+}
+
+.thing.link .thumbnail.spoiler {
+    background-image: url(%%spoiler-thumbnail%%);
+    background-position: center;
+}
+
+.thing.link .title a.title {
+    color: #0082f0 !important;
+}
+
+.thing.link .title.visited a.title,
+.thing.link .title a.title:visited {
+    color: #7d7d7d !important;
+}
+
+.thing.link .title a.title:hover {
+    color: #249bff !important;
+}
+
+.thing.link .domain {
+    visibility: hidden;
+}
+
+.thing.link .domain a {
+    visibility: visible;
+    padding: 0 2px;
+    background-color: inherit;
+    border-radius: 2px;
+}
+
+.thing.link .author {
+    color: #0082f0;
+}
+
+.thing.link.self .expando .md {
+    background-color: #fcfcfc;
+    border-color: #969696;
+    border-radius: 0;
+}
+
+.thing.link.stickied {
+    position: relative;
+    margin-bottom: 24px !important;
+    padding-top: 10px !important;
+    background: radial-gradient(ellipse farthest-corner at bottom, #f0f7f3 0, #f6f6f6 100%);
+    border: 1px solid rgba(0, 128, 57, 0.2);
+}
+
+.thing.link.stickied+.clearleft+.stickied {
+    margin-top: -24px;
+    background: radial-gradient(ellipse farthest-corner at top, #f0f7f3 0, #f6f6f6 100%);
+    border-top: none;
+}
+
+.thing.link.stickied .midcol,
+.thing.link.stickied .domain {
+    display: none;
+}
+
+.thing.link.stickied .thumbnail {
+    height: 50px;
+    background: url(%%sticky-thumbnail%%) no-repeat center;
+}
+
+.thing.link.stickied .thumbnail img {
+    display: none;
+}
+
+.thing.link.stickied p.title {
+    margin-bottom: 5px;
+}
+
+.thing.link.stickied p.title a.title {
+    color: #008039 !important;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.thing.link.stickied p.title a.title:hover {
+    color: #00b350 !important;
+}
+
+.thing.link.stickied+.clearleft {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -12px;
+    border-top: 1px solid rgba(208, 208, 208, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.thing.link .stickied-tagline {
+    color: #969696;
+}
+
+. -submitter .thing.link .usertext-edit .md::before {
+    content: "Warning: Irrelevant edits are not allowed and will result in your post's removal.";
+    display: block;
+    margin-bottom: 4px;
+    color: #f03232;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.comment,
+.comment .comment .comment,
+.comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #fcfcfc !important;
+}
+
+.comment .comment,
+.comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment,
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #f6f6f6 !important;
+}
+
+/*Start of collapse button*/
+
+.comment .expand {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    text-align: center;
+    padding: 3px 0;
+    top: 0;
+    left: 3px;
+    transition: background-color 200ms;
+}
+
+.comment .expand:hover {
+    text-decoration: none;
+    background: #d3d3d3;
+    padding-right: 2px;
+}
+
+.comment.collapsed .entry {
+    margin-left: 0;
+}
+
+/*.expand:after{
+    line-height:18px;
+    color:blue;
+}
+
+.comment.noncollapsed .expand:after {
+    font-size:18px;
+    content: "-";
+}
+
+.comment.collapsed .expand:after {
+    font-size:15px;
+    content: "+";
+}*/
+
+.comment {
+    position: relative;
+    overflow: hidden;
+}
+
+.comment.noncollapsed .midcol {
+    margin-left: 18px !important;
+}
+
+/*End of collapse button*/
+
+.thing.comment {
+    padding: 5px;
+    margin: 0 5px 5px 10px;
+    border-radius: 2px !important;
+    border: 1px solid #c9c9c9 !important;
+}
+
+.thing.comment:hover {
+    border-color: #969696 !important;
+}
+
+.thing.comment .child {
+    border-left: none;
+}
+
+body:not(.moderator) .thing.comment .report-button a {
+    color: #f06464;
+}
+
+.commentarea .panestack-title {
+    margin: 2px 10px;
+}
+
+.commentarea .usertext-edit textarea {
+    background-image: url(%%comment-msg%%);
+}
+
+.commentarea .usertext-edit textarea:focus {
+    background-image: none;
+}
+
+.infobar {
+    margin-right: 0;
+    color: gray;
+    font-weight: bold
+}
+
+.thing .buttons li.reply-button a,
+.thing .buttons li a.comments {
+    color: #0082f0 !important;
+}
+
+.thing .tagline a.author.submitter {
+    background-color: #0055df !important;
+    color: #f6f6f6 !important;
+    padding: 0 2px;
+}
+
+.thing .tagline a.author.moderator {
+    background-color: #008039 !important;
+    color: #f6f6f6 !important;
+    padding: 0 2px;
+}
+
+.thing .tagline a.author.admin {
+    background-color: red !important;
+    color: #f6f6f6 !important;
+    padding: 0 2px;
+}
+
+#noresults {
+    position: relative;
+    margin: 120px 160px 60px;
+    padding: 8px;
+    background-color: rgba(221, 221, 221, 0.96);
+    color: rgba(221, 221, 221, 0.96);
+}
+
+#noresults:before {
+    content: "";
+    display: block;
+    width: 237px;
+    height: 200px;
+    position: absolute;
+    bottom: -54px;
+    left: -142px;
+    background-image: url(%%amumu%%);
+}
+
+#noresults:after {
+    content: "there don't seem to be any friends here";
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: #ff0000;
+}
+
+.link .midcol {
+    width: 40px !important;
+    margin-left: 0;
+}
+
+.link .score {
+    width: 39px;
+    color: #969696;
+}
+
+.comment .midcol,
+.gadget .midcol {
+    width: 20px;
+    z-index: 1;
+}
+
+.gadget .midcol {
+    margin-right: 4px;
+}
+
+.midcol .arrow {
+    width: 20px;
+    height: 16px;
+    position: relative;
+    background-image: url(%%arrows-bot%%) !important;
+}
+
+.midcol .arrow::after {
+    content: "";
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    background-image: url(%%arrows-top%%) !important;
+}
+
+.midcol .arrow.up,
+html.res-nightmode .arrow.up {
+    background-position: 0 0 !important;
+}
+
+.midcol .arrow.up::after,
+html.res-nightmode .arrow.up::after {
+    background-position: 0 0 !important;
+    bottom: 0;
+    transition: bottom 0.15s ease;
+}
+
+.midcol .arrow.up:hover,
+html.res-nightmode .arrow.up:hover {
+    background-position: -20px 0 !important;
+}
+
+.midcol .arrow.up:hover::after,
+html.res-nightmode .arrow.up:hover::after {
+    background-position: -20px 0 !important;
+    bottom: 2px;
+}
+
+.midcol .arrow.down,
+html.res-nightmode .arrow.down {
+    margin-bottom: 2px;
+    background-position: 0 -16px !important;
+    opacity: 0.5;
+}
+
+.midcol .arrow.down::after,
+html.res-nightmode .arrow.down::after {
+    background-position: 0 -16px !important;
+    top: 0;
+    transition: top 0.15s ease;
+}
+
+.midcol .arrow.down:hover,
+html.res-nightmode .arrow.down:hover {
+    background-position: -20px -16px !important;
+    opacity: 1.0;
+}
+
+.midcol .arrow.down:hover::after,
+html.res-nightmode .arrow.down:hover::after {
+    background-position: -20px -16px !important;
+    top: 2px;
+}
+
+.midcol .arrow.upmod,
+html.res-nightmode .arrow.upmod {
+    background-position: -40px 0 !important;
+}
+
+.midcol .arrow.upmod::after,
+html.res-nightmode .arrow.upmod::after {
+    background-position: -40px 0 !important;
+    bottom: 2px;
+}
+
+.midcol .arrow.downmod,
+html.res-nightmode .arrow.downmod {
+    margin-bottom: 2px;
+    background-position: -40px -16px !important;
+}
+
+.midcol .arrow.downmod::after,
+html.res-nightmode .arrow.downmod::after {
+    background-position: -40px -16px !important;
+    top: 2px;
+}
+
+.comment .arrow.down::before {
+    content: "off-topic or does not contribute to discussion";
+    display: block;
+    width: 250px;
+    line-height: 12px;
+    position: relative;
+    top: -2px;
+    left: -1px;
+    z-index: -1;
+    padding: 3px 3px 3px 24px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.15s linear;
+}
+
+.comment .arrow.down:hover::before {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+.submit-page .submit .spacer {
+    margin: 0;
+}
+
+.submit-page .submit .roundfield {
+    margin: 5px 0;
+    background-color: #fcfcfc;
+    border: 1px solid #969696;
+    border-radius: 0;
+}
+
+.submit-page .formtabs-content {
+    display: flex;
+    flex-flow: column nowrap;
+    border-top: 2px solid #2a2a2a !important;
+}
+
+.submit-page .formtabs-content :not(.res) :nth-child(6),
+.res .submit-page .formtabs-content :nth-child(7) {
+    order: -1;
+}
+
+.submit-page .submit_text {
+    max-height: 380px;
+}
+
+.submit-page .submit_text ol,
+.submit-page .submit_text ul {
+    margin-left: 0;
+}
+
+.submit-page .submit_text h1 {
+    display: none;
+}
+
+.submit-page #image-field {
+    display: none;
+}
+
+.linkinfo {
+    position: relative;
+    z-index: 3;
+    margin-top: -13px;
+    margin-bottom: 13px;
+    background-color: #161616 !important;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.linkinfo * {
+    color: #969696 !important;
+}
+
+.linkinfo .date {
+    margin-bottom: 8px !important;
+}
+
+.linkinfo .score * {
+    color: #f6f6f6 !important;
+}
+
+.linkinfo .totalvotes * {
+    font-size: 14px;
+}
+
+.linkinfo .upvotes * {
+    font-size: 14px;
+    color: #cd4500 !important;
+}
+
+.linkinfo .downvotes * {
+    font-size: 14px;
+    color: #5f99cf !important;
+}
+
+.linkinfo .shortlink {
+    font-size: 0;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.linkinfo .shortlink input {
+    background-color: #050505 !important;
+    border: 1px solid #1f1f1f !important;
+    color: #969696;
+    transition: border-color 0.15s ease;
+    font-size: 13px;
+}
+
+.linkinfo .shortlink input:focus {
+    border-color: #0082f0 !important;
+}
+
+.titlebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 190px;
+    padding: 0 8px 8px;
+    color: #f6f6f6;
+}
+
+.titlebox .redditname,
+.titlebox .leavemoderator {
+    display: none;
+}
+
+.titlebox>* {
+    width: 100%;
+}
+
+.titlebox .subscribers,
+.titlebox .users-online {
+    order: 0;
+    height: 22px;
+    text-align: center;
+}
+
+.titlebox .subscribers {
+    font-size: 16px;
+}
+
+.titlebox .subscribers:after {
+    content: "Challengers";
+}
+
+.titlebox .subscribers .word {
+    display: none;
+}
+
+.titlebox .users-online {
+    font-size: 14px;
+}
+
+.titlebox .users-online:before {
+    display: none;
+}
+
+.titlebox .users-online:after {
+    content: "Currently 0/10 in placements";
+}
+
+.titlebox .users-online .word {
+    display: none;
+}
+
+.titlebox .subscribe-button {
+    order: 1;
+    text-align: center;
+}
+
+.titlebox .subscribe-button a {
+    width: 130px;
+}
+
+.titlebox .subscribe-button a.active,
+.titlebox .subButtons span:not(.subscribe-button) {
+    display: inline-block;
+    width: 83px;
+    line-height: 21px;
+    background: #2a2a2a !important;
+    border: 1px solid #000000 !important;
+    border-radius: 0 !important;
+    outline: 1px solid #2a2a2a;
+    transition: outline 0.15s ease;
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #f6f6f6 !important;
+    padding: 0 3px;
+    text-transform: capitalize;
+}
+
+.titlebox .subscribe-button a.active:hover,
+.titlebox .subButtons span:not(.subscribe-button):hover {
+    outline: 1px solid #0082f0 !important;
+}
+
+.titlebox .subButtons :last-child {
+    margin-right: 0;
+}
+
+.titlebox>.subscribe-button a.active {
+    width: 160px;
+}
+
+.titlebox .subButtons {
+    order: 1;
+    height: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.titlebox form.toggle {
+    order: 2;
+    height: 18px;
+    vertical-align: middle;
+    padding: 2px 0 2px 0;
+    background: none;
+    font-size: 11px;
+    color: #969696 !important;
+}
+
+.titlebox form.toggle label,
+.titlebox form.toggle input {
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.titlebox form.leavecontributor-button {
+    order: 2;
+    height: 24px;
+}
+
+.titlebox .tagline {
+    order: 2;
+    height: 12px;
+    margin: 2px 0 0 20px;
+    font-size: 12px;
+    color: #969696 !important;
+}
+
+.titlebox .flairselector {
+    left: unset !important;
+    right: 0 !important;
+}
+
+.titlebox .flairselectbtn:after {
+    content: "flair";
+    margin-left: 3px;
+}
+
+.titlebox .usertext {
+    order: 3;
+}
+
+.side {
+    margin: 0 10px 0 0;
+    background-color: #050505 !important;
+    border-right: 1px solid #161616 !important;
+    border-bottom: 1px solid #161616 !important;
+}
+
+.side .md-container {
+    margin: 14px -8px 0 -8px;
+}
+
+.side .md-section,
+.side .md h1+ol,
+.side .md h3+blockquote {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.side #search {
+    position: relative;
+    z-index: 999;
+    margin: -7px 6px 0 0;
+}
+
+.side #search input[type="submit"] {
+    margin-left: -28px;
+    background-image: url(%%sprite-reddit%%) !important;
+    background-position: -20px -838px !important;
+    background-color: transparent !important;
+}
+
+.side #search input[type="text"] {
+    background-color: #050505 !important;
+    border: 1px solid #1f1f1f !important;
+    color: #969696;
+    transition: border-color 0.15s ease;
+    width: 288px;
+    height: 28px;
+    margin: 6px;
+    padding: 3px 0;
+    font-size: 14px;
+    text-indent: 6px;
+}
+
+.side #search input[type="text"]:focus {
+    border-color: #0082f0 !important;
+}
+
+.side #search input[type="text"]:focus {
+    border-bottom-style: none !important;
+}
+
+.side #searchexpando {
+    width: 266px;
+    position: absolute;
+    top: 28px;
+    left: 6px;
+    z-index: 1;
+    background-color: #050505;
+    border-top: none;
+    border-color: #1f1f1f !important;
+    border-radius: 0;
+    transition: border-color 0.15s ease;
+}
+
+.side #searchexpando label {
+    color: #969696;
+}
+
+.side #searchexpando p {
+    margin: 6px 0 4px 0;
+    font-size: smaller;
+}
+
+.side #search input[type="text"]:focus~#searchexpando {
+    border-color: #0082f0 !important;
+}
+
+.side .sponsorshipbox {
+    position: relative;
+    z-index: 3;
+    margin-top: -13px;
+    background-color: #161616;
+}
+
+.side .md {
+    overflow: visible;
+    color: #969696;
+    /*h5 + blockquote {
+			display: none;
+		}*/
+}
+
+.side .md ul,
+.side .md ol {
+    padding-left: 0;
+}
+
+.side .md li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.side .md blockquote {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+}
+
+.side .md>p {
+    text-align: center;
+}
+
+.side .md>p a {
+    background-color: #0a0a0a;
+    border: 1px solid #2a2a2a;
+    display: inline-block;
+    width: 278px;
+    padding: 8px 0;
+    transition: background-color 0.15s linear, color 0.15s linear;
+}
+
+.side .md>p a:hover {
+    background-color: #191919;
+}
+
+.side .md>p a:hover {
+    color: #3ea6ff;
+}
+
+.side .md>p a[href$="#rules"] {
+    margin-top: 8px;
+}
+
+.side .md>h1,
+.side .md>h2,
+.side .md>h3,
+.side .md>h4 {
+    line-height: 1.5em;
+    margin: 10px 0;
+    background: url(%%header-bg%%) repeat-x;
+    color: #c9c9c9;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.side .md>h5,
+.side .md>h6 {
+    display: none;
+}
+
+.side .md h1+ol {
+    list-style: none;
+}
+
+.side .md h1+ol li {
+    background-color: #0a0a0a;
+    border: 1px solid #2a2a2a;
+    margin-bottom: 4px;
+    padding: 5px 6px;
+    transition: background-color 0.15s linear;
+}
+
+.side .md h1+ol li:hover {
+    background-color: #191919;
+}
+
+.side .md h1+ol li a {
+    transition: color 0.15s linear;
+}
+
+.side .md h1+ol li:hover a {
+    color: #3ea6ff;
+}
+
+.side .md h3+blockquote p {
+    text-align: center;
+}
+
+.side .md h3+blockquote p a {
+    color: #0082f0 !important;
+}
+
+.side .md h3+blockquote p:first-child a {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+    background-image: url(%%theme-buttons%%);
+}
+
+.side .md h3+blockquote p:first-child a:first-child {
+    margin-right: -3px;
+    background-position: 0 0;
+}
+
+.side .md h3+blockquote p:first-child a:last-child {
+    background-position: -80px 0;
+}
+
+.side .md h4+table tr:nth-child(n+1) td:nth-child(2) strong {
+    text-shadow: 0 0 4px #0082f0;
+}
+
+.side a[href$="#promo"] {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    background-image: url(%%promo%%);
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+    opacity: 0.85;
+    transition: opacity 0.15s linear;
+    top: -281px;
+}
+
+.side a[href$="#promo"]:hover {
+    opacity: 1;
+}
+
+.res .side a[href$="#promo"] {
+    top: -303px;
+}
+
+.loggedin .side a[href$="#promo"] {
+    top: -317px;
+}
+
+.loggedin.res .side a[href$="#promo"] {
+    top: -339px;
+}
+
+.loggedin.gold .side a[href$="#promo"] {
+    top: -339px;
+}
+
+.loggedin.res.gold .side a[href$="#promo"] {
+    top: -361px;
+}
+
+.contributor .side a[href$="#promo"] {
+    top: -336px;
+}
+
+.contributor.res .side a[href$="#promo"] {
+    top: -358px;
+}
+
+.contributor.gold .side a[href$="#promo"] {
+    top: -358px;
+}
+
+.contributor.res.gold .side a[href$="#promo"] {
+    top: -380px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .side a[href$="#promo"] {
+        top: -276px;
+    }
+    .res .side a[href$="#promo"] {
+        top: -298px;
+    }
+    .loggedin .side a[href$="#promo"] {
+        top: -312px;
+    }
+    .loggedin.res .side a[href$="#promo"] {
+        top: -334px;
+    }
+    .loggedin.gold .side a[href$="#promo"] {
+        top: -334px;
+    }
+    .loggedin.res.gold .side a[href$="#promo"] {
+        top: -356px;
+    }
+    .contributor .side a[href$="#promo"] {
+        top: -331px;
+    }
+    .contributor.res .side a[href$="#promo"] {
+        top: -353px;
+    }
+    .contributor.gold .side a[href$="#promo"] {
+        top: -353px;
+    }
+    .contributor.res.gold .side a[href$="#promo"] {
+        top: -375px;
+    }
+}
+
+.side .bottom {
+    display: none;
+}
+
+.sidecontentbox {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    background-color: #0a0a0a;
+    border: 1px solid #2a2a2a;
+}
+
+.sidecontentbox .title {
+    order: 0;
+    text-align: center;
+}
+
+.sidecontentbox .title h1 {
+    display: inline-block;
+    text-transform: lowercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #c9c9c9;
+}
+
+.sidecontentbox .title h1:first-letter {
+    text-transform: uppercase;
+}
+
+.sidecontentbox .content {
+    order: 2;
+    border: none;
+}
+
+.sidecontentbox a.helplink {
+    order: 1;
+    display: block;
+    margin: 4px 2px;
+    padding: 6px 0;
+    background: #2a2a2a !important;
+    border: 1px solid #000000 !important;
+    border-radius: 0 !important;
+    outline: 1px solid #2a2a2a;
+    transition: outline 0.15s ease;
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #f6f6f6 !important;
+    text-transform: lowercase;
+}
+
+.sidecontentbox a.helplink:first-letter {
+    text-transform: uppercase;
+}
+
+.sidecontentbox a.helplink:hover {
+    outline: 1px solid #0082f0 !important;
+}
+
+.sidecontentbox a.helplink::after {
+    content: "(this is a button)";
+    display: block;
+    font-size: 10px;
+    height: 11px;
+}
+
+.login-form-side {
+    position: relative;
+    z-index: 3;
+    margin-top: -13px;
+    background-color: #161616 !important;
+    border: none;
+    color: #969696 !important;
+}
+
+.login-form-side input {
+    background-color: #050505 !important;
+    border: 1px solid #1f1f1f !important;
+    color: #969696;
+    transition: border-color 0.15s ease;
+}
+
+.login-form-side input:focus {
+    border-color: #0082f0 !important;
+}
+
+.login-form-side input[type="text"] {
+    margin-left: 6px;
+}
+
+.login-form-side input[type="password"] {
+    margin-left: 4px;
+}
+
+.login-form-side button {
+    background: #2a2a2a !important;
+    border: 1px solid #000000 !important;
+    border-radius: 0 !important;
+    outline: 1px solid #2a2a2a;
+    transition: outline 0.15s ease;
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #f6f6f6 !important;
+    margin: 0 4px 4px 0;
+    padding: 2px 10px;
+}
+
+.login-form-side button:hover {
+    outline: 1px solid #0082f0 !important;
+}
+
+.login-form-side #remember-me {
+    margin-left: 7px;
+}
+
+.login-form-side .g-recaptcha {
+    margin-top: 6px;
+}
+
+.submit.sidebox {
+    display: none;
+    margin-top: -13px;
+}
+
+.loggedin .submit.sidebox {
+    display: inherit;
+}
+
+.submit .morelink {
+    width: 132px !important;
+    background: #2a2a2a !important;
+    border: 1px solid #000000 !important;
+    border-radius: 0 !important;
+    outline: 1px solid #2a2a2a;
+    transition: outline 0.15s ease;
+}
+
+.submit .morelink:hover {
+    outline: 1px solid #0082f0 !important;
+}
+
+.submit .morelink a {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #f6f6f6 !important;
+}
+
+.submit .morelink .nub {
+    background: none;
+}
+
+.submit.submit-link {
+    padding: 8px 8px 8px 9px;
+}
+
+.submit.submit-text {
+    float: right;
+    position: relative;
+    margin-top: -51px;
+    margin-right: 10px;
+}
+
+.submit.disabled .morelink {
+    display: none;
+}
+
+.submit.disabled .spacer {
+    padding: 8px 12px;
+    background-color: #161616 !important;
+}
+
+.submit.disabled .subtitle {
+    margin: 0;
+    font-size: 0;
+}
+
+.submit.disabled .subtitle:after {
+    content: "Submissions are temporarily disabled to prevent excessive flooding.";
+    font-size: 14px;
+    color: #e52222;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+body:not(.subscriber) .submit.submit-text::after {
+    content: "Please read subreddit rules before posting. Subscribe or hover to dismiss.";
+    display: block;
+    width: 263px;
+    height: 30px;
+    position: absolute;
+    top: -9px;
+    left: -156px;
+    padding: 9px 2px 9px 35px;
+    background-color: rgba(24, 24, 24, 0.88);
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px black;
+    transition: opacity 0.15s linear 0.2s, top 0.15s linear 0.2s;
+}
+
+body:not(.subscriber) .submit.submit-text::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 3px;
+    left: -145px;
+    z-index: 2;
+    background-image: url(%%lock%%);
+    transition: transform 0.15s linear, top 0.15s linear 0.2s;
+}
+
+.spacer:hover+.spacer>.submit-text::before,
+.submit-text:hover::before,
+.spacer:focus+.spacer>.submit-text::before,
+.submit-text:focus::before {
+    transform: rotateZ(-90deg);
+    top: -38px !important;
+}
+
+.spacer:hover+.spacer>.submit-text::after,
+.submit-text:hover::after,
+.spacer:focus+.spacer>.submit-text::after,
+.submit-text:focus::after {
+    opacity: 0;
+    top: -46px !important;
+}
+
+.icon-menu a {
+    background: none;
+}
+
+.sidebox.create {
+    margin: 0 10px 20px 10px;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    transition: border-color 0.15s ease;
+}
+
+.sidebox.create .morelink {
+    background: #2a2a2a !important;
+    border: 1px solid #000000 !important;
+    border-radius: 0 !important;
+    outline: 1px solid #2a2a2a;
+    transition: outline 0.15s ease;
+}
+
+.sidebox.create .morelink:hover {
+    outline: 1px solid #0082f0 !important;
+}
+
+.sidebox.create .morelink a {
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #f6f6f6 !important;
+}
+
+.sidebox.create .morelink .nub {
+    display: none;
+}
+
+.sidebox.create .spacer {
+    display: none;
+}
+
+.hover-bubble.multi-selector {
+    background-color: rgba(22, 22, 22, 0.9);
+    border: 1px solid #0082f0;
+}
+
+.hover-bubble.multi-selector.anchor-right.anchor-right:before,
+.hover-bubble.multi-selector.anchor-left.anchor-right:before {
+    border-left-color: #0082f0;
+}
+
+.hover-bubble.multi-selector.anchor-right.anchor-right:after,
+.hover-bubble.multi-selector.anchor-left.anchor-right:after {
+    border-left-color: rgba(22, 22, 22, 0.9);
+}
+
+.hover-bubble.multi-selector strong {
+    color: #0082f0;
+}
+
+.hover-bubble.multi-selector label {
+    color: #f6f6f6;
+}
+
+.hover-bubble.multi-selector label:hover {
+    background-color: rgba(22, 22, 22, 0.9);
+}
+
+.hover-bubble.multi-selector .create-multi input.multi-name {
+    background-color: rgba(22, 22, 22, 0.9);
+    border-color: #0082f0;
+    color: #f6f6f6;
+}
+
+.side .md>p>strong {
+    width: 15%;
+    position: absolute;
+    top: 28px;
+    left: 10px;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #c80000;
+    outline: 1px solid black;
+}
+
+.side .md>p>strong>a {
+    display: block;
+    width: unset;
+    padding: 10px;
+    background: none;
+    text-align: center;
+    color: #c80000;
+    text-shadow: 1px 1px 1px black;
+    transition: color 0.1s linear;
+}
+
+.side .md>p>strong>a:hover {
+    color: #ececec;
+}
+
+.side .md table {
+    width: 280px;
+    margin-left: 10px;
+    background-color: #050505;
+    border: 1px solid #2a2a2a;
+    color: #969696;
+}
+
+.side .md table thead {
+    display: none;
+}
+
+.side .md table tbody tr {
+    background-color: #050505;
+    font-size: 11px;
+}
+
+.side .md table tbody tr:nth-child(2n+1) {
+    background-color: #0a0a0a;
+}
+
+.side .md table tbody tr:hover {
+    background-color: #191919;
+    transition: background-color 0.15s ease;
+}
+
+.side .md table tbody tr a {
+    margin-left: 4px;
+}
+
+.side .md table tbody tr td {
+    border: none;
+}
+
+.footer {
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+html:lang(np) div.content::before {
+    content: "The usage of No Participation (NP) links is not endorsed on this subreddit, and they do not magically prevent bans for mass voting. Please read the rules and encourage others to read the rules to prevent issues accompaning vote manipulation.";
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #a00000;
+    border: 1px solid black;
+    outline: 1px solid #a00000;
+    color: #f6f6f6;
+    font-size: 14px;
+}
+
+/*html:lang(sf),
+html:lang(sd) {
+	.thing.link.over18 {
+		.midcol,
+		.thumbnail,
+		.entry {
+			display: none;
+		}
+		
+		&::before {
+			content: @spoilers-message;
+			
+			margin-left: @content-padding;
+			
+			color: darken(red, 10%);
+			font-size: 14px;
+			font-style: italic;
+		}
+	}
+}*/
+
+html:lang(sf) .link.linkflair-spoiler .midcol,
+html:lang(sf) .link.linkflair-spoiler .thumbnail,
+html:lang(sf) .link.linkflair-spoiler .entry {
+    display: none;
+}
+
+html:lang(sf) .link.linkflair-spoiler::before {
+    content: "Hidden for spoilers";
+    margin-left: 10px;
+    color: #cc0000;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.md a[href^="#c-"] {
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-image: url(%%champion-flair%%);
+    border-radius: 2px;
+    font-size: 0;
+}
+
+.md a[href^="#ss-"] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(%%summoner-flair%%);
+    border-radius: 2px;
+    font-size: 0;
+}
+
+.md a[href^="#i-"] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(%%item-flair%%);
+    border-radius: 2px;
+    font-size: 0;
+}
+
+.md a[href^="#face-"] {
+    display: inline-block;
+    width: 100px;
+    height: 101px;
+    background-image: url(%%comment-faces%%);
+    font-size: 0;
+}
+
+.md a[href="#face-wink"] {
+    background-position: 0 0;
+}
+
+.md a[href="#face-ok"] {
+    background-position: -100px 0;
+}
+
+.md a[href="#face-palm"] {
+    background-position: -200px 0;
+}
+
+.md a[href="#face-angry"] {
+    background-position: -300px 0;
+}
+
+.md a[href="#face-cry"] {
+    background-position: 0 -101px;
+}
+
+.md a[href="#face-success"] {
+    background-position: -100px -101px;
+}
+
+.md a[href="#face-draaaven"] {
+    background-position: -200px -101px;
+}
+
+.md a[href="#face-fiteme"] {
+    background-position: -300px -101px;
+}
+
+.md a[href="#face-love"] {
+    background-position: 0 -202px;
+}
+
+.md a[href="#face-yuck"] {
+    background-position: -100px -202px;
+}
+
+.md a[href="#face-dwi"] {
+    background-position: -200px -202px;
+}
+
+.md a[href="#face-flip"] {
+    background-position: -300px -202px;
+}
+
+.md a[href="#face-party"] {
+    background-position: 0 -303px;
+}
+
+.md a[href="#face-tear"] {
+    background-position: -100px -303px;
+}
+
+.md a[href="#face-troll"] {
+    background-position: -200px -303px;
+}
+
+.md a[href="#face-support"] {
+    background-position: -300px -303px;
+}
+
+.md a[href="#face-yeah"] {
+    background-position: 0 -404px;
+}
+
+.md a[href="#face-eww"] {
+    background-position: -100px -404px;
+}
+
+.md a[href="#face-wat"] {
+    background-position: -200px -404px;
+}
+
+.md a[href="#face-yandere"] {
+    background-position: -300px -404px;
+}
+
+.md a[href="#face-popcorn"] {
+    background-position: 0 -505px;
+}
+
+.md a[href="#face-happy"] {
+    background-position: -100px -505px;
+}
+
+.md a[href="#face-fabulous"] {
+    background-position: -200px -505px;
+}
+
+.md a[href="#face-sleepy"] {
+    background-position: -300px -505px;
+}
+
+.md a[href="#face-whoa"] {
+    background-position: 0 -606px;
+}
+
+.md a[href="#face-aliens"] {
+    background-position: -100px -606px;
+}
+
+.md a[href="#face-hmm"] {
+    background-position: -200px -606px;
+}
+
+.md a[href="#face-crickets"] {
+    background-position: -300px -606px;
+}
+
+a[href$="/spoiler"],
+a[href$="#spoiler"] {
+    background: none repeat scroll 0 0 #000000 !important;
+    color: #000000 !important;
+    cursor: default;
+}
+
+a[href$="/spoiler"]:hover,
+a[href$="#spoiler"]:hover {
+    color: #FFFFFF !important;
+}
+
+.comment .md h5+h6+h4+p,
+.comment .md h5+h6+h4+p+hr,
+.comment .md h5+h6+h4+p+hr+blockquote,
+.comment .md h5+h6+h4+p+hr+blockquote+hr,
+.comment .md h5+h6+h4+p+hr+blockquote+hr+p,
+.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: none;
+}
+
+.comment .md:hover h5+h6+h4+p,
+.comment .md:hover h5+h6+h4+p+hr,
+.comment .md:hover h5+h6+h4+p+hr+blockquote,
+.comment .md:hover h5+h6+h4+p+hr+blockquote+hr,
+.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p,
+.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: block;
+}
+
+.comment .md h5+h6+h4:after {
+    content: "AutoWikibot post. Hover to view.";
+}
+
+.comment .md:hover h5+h6+h4:after {
+    content: "";
+}
+
+.linkflair-match .md {
+    text-align: center;
+}
+
+.linkflair-match h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.linkflair-match h1 a[href$="#na"]::before {
+    content: "";
+    display: block;
+    width: 114px;
+    height: 100px;
+    position: relative;
+    top: -10px;
+    left: calc(50% - 57px);
+    background-size: 114px 100px;
+}
+
+.linkflair-match h2 {
+    font-size: 28px;
+}
+
+.linkflair-match h3+p+table {
+    width: 100%;
+}
+
+.linkflair-match h3+p+table+table,
+.linkflair-match h3+p+table+table+table {
+    display: inline-table;
+    width: 350px;
+}
+
+a[href^="#mt-"] {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(%%match-thread-icons%%);
+    font-size: 0;
+}
+
+a[href^="#mt-infernal"] {
+    background-position: 0 0;
+}
+
+a[href^="#mt-mountain"] {
+    background-position: -22px 0;
+}
+
+a[href^="#mt-ocean"] {
+    background-position: -44px 0;
+}
+
+a[href^="#mt-cloud"] {
+    background-position: -66px 0;
+}
+
+a[href^="#mt-elder"] {
+    background-position: 0 -22px;
+}
+
+a[href^="#mt-barons"] {
+    background-position: -66px -22px;
+}
+
+a[href^="#mt-gold"] {
+    background-position: -22px -22px;
+}
+
+a[href^="#mt-towers"] {
+    background-position: 0 -44px;
+}
+
+a[href^="#mt-herald"] {
+    background-position: -22px -44px;
+}
+
+a[href^="#c-noban"] {
+    background-image: url(%%match-thread-icons%%) !important;
+    background-position: -44px -44px;
+}
+
+a[href^="#mt-kills"] {
+    background-position: -44px -22px;
+}
+
+.thing.spam,
+div.thing.comment div.child div.thing.comment.spam,
+div.thing.comment div.child div.thing.comment div.child .comment div.comment.spam {
+    background-color: #ceeefc !important;
+    background-image: none !important;
+}
+
+.comment.spam>.child {
+    background-color: transparent;
+}
+
+.entry .buttons .remove-button a {
+    color: #f06464 !important;
+}
+
+.entry .buttons .remove-button a:hover {
+    color: #ff5555 !important;
+}
+
+.entry .buttons .approve-button a {
+    color: #64dc64 !important;
+}
+
+.entry .buttons .approve-button a:hover {
+    color: #4cf44c !important;
+}
+
+.thing .report-reasons {
+    padding: 4px 0;
+}
+
+.thing .buttons li.reported-stamp,
+.thing .report-reasons li {
+    color: black;
+    opacity: 1;
+}
+
+#subreddit-stylesheet .sheets {
+    margin-right: 0;
+}
+
+#image-preview-list {
+    overflow: auto;
+}
+
+.mod-toolbox .menuarea.modtools {
+    margin-right: 0 !important;
+}
+
+.tb-dt-bg-#ED4337 a,
+.tb-dt-bg-#0082FF a {
+    color: white;
+}
+
+html.res-commentBoxes body>.content {
+    padding-right: 10px !important;
+}
+
+.content .NERPageMarker,
+#progressIndicator.neverEndingReddit,
+#NERFail {
+    margin: 0 -10px 10px;
+    background-color: rgba(221, 221, 221, 0.96);
+    border-color: rgba(195, 195, 195, 0.96);
+    border-style: solid none;
+    border-radius: 0;
+    color: #2a2a2a;
+}
+
+#progressIndicator.neverEndingReddit,
+#NERFail {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.dark-tagline,
+html:lang(dd) .entry .tagline,
+html.res-nightmode .entry .tagline,
+html:lang(dd) .entry .buttons li a,
+html.res-nightmode .entry .buttons li a,
+html:lang(dd) .entry time,
+html.res-nightmode .entry time,
+html:lang(dd) .thing.link .domain a,
+html.res-nightmode .thing.link .domain a {
+    color: #444444;
+}
+
+html:lang(dd) body>.content,
+html.res-nightmode body>.content {
+    background-color: rgba(5, 5, 5, 0.99);
+    border-right: 1px solid #161616;
+}
+
+html:lang(dd) .content .md,
+html.res-nightmode .content .md {
+    color: #cccccc;
+}
+
+html:lang(dd) .content .md h1,
+html.res-nightmode .content .md h1 {
+    color: #f6f6f6;
+}
+
+html:lang(dd) .content .md h2,
+html.res-nightmode .content .md h2 {
+    color: #969696;
+}
+
+html:lang(dd) .content .md pre,
+html.res-nightmode .content .md pre {
+    background-color: #050505;
+    border-color: #161616;
+}
+
+html:lang(dd) .content .md code,
+html.res-nightmode .content .md code {
+    color: #969696;
+}
+
+html:lang(dd) #noresults,
+html.res-nightmode #noresults {
+    background-color: #161616;
+    color: #161616;
+}
+
+html:lang(dd) .arrow,
+html.res-nightmode .arrow {
+    width: 20px !important;
+    height: 16px !important;
+    margin-top: 2px;
+    background-image: url(%%arrows-bot-dark%%) !important;
+}
+
+html:lang(dd) .arrow::after,
+html.res-nightmode .arrow::after {
+    background-image: url(%%arrows-top-dark%%) !important;
+}
+
+html:lang(dd) .thing.link,
+html.res-nightmode .thing.link {
+    border-color: rgba(0, 0, 0, 0.99);
+}
+
+html:lang(dd) .thing.link.self .expando .md,
+html.res-nightmode .thing.link.self .expando .md {
+    background-color: #0a0a0a;
+    border-color: #161616;
+}
+
+html:lang(dd) .thing.link.stickied,
+html.res-nightmode .thing.link.stickied {
+    background: radial-gradient(ellipse farthest-corner at bottom, #000f07 0, #050505 100%);
+    border-color: rgba(0, 128, 57, 0.2);
+}
+
+html:lang(dd) .thing.link.stickied+.clearleft+.stickied,
+html.res-nightmode .thing.link.stickied+.clearleft+.stickied {
+    background: radial-gradient(ellipse farthest-corner at top, #000f07 0, #050505 100%);
+}
+
+html:lang(dd) .thing.link.stickied .title a.title,
+html.res-nightmode .thing.link.stickied .title a.title {
+    color: #008039 !important;
+}
+
+html:lang(dd) .thing.link.stickied+.clearleft,
+html.res-nightmode .thing.link.stickied+.clearleft {
+    border-top-color: rgba(0, 0, 0, 0.5);
+    border-bottom-color: rgba(31, 31, 31, 0.5);
+}
+
+html:lang(dd) .thing.link .stickied-tagline,
+html.res-nightmode .thing.link .stickied-tagline {
+    color: #444444;
+}
+
+html:lang(dd) .thing.link .linkflair-spoiler .thumbnail,
+html.res-nightmode .thing.link .linkflair-spoiler .thumbnail {
+    background-image: url(%%spoiler-thumbnail-dark%%);
+}
+
+html:lang(dd) .comments-page .commentarea textarea,
+html.res-nightmode .comments-page .commentarea textarea {
+    background-color: #050505;
+    border-color: #161616;
+    color: #f6f6f6;
+}
+
+html:lang(dd) .comments-page .commentarea .panestack-title,
+html.res-nightmode .comments-page .commentarea .panestack-title {
+    border-color: #161616;
+    color: #2a2a2a;
+}
+
+html:lang(dd) .thing.comment,
+html.res-nightmode .thing.comment,
+html:lang(dd).res-commentBoxes.res-commentBoxes-rounded .content .thing.comment,
+html.res-nightmode.res-commentBoxes.res-commentBoxes-rounded .content .thing.comment {
+    border-color: #161616 !important;
+}
+
+html:lang(dd) .thing.comment:hover,
+html.res-nightmode .thing.comment:hover,
+html:lang(dd).res-commentBoxes.res-commentBoxes-rounded .content .thing.comment:hover,
+html.res-nightmode.res-commentBoxes.res-commentBoxes-rounded .content .thing.comment:hover {
+    border-color: #161616 !important;
+}
+
+html:lang(dd) .comment span.score,
+html.res-nightmode .comment span.score {
+    color: #969696;
+}
+
+html:lang(dd) .usertext.border .usertext-body,
+html.res-nightmode .usertext.border .usertext-body {
+    background-color: #171717;
+}
+
+html:lang(dd) .submit-page .content h1,
+html.res-nightmode .submit-page .content h1 {
+    color: #969696;
+}
+
+html:lang(dd) .submit-page .submit .roundfield,
+html.res-nightmode .submit-page .submit .roundfield {
+    background-color: #0a0a0a;
+    border-color: #161616;
+    color: #cccccc;
+}
+
+html:lang(dd) .submit-page textarea,
+html.res-nightmode .submit-page textarea,
+html:lang(dd) .submit-page input[type="text"],
+html.res-nightmode .submit-page input[type="text"] {
+    background-color: #050505 !important;
+    border: 1px solid #1f1f1f !important;
+    color: #969696;
+    transition: border-color 0.15s ease;
+}
+
+html:lang(dd) .submit-page textarea:focus,
+html.res-nightmode .submit-page textarea:focus,
+html:lang(dd) .submit-page input[type="text"]:focus,
+html.res-nightmode .submit-page input[type="text"]:focus {
+    border-color: #0082f0 !important;
+}
+
+html:lang(dd) .NERPageMarker,
+html.res-nightmode .NERPageMarker {
+    border-color: rgba(5, 5, 5, 0.99);
+}
+
+.dark-comment,
+html:lang(dd) .comments-page .commentarea .comment,
+html.res-nightmode .comments-page .commentarea .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html:lang(dd) .comment,
+html.res-nightmode .comment {
+    background-color: #0a0a0a !important;
+}
+
+.dark-comment2,
+html:lang(dd) .comments-page .commentarea .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment,
+html:lang(dd) .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+html.res-nightmode .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #050505 !important;
+}
+
+html.res-nightmode ol,
+html.res-nightmode #header,
+html.res-nightmode #header-bottom-left,
+html.res-nightmode .listing-page .link,
+html.res-nightmode .icon-menu a,
+html.res-nightmode .side blockquote ul,
+html.res-nightmode .side .leavemoderator,
+html.res-nightmode .side .leavecontributor-button,
+html.res-nightmode .sidebox,
+html.res-nightmode .sidecontentbox .content,
+html.res-nightmode .titlebox,
+html.res-nightmode .titlebox form.flairtoggle,
+html.res-nightmode #newlink,
+html.res-nightmode .linkflairlabel,
+html.res-nightmode .listing-page .sitetable>div:nth-of-type(4n+1) {
+    background-color: transparent !important;
+}
+
+html.res-nightmode h1 {
+    border: none;
+}
+
+html.res-nightmode .side * {
+    color: inherit;
+}
+
+html.res-nightmode .side blockquote {
+    background: none;
+}
+
+html.res-nightmode .arrow.up,
+html.res-nightmode .arrow.up:hover,
+html.res-nightmode .arrow.down,
+html.res-nightmode .arrow.down:hover,
+html.res-nightmode .arrow.upmod,
+html.res-nightmode .arrow.upmod:hover,
+html.res-nightmode .arrow.downmod,
+html.res-nightmode .arrow.downmod:hover {
+    background-image: url(%%arrows-bot-dark%%) !important;
+}
+
+.thing .linkflairlabel,
+.flairselector .linkflairlabel {
+    vertical-align: sub;
+    margin-bottom: 1px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.thing.linkflair-spoiler .thumbnail,
+.flairselector.linkflair-spoiler .thumbnail {
+    height: 52px;
+    background-image: url(%%spoiler-thumbnail-link%%) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thing.linkflair-spoiler .thumbnail.self,
+.flairselector.linkflair-spoiler .thumbnail.self {
+    background-image: url(%%spoiler-thumbnail%%) !important;
+}
+
+.thing.linkflair-spoiler .thumbnail img,
+.flairselector.linkflair-spoiler .thumbnail img {
+    display: none;
+}
+
+.thing.linkflair-spoiler .linkflairlabel,
+.flairselector.linkflair-spoiler .linkflairlabel {
+    color: #f03232;
+}
+
+.thing.linkflair-other .linkflairlabel,
+.flairselector.linkflair-other .linkflairlabel {
+    color: #969696;
+}
+
+.flair {
+    min-width: 22px;
+    height: 20px;
+    line-height: 19px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 2px 0 0;
+    background-color: transparent !important;
+    border: none;
+    border-radius: 2px;
+    font-size: 0 !important;
+    overflow: hidden;
+}
+
+.flair::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background-image: url(%%champion-flair%%);
+}
+
+.flair:not([title=""]):hover {
+    padding: 0 4px;
+    background-color: #f1f1f1 !important;
+    font-size: 11px !important;
+}
+
+.flair:not([title=""]):hover::before {
+    display: none;
+}
+
+.flair-misc {
+    min-width: 24px;
+    height: 24px;
+    line-height: 23px;
+}
+
+.flair-misc::before {
+    width: 24px;
+    height: 24px;
+    background-image: url(%%misc-flair%%);
+}
+
+.flair-riot::before {
+    width: 22px;
+    background-image: url(%%riot-flair%%);
+}
+
+.flair-urf {
+    min-width: 22px;
+    height: 20px;
+    line-height: 19px;
+}
+
+.flair-urf::before {
+    width: 22px;
+    height: 20px;
+    background-position: 0 0;
+}
+
+.flair-muffin::before {
+    background-position: -195px 0;
+}
+
+.flair-dominion::before {
+    background-position: -170px 0;
+}
+
+.flair-triggs {
+    min-width: 48px;
+}
+
+.flair-triggs::before {
+    width: 48px;
+    background-position: -96px 0;
+}
+
+.flair-team-soraka {
+    min-width: 48px;
+    height: 24px;
+    line-height: 23px;
+}
+
+.flair-team-soraka::before {
+    width: 48px;
+    height: 24px;
+    background-image: url(%%team-soraka-flair%%);
+}
+
+.flair-verified:not(.flair-team) {
+    min-width: 16px;
+    height: 16px;
+    line-height: 15px;
+}
+
+.flair-verified:not(.flair-team)::before {
+    width: 16px;
+    height: 16px;
+    background-image: url(%%verified-flair%%);
+}
+
+.flair-verified.flair-team::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(%%verified-flair%%);
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.flair-verified.flair-team:hover::after {
+    margin-bottom: -4px;
+}
+
+.flair-marc {
+    min-width: 0;
+    height: 0;
+    line-height: 0;
+}
+
+.flair-marc::before {
+    background-image: none;
+}
+
+.flair-best-of {
+    min-width: 77px;
+    height: 14px;
+    line-height: 13px;
+}
+
+.flair-best-of::before {
+    width: 77px;
+    height: 14px;
+    background-image: url(%%best-of-flair%%);
+}
+
+.flair-best-of-2014::before {
+    background-position: 0 0;
+}
+
+.flair-best-of-2015::before {
+    background-position: 0 -14px;
+}
+
+.flair-best-of-2016::before {
+    background-position: 0 -42px;
+}
+
+.flair-best-of-2016-moobeat::before {
+    background-position: 0 -28px;
+}
+
+.flair-best-of-2016-riot::before {
+    background-position: 0 -56px;
+}
+
+.flair-best-of-all::before {
+    background-position: 0 -70px;
+}
+
+.flair-best-of-2017::before {
+    background-position: 0 -84px;
+}
+
+.flair-ripdig::before {
+    width: 24px;
+    height: 24px;
+    background-position: -240px 0;
+}
+
+html:lang(dd) .flair-00::before,
+html.res-nightmode .flair-00::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-01::before,
+html.res-nightmode .flair-01::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-nvy::before,
+html.res-nightmode .flair-nvy::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-15::before,
+html.res-nightmode .flair-15::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-35::before,
+html.res-nightmode .flair-35::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-nwb::before,
+html.res-nightmode .flair-nwb::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-jtm::before,
+html.res-nightmode .flair-jtm::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-O5::before,
+html.res-nightmode .flair-O5::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-x5::before,
+html.res-nightmode .flair-x5::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .flair-nox::before,
+html.res-nightmode .flair-nox::before {
+    background-color: #f6f6f6;
+}
+
+html:lang(dd) .thing.linkflair-other .linkflairlabel,
+html.res-nightmode .thing.linkflair-other .linkflairlabel {
+    color: #2a2a2a;
+}
+
+/*~~TEAMS~~*/
+
+.flair-vert::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(%%verified-flair%%);
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.flair-vert:hover::after {
+    margin-bottom: -4px;
+}
+
+/*-- REGIONS --*/
+
+.flair-na,
+.flair-eu,
+.flair-ko,
+.flair-br,
+.flair-oc,
+.flair-cn,
+.flair-tw,
+.flair-ru,
+.flair-se,
+.flair-tr,
+.flair-jp {
+    min-width: 24px;
+    height: 24px;
+    line-height: 23px;
+}
+
+.flair-na::before,
+.flair-eu::before,
+.flair-ko::before,
+.flair-br::before,
+.flair-oc::before,
+.flair-cn::before,
+.flair-tw::before,
+.flair-ru::before,
+.flair-se::before,
+.flair-tr::before,
+.flair-jp::before {
+    width: 24px;
+    height: 24px;
+}
+
+.flair-na::before {
+    background-image: url(%%na%%)
+}
+
+.flair-eu::before {
+    background-image: url(%%eu%%)
+}
+
+.flair-ko::before {
+    background-image: url(%%ko%%)
+}
+
+.flair-br::before {
+    background-image: url(%%br%%)
+}
+
+.flair-oc::before {
+    background-image: url(%%oc%%)
+}
+
+.flair-cn::before {
+    background-image: url(%%cn%%)
+}
+
+.flair-tw::before {
+    background-image: url(%%tw%%)
+}
+
+.flair-ru::before {
+    background-image: url(%%ru%%)
+}
+
+.flair-se::before {
+    background-image: url(%%se%%)
+}
+
+.flair-tr::before {
+    background-image: url(%%tr%%)
+}
+
+.flair-jp::before {
+    background-image: url(%%jp%%)
+}
+
+/*-- TEAMS --*/
+
+.flair-na.flair-100::before,
+.flair-eu.flair-fcs::before,
+.flair-ko.flair-afr::before,
+.flair-br.flair-bre::before,
+.flair-oc.flair-aby::before,
+.flair-cn.flair-dan::before,
+.flair-tw.flair-ahf::before,
+.flair-ru.flair-gmb::before,
+.flair-se.flair-ag::before,
+.flair-tr.flair-aur::before,
+.flair-jp.flair-7th::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -24px
+}
+
+.flair-na.flair-c9::before,
+.flair-eu.flair-fnc::before,
+.flair-ko.flair-bbq::before,
+.flair-br.flair-cnb::before,
+.flair-oc.flair-avg::before,
+.flair-cn.flair-edg::before,
+.flair-tw.flair-ahq::before,
+.flair-ru.flair-m19::before,
+.flair-se.flair-frt::before,
+.flair-tr.flair-crw::before,
+.flair-jp.flair-det::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -48px
+}
+
+.flair-na.flair-cg::before,
+.flair-eu.flair-g2::before,
+.flair-ko.flair-jag::before,
+.flair-br.flair-int::before,
+.flair-oc.flair-chf::before,
+.flair-cn.flair-im::before,
+.flair-tw.flair-fw::before,
+.flair-ru.flair-nv::before,
+.flair-se.flair-gmb::before,
+.flair-tr.flair-dpa::before,
+.flair-jp.flair-ram::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -72px
+}
+
+.flair-na.flair-clg::before,
+.flair-eu.flair-gia::before,
+.flair-ko.flair-kdm::before,
+.flair-br.flair-kbm::before,
+.flair-oc.flair-dw::before,
+.flair-cn.flair-ivg::before,
+.flair-tw.flair-hka::before,
+.flair-ru.flair-rox::before,
+.flair-se.flair-klh::before,
+.flair-tr.flair-fen::before,
+.flair-jp.flair-rj::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -96px
+}
+
+.flair-na.flair-ef::before,
+.flair-eu.flair-h2k::before,
+.flair-ko.flair-kdx::before,
+.flair-br.flair-kds::before,
+.flair-oc.flair-lgc::before,
+.flair-cn.flair-jdg::before,
+.flair-tw.flair-jt::before,
+.flair-ru.flair-tja::before,
+.flair-se.flair-mns::before,
+.flair-tr.flair-gal::before,
+.flair-jp.flair-usg::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -120px
+}
+
+.flair-na.flair-fq::before,
+.flair-eu.flair-msf::before,
+.flair-ko.flair-ksv::before,
+.flair-br.flair-opk::before,
+.flair-oc.flair-rgc::before,
+.flair-cn.flair-lgd::before,
+.flair-tw.flair-m17::before,
+.flair-ru.flair-vae::before,
+.flair-se.flair-rgl::before,
+.flair-tr.flair-hwa::before,
+.flair-jp.flair-v3::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -144px
+}
+
+.flair-na.flair-gg::before,
+.flair-eu.flair-roc::before,
+.flair-ko.flair-ktr::before,
+.flair-br.flair-png::before,
+.flair-oc.flair-sin::before,
+.flair-cn.flair-nbe::before,
+.flair-tw.flair-rsg::before,
+.flair-ru.flair-vga::before,
+.flair-tr.flair-ohm::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -168px
+}
+
+.flair-na.flair-opt::before,
+.flair-eu.flair-spy::before,
+.flair-ko.flair-mvp::before,
+.flair-br.flair-rcn::before,
+.flair-oc.flair-tm::before,
+.flair-cn.flair-omg::before,
+.flair-tw.flair-spi::before,
+.flair-ru.flair-vp::before,
+.flair-tr.flair-sup::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -192px
+}
+
+.flair-na.flair-tl::before,
+.flair-eu.flair-uol::before,
+.flair-ko.flair-rox::before,
+.flair-cn.flair-rng::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -216px
+}
+
+.flair-na.flair-tsm::before,
+.flair-eu.flair-vit::before,
+.flair-ko.flair-skt::before,
+.flair-cn.flair-sne::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -240px
+}
+
+.flair-cn.flair-sng::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -264px
+}
+
+.flair-cn.flair-we::before {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -288px
+}
+
+/*~~TEAMS~~*/
+
+.flair-zzwind {
+    min-width: 24px;
+    height: 24px;
+    line-height: 23px;
+}
+
+.flair-zzwind::before {
+    background-image: url(%%zzwind%%);
+    width: 24px;
+    height: 24px;
+    background-position: 0 -264px;
+}
+
+.flair-riperino {
+    min-width: 24px;
+    height: 24px;
+    line-height: 23px;
+}
+
+.flair-riperino::before {
+    background-image: url(%%rip-flair%%);
+    width: 24px;
+    height: 24px;
+}
+
+/* EVENT FLAIRS 
+
+.flair-botf::before {
+    background-image: url(%%botf%%);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.flair-flairA::before {
+    width: 27px;
+    height: 24px;
+    background-position: 0 0;
+}
+
+.flair-flairB::before {
+    width: 27px;
+    height: 24px;
+    background-position: 0 -24px;
+}
+
+.flair-flairC::before {
+    width: 27px;
+    height: 24px;
+    background-position: 0 -48px;
+}
+
+*/
+
+/*# AUTO-GENERATED AFTER THIS POINT - DO NOT EDIT #*/
+
+.flair-aatrox::before,
+a[href="#c-aatrox"] {
+    background-position: -1px -3px
+}
+
+.flair-ahri::before,
+a[href="#c-ahri"] {
+    background-position: -25px -3px
+}
+
+.flair-akali::before,
+a[href="#c-akali"] {
+    background-position: -49px -3px
+}
+
+.flair-alistar::before,
+a[href="#c-alistar"] {
+    background-position: -73px -3px
+}
+
+.flair-amumu::before,
+a[href="#c-amumu"] {
+    background-position: -97px -3px
+}
+
+.flair-anivia::before,
+a[href="#c-anivia"] {
+    background-position: -121px -3px
+}
+
+.flair-annie::before,
+a[href="#c-annie"] {
+    background-position: -145px -3px
+}
+
+.flair-ashe::before,
+a[href="#c-ashe"] {
+    background-position: -169px -3px
+}
+
+.flair-aurelionsol::before,
+a[href="#c-aurelionsol"] {
+    background-position: -193px -3px
+}
+
+.flair-azir::before,
+a[href="#c-azir"] {
+    background-position: -217px -3px
+}
+
+.flair-bard::before,
+a[href="#c-bard"] {
+    background-position: -1px -27px
+}
+
+.flair-blitzcrank::before,
+a[href="#c-blitzcrank"] {
+    background-position: -25px -27px
+}
+
+.flair-brand::before,
+a[href="#c-brand"] {
+    background-position: -49px -27px
+}
+
+.flair-braum::before,
+a[href="#c-braum"] {
+    background-position: -73px -27px
+}
+
+.flair-caitlyn::before,
+a[href="#c-caitlyn"] {
+    background-position: -97px -27px
+}
+
+.flair-camille::before,
+a[href="#c-camille"] {
+    background-position: -121px -27px
+}
+
+.flair-cassiopeia::before,
+a[href="#c-cassiopeia"] {
+    background-position: -145px -27px
+}
+
+.flair-chogath::before,
+a[href="#c-chogath"] {
+    background-position: -169px -27px
+}
+
+.flair-corki::before,
+a[href="#c-corki"] {
+    background-position: -193px -27px
+}
+
+.flair-darius::before,
+a[href="#c-darius"] {
+    background-position: -217px -27px
+}
+
+.flair-diana::before,
+a[href="#c-diana"] {
+    background-position: -1px -51px
+}
+
+.flair-draven::before,
+a[href="#c-draven"] {
+    background-position: -25px -51px
+}
+
+.flair-drmundo::before,
+a[href="#c-drmundo"] {
+    background-position: -49px -51px
+}
+
+.flair-ekko::before,
+a[href="#c-ekko"] {
+    background-position: -73px -51px
+}
+
+.flair-elise::before,
+a[href="#c-elise"] {
+    background-position: -97px -51px
+}
+
+.flair-evelynn::before,
+a[href="#c-evelynn"] {
+    background-position: -121px -51px
+}
+
+.flair-ezreal::before,
+a[href="#c-ezreal"] {
+    background-position: -145px -51px
+}
+
+.flair-fiddlesticks::before,
+a[href="#c-fiddlesticks"] {
+    background-position: -169px -51px
+}
+
+.flair-fiora::before,
+a[href="#c-fiora"] {
+    background-position: -193px -51px
+}
+
+.flair-fizz::before,
+a[href="#c-fizz"] {
+    background-position: -217px -51px
+}
+
+.flair-galio::before,
+a[href="#c-galio"] {
+    background-position: -1px -75px
+}
+
+.flair-gangplank::before,
+a[href="#c-gangplank"] {
+    background-position: -25px -75px
+}
+
+.flair-garen::before,
+a[href="#c-garen"] {
+    background-position: -49px -75px
+}
+
+.flair-gnar::before,
+a[href="#c-gnar"] {
+    background-position: -73px -75px
+}
+
+.flair-gragas::before,
+a[href="#c-gragas"] {
+    background-position: -97px -75px
+}
+
+.flair-graves::before,
+a[href="#c-graves"] {
+    background-position: -121px -75px
+}
+
+.flair-hecarim::before,
+a[href="#c-hecarim"] {
+    background-position: -145px -75px
+}
+
+.flair-heimerdinger::before,
+a[href="#c-heimerdinger"] {
+    background-position: -169px -75px
+}
+
+.flair-illaoi::before,
+a[href="#c-illaoi"] {
+    background-position: -193px -75px
+}
+
+.flair-irelia::before,
+a[href="#c-irelia"] {
+    background-position: -217px -75px
+}
+
+.flair-ivern::before,
+a[href="#c-ivern"] {
+    background-position: -1px -99px
+}
+
+.flair-janna::before,
+a[href="#c-janna"] {
+    background-position: -25px -99px
+}
+
+.flair-jarvaniv::before,
+a[href="#c-jarvaniv"] {
+    background-position: -49px -99px
+}
+
+.flair-jax::before,
+a[href="#c-jax"] {
+    background-position: -73px -99px
+}
+
+.flair-jayce::before,
+a[href="#c-jayce"] {
+    background-position: -97px -99px
+}
+
+.flair-jhin::before,
+a[href="#c-jhin"] {
+    background-position: -121px -99px
+}
+
+.flair-jinx::before,
+a[href="#c-jinx"] {
+    background-position: -145px -99px
+}
+
+.flair-kalista::before,
+a[href="#c-kalista"] {
+    background-position: -169px -99px
+}
+
+.flair-karma::before,
+a[href="#c-karma"] {
+    background-position: -193px -99px
+}
+
+.flair-karthus::before,
+a[href="#c-karthus"] {
+    background-position: -217px -99px
+}
+
+.flair-kassadin::before,
+a[href="#c-kassadin"] {
+    background-position: -1px -123px
+}
+
+.flair-katarina::before,
+a[href="#c-katarina"] {
+    background-position: -25px -123px
+}
+
+.flair-kayle::before,
+a[href="#c-kayle"] {
+    background-position: -49px -123px
+}
+
+.flair-kayn::before,
+a[href="#c-kayn"] {
+    background-position: -73px -123px
+}
+
+.flair-kennen::before,
+a[href="#c-kennen"] {
+    background-position: -97px -123px
+}
+
+.flair-khazix::before,
+a[href="#c-khazix"] {
+    background-position: -121px -123px
+}
+
+.flair-kindred::before,
+a[href="#c-kindred"] {
+    background-position: -145px -123px
+}
+
+.flair-kled::before,
+a[href="#c-kled"] {
+    background-position: -169px -123px
+}
+
+.flair-kogmaw::before,
+a[href="#c-kogmaw"] {
+    background-position: -193px -123px
+}
+
+.flair-leblanc::before,
+a[href="#c-leblanc"] {
+    background-position: -217px -123px
+}
+
+.flair-leesin::before,
+a[href="#c-leesin"] {
+    background-position: -1px -147px
+}
+
+.flair-leona::before,
+a[href="#c-leona"] {
+    background-position: -25px -147px
+}
+
+.flair-lissandra::before,
+a[href="#c-lissandra"] {
+    background-position: -49px -147px
+}
+
+.flair-lucian::before,
+a[href="#c-lucian"] {
+    background-position: -73px -147px
+}
+
+.flair-lulu::before,
+a[href="#c-lulu"] {
+    background-position: -97px -147px
+}
+
+.flair-lux::before,
+a[href="#c-lux"] {
+    background-position: -121px -147px
+}
+
+.flair-malphite::before,
+a[href="#c-malphite"] {
+    background-position: -145px -147px
+}
+
+.flair-malzahar::before,
+a[href="#c-malzahar"] {
+    background-position: -169px -147px
+}
+
+.flair-maokai::before,
+a[href="#c-maokai"] {
+    background-position: -193px -147px
+}
+
+.flair-masteryi::before,
+a[href="#c-masteryi"] {
+    background-position: -217px -147px
+}
+
+.flair-missfortune::before,
+a[href="#c-missfortune"] {
+    background-position: -1px -171px
+}
+
+.flair-mordekaiser::before,
+a[href="#c-mordekaiser"] {
+    background-position: -49px -171px
+}
+
+.flair-morgana::before,
+a[href="#c-morgana"] {
+    background-position: -73px -171px
+}
+
+.flair-nami::before,
+a[href="#c-nami"] {
+    background-position: -97px -171px
+}
+
+.flair-nasus::before,
+a[href="#c-nasus"] {
+    background-position: -121px -171px
+}
+
+.flair-nautilus::before,
+a[href="#c-nautilus"] {
+    background-position: -145px -171px
+}
+
+.flair-nidalee::before,
+a[href="#c-nidalee"] {
+    background-position: -169px -171px
+}
+
+.flair-nocturne::before,
+a[href="#c-nocturne"] {
+    background-position: -193px -171px
+}
+
+.flair-nunu::before,
+a[href="#c-nunu"] {
+    background-position: -217px -171px
+}
+
+.flair-olaf::before,
+a[href="#c-olaf"] {
+    background-position: -1px -195px
+}
+
+.flair-orianna::before,
+a[href="#c-orianna"] {
+    background-position: -25px -195px
+}
+
+.flair-ornn::before,
+a[href="#c-ornn"] {
+    background-position: -49px -195px
+}
+
+.flair-pantheon::before,
+a[href="#c-pantheon"] {
+    background-position: -73px -195px
+}
+
+.flair-poppy::before,
+a[href="#c-poppy"] {
+    background-position: -97px -195px
+}
+
+.flair-quinn::before,
+a[href="#c-quinn"] {
+    background-position: -121px -195px
+}
+
+.flair-rakan::before,
+a[href="#c-rakan"] {
+    background-position: -145px -195px
+}
+
+.flair-rammus::before,
+a[href="#c-rammus"] {
+    background-position: -169px -195px
+}
+
+.flair-reksai::before,
+a[href="#c-reksai"] {
+    background-position: -193px -195px
+}
+
+.flair-renekton::before,
+a[href="#c-renekton"] {
+    background-position: -217px -195px
+}
+
+.flair-rengar::before,
+a[href="#c-rengar"] {
+    background-position: -1px -219px
+}
+
+.flair-riven::before,
+a[href="#c-riven"] {
+    background-position: -25px -219px
+}
+
+.flair-rumble::before,
+a[href="#c-rumble"] {
+    background-position: -49px -219px
+}
+
+.flair-ryze::before,
+a[href="#c-ryze"] {
+    background-position: -73px -219px
+}
+
+.flair-sejuani::before,
+a[href="#c-sejuani"] {
+    background-position: -97px -219px
+}
+
+.flair-shaco::before,
+a[href="#c-shaco"] {
+    background-position: -121px -219px
+}
+
+.flair-shen::before,
+a[href="#c-shen"] {
+    background-position: -145px -219px
+}
+
+.flair-shyvana::before,
+a[href="#c-shyvana"] {
+    background-position: -169px -219px
+}
+
+.flair-singed::before,
+a[href="#c-singed"] {
+    background-position: -193px -219px
+}
+
+.flair-sion::before,
+a[href="#c-sion"] {
+    background-position: -217px -219px
+}
+
+.flair-sivir::before,
+a[href="#c-sivir"] {
+    background-position: -1px -243px
+}
+
+.flair-skarner::before,
+a[href="#c-skarner"] {
+    background-position: -25px -243px
+}
+
+.flair-sona::before,
+a[href="#c-sona"] {
+    background-position: -49px -243px
+}
+
+.flair-soraka::before,
+a[href="#c-soraka"] {
+    background-position: -73px -243px
+}
+
+.flair-swain::before,
+a[href="#c-swain"] {
+    background-position: -97px -243px
+}
+
+.flair-syndra::before,
+a[href="#c-syndra"] {
+    background-position: -121px -243px
+}
+
+.flair-tahmkench::before,
+a[href="#c-tahmkench"] {
+    background-position: -145px -243px
+}
+
+.flair-taliyah::before,
+a[href="#c-taliyah"] {
+    background-position: -169px -243px
+}
+
+.flair-talon::before,
+a[href="#c-talon"] {
+    background-position: -193px -243px
+}
+
+.flair-taric::before,
+a[href="#c-taric"] {
+    background-position: -217px -243px
+}
+
+.flair-teemo::before,
+a[href="#c-teemo"] {
+    background-position: -1px -267px
+}
+
+.flair-thresh::before,
+a[href="#c-thresh"] {
+    background-position: -25px -267px
+}
+
+.flair-tristana::before,
+a[href="#c-tristana"] {
+    background-position: -49px -267px
+}
+
+.flair-trundle::before,
+a[href="#c-trundle"] {
+    background-position: -73px -267px
+}
+
+.flair-tryndamere::before,
+a[href="#c-tryndamere"] {
+    background-position: -97px -267px
+}
+
+.flair-twistedfate::before,
+a[href="#c-twistedfate"] {
+    background-position: -121px -267px
+}
+
+.flair-twitch::before,
+a[href="#c-twitch"] {
+    background-position: -145px -267px
+}
+
+.flair-udyr::before,
+a[href="#c-udyr"] {
+    background-position: -169px -267px
+}
+
+.flair-urgot::before,
+a[href="#c-urgot"] {
+    background-position: -193px -267px
+}
+
+.flair-varus::before,
+a[href="#c-varus"] {
+    background-position: -217px -267px
+}
+
+.flair-vayne::before,
+a[href="#c-vayne"] {
+    background-position: -1px -291px
+}
+
+.flair-veigar::before,
+a[href="#c-veigar"] {
+    background-position: -25px -291px
+}
+
+.flair-velkoz::before,
+a[href="#c-velkoz"] {
+    background-position: -49px -291px
+}
+
+.flair-vi::before,
+a[href="#c-vi"] {
+    background-position: -73px -291px
+}
+
+.flair-viktor::before,
+a[href="#c-viktor"] {
+    background-position: -97px -291px
+}
+
+.flair-vladimir::before,
+a[href="#c-vladimir"] {
+    background-position: -121px -291px
+}
+
+.flair-volibear::before,
+a[href="#c-volibear"] {
+    background-position: -145px -291px
+}
+
+.flair-warwick::before,
+a[href="#c-warwick"] {
+    background-position: -169px -291px
+}
+
+.flair-wukong::before,
+a[href="#c-wukong"] {
+    background-position: -25px -171px
+}
+
+.flair-xayah::before,
+a[href="#c-xayah"] {
+    background-position: -193px -291px
+}
+
+.flair-xerath::before,
+a[href="#c-xerath"] {
+    background-position: -217px -291px
+}
+
+.flair-xinzhao::before,
+a[href="#c-xinzhao"] {
+    background-position: -1px -315px
+}
+
+.flair-yasuo::before,
+a[href="#c-yasuo"] {
+    background-position: -25px -315px
+}
+
+.flair-yorick::before,
+a[href="#c-yorick"] {
+    background-position: -49px -315px
+}
+
+.flair-zac::before,
+a[href="#c-zac"] {
+    background-position: -73px -315px
+}
+
+.flair-zed::before,
+a[href="#c-zed"] {
+    background-position: -97px -315px
+}
+
+.flair-ziggs::before,
+a[href="#c-ziggs"] {
+    background-position: -121px -315px
+}
+
+.flair-zilean::before,
+a[href="#c-zilean"] {
+    background-position: -145px -315px
+}
+
+.flair-zoe::before,
+a[href="#c-zoe"] {
+    background-position: -169px -315px
+}
+
+.flair-zyra::before,
+a[href="#c-zyra"] {
+    background-position: -193px -315px
+}
+
+a[href="#ss-barrier"] {
+    background-position: -0px -0px
+}
+
+a[href="#ss-clarity"] {
+    background-position: -216px -0px
+}
+
+a[href="#ss-cleanse"] {
+    background-position: -24px -0px
+}
+
+a[href="#ss-disabledsummonerspells"] {
+    background-position: -72px -0px
+}
+
+a[href="#ss-exhaust"] {
+    background-position: -120px -0px
+}
+
+a[href="#ss-flash"] {
+    background-position: -144px -0px
+}
+
+a[href="#ss-ghost"] {
+    background-position: -168px -0px
+}
+
+a[href="#ss-heal"] {
+    background-position: -192px -0px
+}
+
+a[href="#ss-ignite"] {
+    background-position: -96px -0px
+}
+
+a[href="#ss-mark"] {
+    background-position: -168px -24px
+}
+
+a[href="#ss-nexussiegesiegeweaponslot"] {
+    background-position: -72px -24px
+}
+
+a[href="#ss-porotoss"] {
+    background-position: -24px -24px
+}
+
+a[href="#ss-smite"] {
+    background-position: -96px -24px
+}
+
+a[href="#ss-teleport"] {
+    background-position: -192px -24px
+}
+
+a[href="#ss-totheking"] {
+    background-position: -0px -24px
+}
+
+a[href="#ss-ultrarapidlyflungmark"] {
+    background-position: -120px -24px
+}
+
+a[href="#ss-ultrareallyfastdash"] {
+    background-position: -144px -24px
+}
+
+a[href="#i-abyssalmask"] {
+    background-position: -48px -168px
+}
+
+a[href="#i-adaptivehelm"] {
+    background-position: -120px -432px
+}
+
+a[href="#i-aegisofthelegion"] {
+    background-position: -216px -312px
+}
+
+a[href="#i-aetherwisp"] {
+    background-position: -144px -336px
+}
+
+a[href="#i-amplifyingtome"] {
+    background-position: -216px -24px
+}
+
+a[href="#i-ancientcoin"] {
+    background-position: -96px -456px
+}
+
+a[href="#i-arcanesweeper"] {
+    background-position: -216px -480px
+}
+
+a[href="#i-archangelsstaff"] {
+    background-position: -72px -168px
+}
+
+a[href="#i-ardentcenser"] {
+    background-position: -48px -552px
+}
+
+a[href="#i-athenesunholygrail"] {
+    background-position: -144px -408px
+}
+
+a[href="#i-bamiscinder"] {
+    background-position: -0px -648px
+}
+
+a[href="#i-bannerofcommand"] {
+    background-position: -168px -240px
+}
+
+a[href="#i-bansheesveil"] {
+    background-position: -168px -312px
+}
+
+a[href="#i-berserkersgreaves"] {
+    background-position: -120px -168px
+}
+
+a[href="#i-bfsword"] {
+    background-position: -72px -24px
+}
+
+a[href="#i-bilgewatercutlass"] {
+    background-position: -72px -384px
+}
+
+a[href="#i-bladeoftheruinedking"] {
+    background-position: -216px -384px
+}
+
+a[href="#i-blastingwand"] {
+    background-position: -120px -0px
+}
+
+a[href="#i-bootsofmobility"] {
+    background-position: -0px -360px
+}
+
+a[href="#i-bootsofspeed"] {
+    background-position: -0px -0px
+}
+
+a[href="#i-bootsofswiftness"] {
+    background-position: -192px -168px
+}
+
+a[href="#i-bramblevest"] {
+    background-position: -192px -264px
+}
+
+a[href="#i-brawlersgloves"] {
+    background-position: -192px -24px
+}
+
+a[href="#i-brokenstopwatch"] {
+    background-position: -24px -168px
+}
+
+a[href="#i-catalystofaeons"] {
+    background-position: -216px -168px
+}
+
+a[href="#i-caulfieldswarhammer"] {
+    background-position: -96px -360px
+}
+
+a[href="#i-chainvest"] {
+    background-position: -216px -0px
+}
+
+a[href="#i-chaliceofharmony"] {
+    background-position: -144px -192px
+}
+
+a[href="#i-circletoftheironsolari"] {
+    background-position: -0px -528px
+}
+
+a[href="#i-cloakofagility"] {
+    background-position: -96px -0px
+}
+
+a[href="#i-cloakofstars"] {
+    background-position: -96px -624px
+}
+
+a[href="#i-clotharmor"] {
+    background-position: -192px -0px
+}
+
+a[href="#i-commencingstopwatch"] {
+    background-position: -144px -144px
+}
+
+a[href="#i-controlward"] {
+    background-position: -72px -120px
+}
+
+a[href="#i-corruptingpotion"] {
+    background-position: -144px -96px
+}
+
+a[href="#i-cosmicshackle"] {
+    background-position: -0px -624px
+}
+
+a[href="#i-crystallinebracer"] {
+    background-position: -48px -648px
+}
+
+a[href="#i-cull"] {
+    background-position: -168px -48px
+}
+
+a[href="#i-dagger"] {
+    background-position: -144px -24px
+}
+
+a[href="#i-darkmatterscythe"] {
+    background-position: -48px -624px
+}
+
+a[href="#i-darkstarsigil"] {
+    background-position: -120px -624px
+}
+
+a[href="#i-deadmansplate"] {
+    background-position: -192px -624px
+}
+
+a[href="#i-deathsdance"] {
+    background-position: -96px -648px
+}
+
+a[href="#i-deathsdaughter"] {
+    background-position: -168px -648px
+}
+
+a[href="#i-dervishblade"] {
+    background-position: -192px -360px
+}
+
+a[href="#i-dietporosnax"] {
+    background-position: -48px -120px
+}
+
+a[href="#i-doransblade"] {
+    background-position: -48px -48px
+}
+
+a[href="#i-doransring"] {
+    background-position: -72px -48px
+}
+
+a[href="#i-doransshield"] {
+    background-position: -24px -48px
+}
+
+a[href="#i-duskbladeofdraktharr"] {
+    background-position: -144px -384px
+}
+
+a[href="#i-edgeofnight"] {
+    background-position: -120px -648px
+}
+
+a[href="#i-elixirofiron"] {
+    background-position: -24px -144px
+}
+
+a[href="#i-elixirofskill"] {
+    background-position: -0px -96px
+}
+
+a[href="#i-elixirofsorcery"] {
+    background-position: -48px -144px
+}
+
+a[href="#i-elixirofwrath"] {
+    background-position: -72px -144px
+}
+
+a[href="#i-enchantmentbloodrazor"] {
+    background-position: -120px -600px
+}
+
+a[href="#i-enchantmentcinderhulk"] {
+    background-position: -72px -600px
+}
+
+a[href="#i-enchantmentrunicechoes"] {
+    background-position: -96px -600px
+}
+
+a[href="#i-enchantmentwarrior"] {
+    background-position: -48px -600px
+}
+
+a[href="#i-entropyfield"] {
+    background-position: -168px -576px
+}
+
+a[href="#i-espressosnax"] {
+    background-position: -192px -600px
+}
+
+a[href="#i-essencereaver"] {
+    background-position: -72px -552px
+}
+
+a[href="#i-executionerscalling"] {
+    background-position: -48px -360px
+}
+
+a[href="#i-explorersward"] {
+    background-position: -192px -96px
+}
+
+a[href="#i-eyeoftheherald"] {
+    background-position: -120px -552px
+}
+
+a[href="#i-faeriecharm"] {
+    background-position: -24px -0px
+}
+
+a[href="#i-farsightalteration"] {
+    background-position: -48px -504px
+}
+
+a[href="#i-fiendishcodex"] {
+    background-position: -24px -336px
+}
+
+a[href="#i-fireatwill"] {
+    background-position: -144px -648px
+}
+
+a[href="#i-flashzone"] {
+    background-position: -96px -576px
+}
+
+a[href="#i-forbiddenidol"] {
+    background-position: -168px -336px
+}
+
+a[href="#i-forgefirecape"] {
+    background-position: -120px -504px
+}
+
+a[href="#i-frostedsnax"] {
+    background-position: -144px -600px
+}
+
+a[href="#i-frostfang"] {
+    background-position: -96px -312px
+}
+
+a[href="#i-frozenheart"] {
+    background-position: -72px -336px
+}
+
+a[href="#i-frozenmallet"] {
+    background-position: -24px -192px
+}
+
+a[href="#i-gargoylestoneplate"] {
+    background-position: -96px -432px
+}
+
+a[href="#i-giantsbelt"] {
+    background-position: -72px -0px
+}
+
+a[href="#i-giantslayer"] {
+    background-position: -24px -216px
+}
+
+a[href="#i-glacialshroud"] {
+    background-position: -48px -192px
+}
+
+a[href="#i-goldentranscendence"] {
+    background-position: -216px -528px
+}
+
+a[href="#i-gravityboots"] {
+    background-position: -72px -624px
+}
+
+a[href="#i-greaterstealthtotemtrinket"] {
+    background-position: -0px -504px
+}
+
+a[href="#i-greatervisiontotemtrinket"] {
+    background-position: -24px -504px
+}
+
+a[href="#i-guardianangel"] {
+    background-position: -96px -192px
+}
+
+a[href="#i-guardianshammer"] {
+    background-position: -216px -408px
+}
+
+a[href="#i-guardianshorn"] {
+    background-position: -216px -96px
+}
+
+a[href="#i-guardiansorb"] {
+    background-position: -120px -336px
+}
+
+a[href="#i-guinsoosrageblade"] {
+    background-position: -72px -360px
+}
+
+a[href="#i-hauntingguise"] {
+    background-position: -168px -360px
+}
+
+a[href="#i-headofkhazix"] {
+    background-position: -192px -528px
+}
+
+a[href="#i-healthpotion"] {
+    background-position: -144px -72px
+}
+
+a[href="#i-hexdrinker"] {
+    background-position: -0px -408px
+}
+
+a[href="#i-hextechglp800"] {
+    background-position: -192px -192px
+}
+
+a[href="#i-hextechgunblade"] {
+    background-position: -120px -384px
+}
+
+a[href="#i-hextechprotobelt01"] {
+    background-position: -192px -384px
+}
+
+a[href="#i-hextechrevolver"] {
+    background-position: -96px -384px
+}
+
+a[href="#i-huntersmachete"] {
+    background-position: -120px -24px
+}
+
+a[href="#i-hunterspotion"] {
+    background-position: -120px -96px
+}
+
+a[href="#i-hunterstalisman"] {
+    background-position: -96px -24px
+}
+
+a[href="#i-iceborngauntlet"] {
+    background-position: -72px -192px
+}
+
+a[href="#i-infernalmask"] {
+    background-position: -168px -504px
+}
+
+a[href="#i-infinityedge"] {
+    background-position: -216px -192px
+}
+
+a[href="#i-ionianbootsoflucidity"] {
+    background-position: -72px -408px
+}
+
+a[href="#i-jaurimsfist"] {
+    background-position: -72px -240px
+}
+
+a[href="#i-kindlegem"] {
+    background-position: -216px -240px
+}
+
+a[href="#i-kircheisshard"] {
+    background-position: -72px -96px
+}
+
+a[href="#i-knightsvow"] {
+    background-position: -48px -336px
+}
+
+a[href="#i-lastwhisper"] {
+    background-position: -48px -216px
+}
+
+a[href="#i-liandrystorment"] {
+    background-position: -168px -384px
+}
+
+a[href="#i-lichbane"] {
+    background-position: -120px -312px
+}
+
+a[href="#i-locketoftheironsolari"] {
+    background-position: -48px -432px
+}
+
+a[href="#i-longsword"] {
+    background-position: -24px -24px
+}
+
+a[href="#i-lootedbiscuitofrejuvenation"] {
+    background-position: -24px -96px
+}
+
+a[href="#i-lootedoraclesextract"] {
+    background-position: -48px -96px
+}
+
+a[href="#i-lorddominiksregards"] {
+    background-position: -72px -216px
+}
+
+a[href="#i-lordvandammspillager"] {
+    background-position: -192px -312px
+}
+
+a[href="#i-lostchapter"] {
+    background-position: -72px -648px
+}
+
+a[href="#i-ludensecho"] {
+    background-position: -72px -456px
+}
+
+a[href="#i-manamune"] {
+    background-position: -96px -168px
+}
+
+a[href="#i-manapotion"] {
+    background-position: -168px -72px
+}
+
+a[href="#i-mawofmalmortius"] {
+    background-position: -24px -408px
+}
+
+a[href="#i-mejaissoulstealer"] {
+    background-position: -120px -216px
+}
+
+a[href="#i-mercurialscimitar"] {
+    background-position: -216px -360px
+}
+
+a[href="#i-mercurystreads"] {
+    background-position: -96px -336px
+}
+
+a[href="#i-mikaelscrucible"] {
+    background-position: -24px -456px
+}
+
+a[href="#i-miniondematerializer"] {
+    background-position: -120px -144px
+}
+
+a[href="#i-moltenedge"] {
+    background-position: -96px -504px
+}
+
+a[href="#i-moonflairspellblade"] {
+    background-position: -120px -408px
+}
+
+a[href="#i-morellonomicon"] {
+    background-position: -96px -408px
+}
+
+a[href="#i-mortalreminder"] {
+    background-position: -0px -216px
+}
+
+a[href="#i-muramana"] {
+    background-position: -168px -216px
+}
+
+a[href="#i-nashorstooth"] {
+    background-position: -192px -336px
+}
+
+a[href="#i-needlesslylargerod"] {
+    background-position: -120px -48px
+}
+
+a[href="#i-negatroncloak"] {
+    background-position: -96px -48px
+}
+
+a[href="#i-ninjatabi"] {
+    background-position: -0px -240px
+}
+
+a[href="#i-nomadsmedallion"] {
+    background-position: -48px -312px
+}
+
+a[href="#i-nullmagicmantle"] {
+    background-position: -0px -24px
+}
+
+a[href="#i-oblivionorb"] {
+    background-position: -24px -672px
+}
+
+a[href="#i-ohmwrecker"] {
+    background-position: -120px -240px
+}
+
+a[href="#i-oraclealteration"] {
+    background-position: -72px -504px
+}
+
+a[href="#i-oraclesextract"] {
+    background-position: -168px -96px
+}
+
+a[href="#i-overlordsbloodmail"] {
+    background-position: -72px -288px
+}
+
+a[href="#i-peeringfarsightward"] {
+    background-position: -120px -120px
+}
+
+a[href="#i-perfecthexcore"] {
+    background-position: -192px -432px
+}
+
+a[href="#i-phage"] {
+    background-position: -192px -216px
+}
+
+a[href="#i-phantomdancer"] {
+    background-position: -216px -216px
+}
+
+a[href="#i-pickaxe"] {
+    background-position: -48px -24px
+}
+
+a[href="#i-pilferedhealthpotion"] {
+    background-position: -216px -120px
+}
+
+a[href="#i-pilferedpotionofrouge"] {
+    background-position: -0px -144px
+}
+
+a[href="#i-pilferedstealthward"] {
+    background-position: -96px -120px
+}
+
+a[href="#i-poachersdirk"] {
+    background-position: -48px -456px
+}
+
+a[href="#i-porosnax"] {
+    background-position: -0px -120px
+}
+
+a[href="#i-portpad"] {
+    background-position: -24px -576px
+}
+
+a[href="#i-prototypehexcore"] {
+    background-position: -216px -432px
+}
+
+a[href="#i-quicksilversash"] {
+    background-position: -0px -384px
+}
+
+a[href="#i-rabadonsdeathcap"] {
+    background-position: -168px -288px
+}
+
+a[href="#i-rabadonsdeathcrown"] {
+    background-position: -144px -504px
+}
+
+a[href="#i-rainbowsnaxpartypack"] {
+    background-position: -216px -600px
+}
+
+a[href="#i-raisemorale"] {
+    background-position: -192px -648px
+}
+
+a[href="#i-randuinsomen"] {
+    background-position: -48px -384px
+}
+
+a[href="#i-rapidfirecannon"] {
+    background-position: -24px -312px
+}
+
+a[href="#i-raptorcloak"] {
+    background-position: -24px -120px
+}
+
+a[href="#i-ravenoushydra"] {
+    background-position: -144px -264px
+}
+
+a[href="#i-recurvebow"] {
+    background-position: -168px -24px
+}
+
+a[href="#i-redemption"] {
+    background-position: -0px -336px
+}
+
+a[href="#i-refillablepotion"] {
+    background-position: -96px -96px
+}
+
+a[href="#i-rejuvenationbead"] {
+    background-position: -48px -0px
+}
+
+a[href="#i-relicshield"] {
+    background-position: -120px -456px
+}
+
+a[href="#i-remnantoftheascended"] {
+    background-position: -24px -264px
+}
+
+a[href="#i-remnantoftheaspect"] {
+    background-position: -96px -528px
+}
+
+a[href="#i-remnantofthewatchers"] {
+    background-position: -0px -312px
+}
+
+a[href="#i-righteousglory"] {
+    background-position: -24px -648px
+}
+
+a[href="#i-rodofages"] {
+    background-position: -120px -192px
+}
+
+a[href="#i-rubycrystal"] {
+    background-position: -168px -0px
+}
+
+a[href="#i-runaanshurricane"] {
+    background-position: -96px -288px
+}
+
+a[href="#i-rylaiscrystalscepter"] {
+    background-position: -216px -336px
+}
+
+a[href="#i-salvation"] {
+    background-position: -216px -504px
+}
+
+a[href="#i-sanguineblade"] {
+    background-position: -192px -408px
+}
+
+a[href="#i-sapphirecrystal"] {
+    background-position: -144px -0px
+}
+
+a[href="#i-seekersarmguard"] {
+    background-position: -72px -432px
+}
+
+a[href="#i-seerstonetrinket"] {
+    background-position: -192px -576px
+}
+
+a[href="#i-seraphsembrace"] {
+    background-position: -24px -240px
+}
+
+a[href="#i-serrateddirk"] {
+    background-position: -120px -360px
+}
+
+a[href="#i-sheen"] {
+    background-position: -144px -240px
+}
+
+a[href="#i-shieldtotem"] {
+    background-position: -216px -576px
+}
+
+a[href="#i-siegeballista"] {
+    background-position: -192px -552px
+}
+
+a[href="#i-siegerefund"] {
+    background-position: -144px -576px
+}
+
+a[href="#i-siegesightwarder"] {
+    background-position: -24px -600px
+}
+
+a[href="#i-siegeteleport"] {
+    background-position: -216px -552px
+}
+
+a[href="#i-singularitylantern"] {
+    background-position: -24px -624px
+}
+
+a[href="#i-skirmisherssabre"] {
+    background-position: -168px -624px
+}
+
+a[href="#i-slightlymagicalboots"] {
+    background-position: -216px -144px
+}
+
+a[href="#i-slysackofgold"] {
+    background-position: -96px -144px
+}
+
+a[href="#i-sorcerersshoes"] {
+    background-position: -0px -192px
+}
+
+a[href="#i-soulanchortrinket"] {
+    background-position: -192px -480px
+}
+
+a[href="#i-spectrescowl"] {
+    background-position: -0px -456px
+}
+
+a[href="#i-spellbinder"] {
+    background-position: -0px -672px
+}
+
+a[href="#i-spellthiefsedge"] {
+    background-position: -144px -456px
+}
+
+a[href="#i-spiritvisage"] {
+    background-position: -192px -240px
+}
+
+a[href="#i-stalkersblade"] {
+    background-position: -144px -624px
+}
+
+a[href="#i-statikkshiv"] {
+    background-position: -144px -288px
+}
+
+a[href="#i-steraksgage"] {
+    background-position: -96px -240px
+}
+
+a[href="#i-stinger"] {
+    background-position: -144px -312px
+}
+
+a[href="#i-stopwatch"] {
+    background-position: -0px -168px
+}
+
+a[href="#i-sunfirecape"] {
+    background-position: -0px -264px
+}
+
+a[href="#i-superspicysnax"] {
+    background-position: -168px -600px
+}
+
+a[href="#i-sweepinglenstrinket"] {
+    background-position: -168px -480px
+}
+
+a[href="#i-targonsbrace"] {
+    background-position: -72px -312px
+}
+
+a[href="#i-tearofthegoddess"] {
+    background-position: -48px -264px
+}
+
+a[href="#i-theblackcleaver"] {
+    background-position: -72px -264px
+}
+
+a[href="#i-theblackspear"] {
+    background-position: -144px -552px
+}
+
+a[href="#i-thebloodthirster"] {
+    background-position: -96px -264px
+}
+
+a[href="#i-thedarkseal"] {
+    background-position: -144px -48px
+}
+
+a[href="#i-thehexcoremk1"] {
+    background-position: -144px -432px
+}
+
+a[href="#i-thehexcoremk2"] {
+    background-position: -168px -432px
+}
+
+a[href="#i-thelightbringer"] {
+    background-position: -0px -432px
+}
+
+a[href="#i-theobsidiancleaver"] {
+    background-position: -192px -504px
+}
+
+a[href="#i-thornmail"] {
+    background-position: -168px -264px
+}
+
+a[href="#i-tiamat"] {
+    background-position: -216px -264px
+}
+
+a[href="#i-timewornancientcoin"] {
+    background-position: -168px -456px
+}
+
+a[href="#i-timewornfaceofthemountain"] {
+    background-position: -48px -480px
+}
+
+a[href="#i-timewornfrostfang"] {
+    background-position: -96px -480px
+}
+
+a[href="#i-timewornfrostqueensclaim"] {
+    background-position: -120px -480px
+}
+
+a[href="#i-timewornnomadsmedallion"] {
+    background-position: -192px -456px
+}
+
+a[href="#i-timewornrelicshield"] {
+    background-position: -0px -480px
+}
+
+a[href="#i-timewornspellthiefsedge"] {
+    background-position: -72px -480px
+}
+
+a[href="#i-timeworntalismanofascension"] {
+    background-position: -216px -456px
+}
+
+a[href="#i-timeworntargonsbrace"] {
+    background-position: -24px -480px
+}
+
+a[href="#i-titanichydra"] {
+    background-position: -216px -624px
+}
+
+a[href="#i-totalbiscuitofeverlastingwill"] {
+    background-position: -216px -72px
+}
+
+a[href="#i-totalbiscuitofrejuvenation"] {
+    background-position: -192px -72px
+}
+
+a[href="#i-travelsizeelixirofiron"] {
+    background-position: -144px -120px
+}
+
+a[href="#i-travelsizeelixirofsorcery"] {
+    background-position: -168px -120px
+}
+
+a[href="#i-travelsizeelixirofwrath"] {
+    background-position: -192px -120px
+}
+
+a[href="#i-trinityforce"] {
+    background-position: -0px -288px
+}
+
+a[href="#i-trinityfusion"] {
+    background-position: -24px -528px
+}
+
+a[href="#i-twinshadows"] {
+    background-position: -216px -648px
+}
+
+a[href="#i-vampiricscepter"] {
+    background-position: -0px -48px
+}
+
+a[href="#i-vanguardbanner"] {
+    background-position: -120px -576px
+}
+
+a[href="#i-voidstaff"] {
+    background-position: -144px -360px
+}
+
+a[href="#i-wardensmail"] {
+    background-position: -24px -288px
+}
+
+a[href="#i-wardingtotemtrinket"] {
+    background-position: -144px -480px
+}
+
+a[href="#i-warmogsarmor"] {
+    background-position: -48px -288px
+}
+
+a[href="#i-wickedhatchet"] {
+    background-position: -24px -360px
+}
+
+a[href="#i-witsend"] {
+    background-position: -216px -288px
+}
+
+a[href="#i-woogletswitchcap"] {
+    background-position: -192px -288px
+}
+
+a[href="#i-woogletswitchcrown"] {
+    background-position: -48px -528px
+}
+
+a[href="#i-youmuusghostblade"] {
+    background-position: -24px -384px
+}
+
+a[href="#i-zeal"] {
+    background-position: -120px -288px
+}
+
+a[href="#i-zekesconvergence"] {
+    background-position: -48px -240px
+}
+
+a[href="#i-zhonyashourglass"] {
+    background-position: -48px -408px
+}
+
+a[href="#i-zhonyasparadox"] {
+    background-position: -72px -528px
+}
+
+a[href="#i-zzrotportal"] {
+    background-position: -96px -552px
+}
