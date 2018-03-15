@@ -1,0 +1,4159 @@
+
+.subscribers .word, .users-online .word {
+  display: none;
+}
+
+/* Hide gulvan
+
+a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-child(2) .flair.flair-clg-lolmithie {display:none;}
+.tagline a[username="gulvan"] 
+
+.tagline .author.id-t2_c5wat {display:inline} */
+
+.subscribers .number:after {
+  content: " CLG Fans";
+}
+
+.users-online .number:after {
+  content: " CLG Fans currently have Faith";
+}
+
+.thumbnail {
+  float: left;
+  font-size: 0;
+  margin: 0px 5px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  width: 70px;
+  &.self {
+    background: url(%%clg50White%%);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+  }
+}
+
+.flair {
+  border: none !important;
+  padding: 0px;
+  background: url(%%SpriteCompiled-18-2-3v2%%) no-repeat -9999px;
+  display: inline-block;
+  min-width: 22px;
+  text-indent: 22px;
+  height: 25px;
+  line-height: 26px;
+}
+
+.tagline {
+  line-height: 18px;
+}
+
+.flair-aphro {
+  background-position: -5px -3px;
+}
+
+.flair-bigfat {
+  background-position: -5px -33px;
+}
+
+.flair-clg-blue {
+  background-position: -5px -63px;
+}
+
+.flair-clg-logo {
+  background-position: -5px -92px;
+}
+
+.flair-clg-white {
+  background-position: -5px -123px;
+}
+
+.flair-clg-red {
+  background-position: -5px -1442px;
+}
+
+.flair-dexter {
+  background-position: -5px -153px;
+}
+
+.flair-doublelift {
+  background-position: -5px -183px;
+}
+
+.flair-hotshot {
+  background-position: -5px -213px;
+}
+
+.flair-huhi {
+  background-position: -5px -243px;
+}
+
+.flair-limes {
+  background-position: -5px -273px;
+}
+
+.flair-link {
+  background-position: -5px -303px;
+}
+
+.flair-nien {
+  background-position: -5px -333px;
+}
+
+.flair-pewpewu {
+  background-position: -5px -363px;
+}
+
+.flair-pob {
+  background-position: -5px -393px;
+}
+
+.flair-saint {
+  background-position: -5px -423px;
+}
+
+.flair-scarra {
+  background-position: -5px -453px;
+}
+
+.flair-seraph {
+  background-position: -5px -483px;
+}
+
+.flair-spinner {
+  background-position: -5px -513px;
+}
+
+.flair-stixxay {
+  background-position: -5px -543px;
+}
+
+.flair-xmithie {
+  background-position: -5px -573px;
+}
+
+.flair-zikz {
+  background-position: -5px -603px;
+}
+
+.flair-zion {
+  background-position: -5px -635px;
+}
+
+.flair-lolbelter {
+  background-position: -5px -663px;
+}
+
+.flair-clg-royal2 {
+  background-position: -5px -1025px;
+}
+
+.flair-clg-snakebite {
+  background-position: -5px -1052px;
+}
+
+.flair-clg-hazed {
+  background-position: -5px -1385px;
+}
+
+.flair-clg-stixxay {
+  background-position: -5px -545px;
+}
+
+.flair-clg-mattcom {
+  background-position: -5px -843px;
+}
+
+.flair-clg-benita {
+  background-position: -5px -1143px;
+}
+
+.flair-clg-harvey {
+  background-position: -5px -1232px;
+}
+
+.flair-clg-potter {
+  background-position: -5px -1202px;
+}
+
+.flair-clg-di {
+  background-position: -5px -1113px;
+}
+
+.flair-clg-cath {
+  background-position: -5px -1172px;
+}
+
+.flair-clg-sfat {
+  background-position: -5px -963px;
+}
+
+.flair-clg-nakat {
+  background-position: -5px -934px;
+}
+
+.flair-clg-frosty {
+  background-position: -5px -992px;
+}
+
+.flair-clg-lethxl {
+  background-position: -5px -1082px;
+  text-indent: 25px;
+}
+
+.flair-clg-fugly {
+  background-position: -5px -1262px;
+}
+
+.flair-clg-loungin {
+  background-position: -5px -1415px;
+  text-indent: 28px;
+}
+
+.flair-clg-letsgo {
+  background-position: -5px -1326px;
+}
+
+.flair-clg-cutler {
+  background-position: -5px -1352px;
+}
+
+.flair-clg-turok {
+  background-position: -5px -1292px;
+}
+
+.flair-clg-salt {
+  background-position: -5px -904px;
+}
+
+.flair-clg-trick2g {
+  background-position: -5px -812px;
+}
+
+.flair-clg-lolmithie {
+  background-position: -5px -782px;
+}
+
+.flair-clg-hotshock {
+  background-position: -5px -873px;
+}
+
+.flair-clg-darshann {
+  background-position: -5px -753px;
+}
+
+.flair-clg-whoishe {
+  background-position: -5px -723px;
+}
+
+.flair-clg-zikztrust {
+  background-position: -5px -692px;
+  text-indent: 25px;
+}
+
+.flair-clg-newro {
+  background-position: -3px -1476px;
+  text-indent: 28px;
+}
+
+.flair-clg-newhuhi {
+  background-position: -3px -1513px;
+  text-indent: 28px;
+}
+
+.flair-clg-newdarshan {
+  background-position: -3px -1550px;
+  text-indent: 28px;
+}
+
+.flair-clg-newstixxay {
+  background-position: -3px -1587px;
+  text-indent: 28px;
+}
+
+.flair-clg-newbio {
+  background-position: -3px -1620px;
+  text-indent: 28px;
+}
+
+.flair-clg-baitedaddy {
+  background-position: -3px -1648px;
+  text-indent: 28px;
+}
+
+.flair-clg-ripcsgo {
+  background-position: -3px -1679px;
+  text-indent: 28px;
+}
+
+.flair-clg-nickallen {
+  background-position: -3px -1716px;
+  text-indent: 28px;
+}
+
+.flair-clg-haru {
+  background-position: -3px -1753px;
+  text-indent: 28px;
+}
+
+.flair-clg-yungharu {
+  background-position: -3px -1788px;
+  text-indent: 28px;
+}
+
+.flair-clg-gameover {
+  background-position: -3px -1818px;
+  text-indent: 28px;
+  width: 26px;
+  color: transparent !important;
+}
+
+.flair-clg-dadshan {
+  background-position: -3px -1853px;
+  text-indent: 28px;
+}
+
+.flair-clg-hehxd {
+  background-position: -3px -1889px;
+  text-indent: 28px;
+}
+
+.flair-clg-haruwut {
+  background-position: -3px -1920px;
+  text-indent: 32px;
+  width: 75px;
+}
+
+.flair-clg-void {
+  border: none !important;
+  padding: 0px;
+  background: url(%%void-flair%%) no-repeat;
+  display: inline-block;
+  min-width: 22px;
+  text-indent: 22px;
+  height: 25px;
+  line-height: 26px;
+}
+
+/* ALTERATIONS */
+
+.link .title {
+  margin-bottom: 3px;
+}
+
+body {
+  background: #0f0f0f;
+}
+
+.sheets label[for="reason"] {
+  color: #eee;
+}
+
+.RES-keyNav-activeElement, body .RES-keyNav-activeElement .md-container {
+  background: none !important;
+}
+
+html .res-commentBoxes {
+  background: #0f0f0f !important;
+  .comment .comment {
+    background: #0f0f0f !important;
+    .comment {
+      background: #0f0f0f !important;
+    }
+  }
+}
+
+#header {
+  border-bottom: 1px solid #3C9CCD;
+  height: 150px;
+  background: #0f0f0f url(%%CLG-Banner-BG%%);
+  background: #000;
+  background-position: right;
+  #header-bottom-left {
+    margin: 10px 0 0 50px;
+  }
+  position: relative;
+  #header-bottom-right {
+    background-color: #0a79e3;
+    padding: 4px 6px 4px 6px;
+    a {
+      color: #eee;
+    }
+    .userkarma {
+      color: #fff;
+    }
+  }
+  #header-img-a {
+    position: relative;
+    top: -23px;
+    content: url(%%resizedAlien%%);
+    margin-right: 80px;
+  }
+}
+
+/* Sidebar Edits */
+
+.side .md-container {
+  ul {
+    margin: 0 !important;
+    list-style: none;
+    padding: 0 0 10px !important;
+  }
+  p {
+    margin: 0 !important;
+  }
+}
+
+/* Responsive Edits */
+
+#header-img.default-header {
+  display: none;
+}
+
+#header {
+  span.pagename.redditname a:before {
+    content: "";
+  }
+  #header-bottom-right {
+    max-height: 20px;
+    margin: 0;
+    top: auto;
+  }
+}
+
+span.pagename.redditname {
+  display: block;
+  position: absolute !important;
+  left: 50% !important;
+  margin-left: -75px;
+  width: 150px;
+  height: 150px;
+  top: 0px !important;
+}
+
+#header-img.default-header {
+  top: 50px !important;
+  left: 75px;
+  top: 15px !important;
+  left: 50%;
+  margin-left: -100px;
+}
+
+span.pagename.redditname a {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+#header {
+  border-bottom-color: #333;
+  height: 200px;
+  border-bottom: none;
+  background: url(%%CLG-Banner-BG-16-01%%) 0 19px repeat-x;
+}
+
+#sr-header-area {
+  z-index: 9999;
+  position: relative;
+}
+
+#header {
+  #header-bottom-left {
+    background: url(%%clg-temp-17-1%%) top center no-repeat;
+    position: absolute;
+    top: 19px;
+    width: 100%;
+    z-index: 9;
+    left: 0;
+    margin: 0;
+    height: 150px;
+    border-bottom: 1px solid #222;
+  }
+  #header-bottom-right {
+    background-color: #0a79e3;
+    padding: 4px 6px 4px 6px;
+    z-index: 99999 !important;
+    bottom: 0px;
+    a {
+      color: #eee;
+    }
+    .userkarma {
+      color: #fff;
+    }
+  }
+  #header-img-a {
+    position: relative;
+    top: -23px;
+    content: url(%%resizedAlien%%);
+    margin-right: 80px;
+  }
+}
+
+.content {
+  width: 100%;
+  padding-right: 300px;
+  padding-right: 320px !important;
+  box-sizing: border-box;
+}
+
+.sidecontentbox .content {
+  padding-right: 0 !important;
+}
+
+.tabmenu {
+  list-style-type: none;
+  white-space: nowrap;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: bottom;
+}
+
+@media screen and (min-width: 1330px) {
+  #header #header-bottom-left {
+    background: url(%%clg-temp-17-1%%) top center no-repeat !important;
+  }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1329px) {
+  #header #header-bottom-left {
+    background: url(%%clg-temp-17-1%%) top center no-repeat !important;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #header-img.default-header {
+    top: 15px !important;
+    left: 50%;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #header #header-bottom-left {
+    background: url(%%clg-temp-17-1%%) top center no-repeat !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #header #header-bottom-left {}
+}
+
+@media screen and (max-width: 805px) {}
+
+/* End responsive */
+
+/* Special Events 
+#header {height:270px !important;height:520px !important;
+}
+
+.content[role="main"] {
+padding-top:55px !important;
+}
+
+.content {
+padding-top:5px !important;
+}
+body .side p>a[href$="rclgpromo"] {top:305px !important; top:555px !important;}
+
+html #header #header-bottom-left {
+height:250px !important;
+height:500px !important;
+background-color:#000 !important;
+}
+
+#header #header-bottom-right {
+bottom:-30px !important;
+}
+
+
+.side p>a[href$="rclgpromo"] {
+top:305px !important;top:355px !important;
+}
+
+.side {
+margin-top:250px !important;
+}
+
+
+
+
+#header #header-bottom-left {
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+
+
+@media screen and (min-width:1501px) {
+#header #header-bottom-left {
+background:#45150c url(%%CLG-LOL-Hypev3bb-16-8-23%%) top center no-repeat !important;}
+html #header #header-bottom-left {background-color:#45150c !important;}
+
+
+}
+
+@media screen and (min-width:1150px) and (max-width:1500px) {
+
+#header #header-bottom-left {
+
+background:url(%%CLG-WinnerSplit-15-11-9%%) top center no-repeat !important;
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+
+}
+
+@media screen and (min-width:850px) and (max-width:1149px){
+#header #header-bottom-left {
+
+background:url(%%CLG-WinnerSplit980-15-11-9%%) top center no-repeat !important; 
+background:url(%%CLG-LOL-Hypev3-16-8-23%%) top center no-repeat !important;
+}
+}
+
+@media screen and (min-width:321px) and (max-width:520px) {
+#header #header-bottom-left {
+background:url(%%CLG-NEW450new-15-7%%) top center no-repeat !important;
+}
+}
+
+
+
+
+Special Events End */
+
+.morelink {
+  background-image: url(%%clgIcons%%);
+  border: 1px solid #399eff;
+  &:hover {
+    background-image: url(%%clgIcons%%);
+    border: 1px solid #62d0ff;
+  }
+  .nub {
+    background: #222;
+    background-image: url(%%clgIcons%%);
+    background-position: -31px -547px;
+  }
+  &:hover .nub {
+    background-image: url(%%clgIcons%%);
+  }
+  a {
+    color: #eee;
+  }
+}
+
+.content {
+  margin: 0;
+  padding: 7px 5px 0px 5px;
+  background: url(%%mainBackground%%) #0f0f0f no-repeat;
+}
+
+.entry {
+  background: url(%%entryBackground%%);
+  padding: 10px 10px 10px 20px;
+  .flat-list li > b {
+    color: #FF0000;
+  }
+}
+
+.wikirevisionlisting td, .wiki-page-content em {
+  color: #FFF;
+}
+
+.thing {
+  .title {
+    color: #3C9CCD;
+    &:visited {
+      color: #eee;
+    }
+  }
+  &.visited .title {
+    color: #eee;
+  }
+}
+
+.thumbnail {
+  width: 50px;
+  img {
+    width: 50px;
+    height: auto;
+  }
+}
+
+.submit_text {
+  max-height: none;
+  .content {
+    background: none;
+    p, h7, ul {
+      color: #000;
+    }
+  }
+}
+
+.side {
+  background-color: #222;
+  padding: 6px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #eee;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #eee;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #eee;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #eee;
+}
+
+.side {
+  #search input {
+    background: #0a79e3;
+    border: 1px solid #399eff;
+  }
+  .titlebox {
+    h1.redditname a {
+      color: #3C9CCD;
+      position: relative;
+      top: -14px;
+      font-size: 24px;
+      left: 5px;
+      display: none;
+    }
+    &:before {
+      content: url(%%fullColorLogo%%);
+    }
+  }
+  .usertext {
+    color: #aaa;
+    a {
+      color: #3C9CCD;
+    }
+  }
+  span.subscribers span.number, .users-online span.number {
+    color: #aaa;
+  }
+  .leavemoderator {
+    background: #222;
+    color: #aaa !important;
+    a {
+      color: #3C9CCD;
+    }
+  }
+  .titlebox .flairtoggle {
+    background-color: #222;
+    color: #aaa;
+  }
+  .tagline a, .bottom a.author {
+    color: #3C9CCD;
+  }
+}
+
+.sidebox.create .spacer {
+  background: #222;
+  .subtitle {
+    color: #aaa;
+  }
+}
+
+.side {
+  #moderation_tools .content .icon-menu a {
+    background: none;
+    color: #3C9CCD;
+  }
+  .sidecontentbox {
+    a.helplink, .content a.author {
+      color: #3C9CCD;
+    }
+  }
+}
+
+.flair {
+  color: #aaa;
+}
+
+.side .sidecontentbox .gadget .click-gadget .reddit-entry a.reddit-link-title, .entry a.author {
+  color: #3C9CCD;
+}
+
+.comment.spam > .child, .message.spam > .child {
+  background-color: inherit;
+}
+
+span.pagename.redditname {
+  a:before {
+    content: url(%%headerLogo%%);
+  }
+  font-size: 0px;
+  position: relative;
+  left: -90px;
+  top: -4px;
+}
+
+#header-img.default-header {
+  background-image: url(%%clgIcons%%);
+}
+
+.tabmenu {
+  position: relative;
+  bottom: -26px;
+  height: 20px;
+  left: -131px;
+  z-index: 99999;
+  position: absolute;
+  bottom: -26px;
+  height: 20px;
+  left: -131px;
+  left: 0;
+  li {
+    a {
+      background: url(%%tabGradient%%);
+      color: #aaa;
+      height: 20px;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    &.selected a {
+      background-color: #0a79e3;
+      color: #fff;
+    }
+  }
+}
+
+.usertext-body {
+  background: none;
+  .md {
+    background-color: #222 !important;
+    a {
+      color: #3C9CCD;
+    }
+  }
+}
+
+.md, .livePreview .md {
+  color: #eee;
+}
+
+#BigPreview {
+  color: #000;
+}
+
+.entry .md p {
+  color: #eee;
+}
+
+.commentarea .entry .usertext-body .md {
+  background: none !important;
+}
+
+.flat-list form {
+  color: #888;
+}
+
+/* To fix that gold-highlight issue - now the comments are highlighted in a Blue Background w/ a white border.  */
+
+.new-comment .usertext-body {
+  color: black;
+  background-color: #3C9CCD;
+  border: 1px solid #ffffff;
+  margin: -1px 0;
+}
+
+.RES-keyNav-activeElement {
+  background-color: transparent !important;
+}
+
+.commentarea .RES-keyNav-activeElement {
+  .md, &.entry .noncollapsed {
+    background-color: transparent !important;
+  }
+}
+
+.RES-keyNav-activeElement {
+  background-color: transparent !important;
+}
+
+.commentarea .RES-keyNav-activeElement {
+  .md, &.entry .noncollapsed {
+    background-color: transparent !important;
+  }
+}
+
+.entry {
+  background-color: transparent !important;
+  &.noncollapsed {
+    background-color: transparent !important;
+  }
+}
+
+.RES-keyNav-activeElement {
+  &.entry {
+    &.likes div, &.dislikes div {
+      background-color: transparent !important;
+    }
+  }
+  background-color: transparent !important;
+}
+
+.res {
+  .RES-keyNav-activeElement {
+    background-color: transparent !important;
+  }
+  .commentarea .RES-keyNav-activeElement {
+    .md, &.entry .noncollapsed {
+      background-color: transparent !important;
+    }
+  }
+}
+
+/* MORE RES STUFF */
+
+.res-commentBoxes .commentarea .comment {
+  background-color: transparent !important;
+  .comment {
+    background-color: transparent !important;
+    .comment {
+      background-color: transparent !important;
+      .comment {
+        background-color: transparent !important;
+        .comment {
+          background-color: transparent !important;
+          .comment {
+            background-color: transparent !important;
+            .comment {
+              background-color: transparent !important;
+              .comment {
+                background-color: transparent !important;
+                .comment {
+                  background-color: transparent !important;
+                  .comment {
+                    background-color: transparent !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.RES-keyNav-activeElement, .entry.RES-keyNav-activeElement {
+  background: url(%%entryBackground%%) !important;
+  background-color: transparent !important;
+}
+
+.thing.comment {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.res-commentBoxes {
+  background-color: transparent !important;
+  .comment .comment {
+    background-color: transparent !important;
+    .comment {
+      background-color: transparent !important;
+    }
+  }
+}
+
+#header-bottom-right.res-navTop {
+  margin-top: 111px;
+}
+
+.user {
+  color: #aaa;
+  a {
+    color: #fff;
+  }
+}
+
+/* ADMIN STYLING */
+
+#image-preview-list {
+  .description {
+    color: #aaa;
+  }
+  a.preview {
+    background: url(%%entryBackground%%);
+    padding: 2px;
+  }
+}
+
+#preview-table tr th, #image-upload label {
+  color: #aaa;
+}
+
+/* DAT LIGHTER THEME! */
+
+body:lang(dd) {
+  background: #fff;
+  background-image: none;
+}
+
+.content:lang(dd) {
+  background: #fff;
+}
+
+.thumbnail.self:lang(dd) {
+  background: url(%%clg50%%);
+}
+
+.entry:lang(dd), .RES-keyNav-activeElement:lang(dd), .entry.RES-keyNav-activeElement:lang(dd) {
+  background: none !important;
+}
+
+.thing .title:lang(dd) {
+  color: #000 !important;
+}
+
+.entry {
+  .md p:lang(dd) {
+    color: #000;
+  }
+  &:lang(dd) {
+    padding: 0 0 0 10px;
+  }
+}
+
+.side:lang(dd), .morelink .nub:lang(dd) {
+  background-color: #fff;
+}
+
+.side {
+  span.subscribers span.number:lang(dd), .users-online span.number:lang(dd) {
+    color: #000;
+  }
+  .titlebox .flairtoggle:lang(dd), .leavemoderator:lang(dd) {
+    background: #fff;
+  }
+}
+
+.usertext-body .md:lang(dd) {
+  background: none !important;
+}
+
+.md:lang(dd) {
+  color: #000;
+}
+
+.sidebox.create .spacer {
+  &:lang(dd) {
+    background: #fff;
+  }
+  .subtitle:lang(dd) {
+    color: #000;
+  }
+}
+
+.thing {
+  .title:visited:lang(dd), &.visited .title:lang(dd) {
+    color: #551a8b !important;
+  }
+}
+
+.sitetable:lang(dd) {
+  padding: 10px 0 0 0;
+}
+
+/* THIS HAS BEEN BOTHERING ME FOR AGES */
+
+#header-img.default-header {
+  position: relative;
+  top: -20px;
+}
+
+/* CONTEXT LINKS DISPLAYED WEIRD */
+
+.usertext.border .usertext-body {
+  background: none;
+}
+
+/* Infobar alerts are hard to read with white font color */
+
+.infobar .md {
+  color: #DA7C00;
+}
+
+/* Top Right Feature */
+
+.side p > a[href$="rclgfeature"] {
+  position: absolute;
+  top: 54px;
+  right: 45%;
+  padding: 6px 24px;
+  z-index: 100;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  color: #eee;
+  background-color: rgba(60, 123, 205, 0.3);
+  border-radius: 40%/50%;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  visibility: visible !important;
+  &:hover {
+    color: rgba(10, 121, 227, 1);
+    background-color: rgba(246, 246, 246, 0.7);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.0;
+    background-color: rgba(60, 123, 205, 1);
+    right: 25%;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    background-color: rgba(60, 123, 205, 0.3);
+    right: 45%;
+  }
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.4);
+    opacity: 0.0;
+    background-color: rgba(60, 123, 205, 1);
+    right: 60%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    background-color: rgba(60, 123, 205, 0.3);
+    right: 45%;
+  }
+}
+
+
+/* Confirmed CLG Flair */
+
+a.author {
+  &[href$='/dexterone']:after {
+    content: 'Dexter';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Say0cean']:after {
+    content: 'Kelby';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/doublelift1']:after {
+    content: 'Doublelift';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Zikzlol']:after {
+    content: 'Zikz';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/L1Nk115']:after {
+    content: 'Link';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/MaTTcom']:after {
+    content: 'MaTTcom';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/HotshotGG']:after {
+    content: 'HotshotGG';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Seraph_CLG']:after {
+    content: 'Seraph';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Aphromoo']:after {
+    content: 'Aphromoo';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/officialtarik']:after {
+    content: 'tarik';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Mylixia']:after {
+    content: 'Mylixia';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/hazedlol']:after {
+    content: 'Hazed';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/NAKAT']:after {
+    content: 'NAKAT';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/pewpewu']:after {
+    content: 'PewPewU';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/lolHuhi']:after {
+    content: 'Huhi';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/lxthul']:after {
+    content: 'Lxthul';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Zionspartan']:after {
+    content: 'Darshan';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Counter_Logic_Gaming']:after {
+    content: 'CLG';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Keitaro123']:after {
+    content: 'Keitaro';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/BasedYoonas']:after {
+    content: 'Yoona';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Tnomad']:after {
+    content: 'Travis';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/uahc']:after {
+    content: 'Chauster';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/mnqcook']:after {
+    content: 'Cook';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/CLG_Ricky']:after {
+    content: 'Ricky (Video Guy)';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/lollicon']:after {
+    content: 'Angela';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/CLG_Trinitiii']:after {
+    content: 'Trinitiii';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Slicerwind']:after {
+    content: 'ItsSlicer';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Zaganox']:after {
+    content: 'Zaganox';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/CoachRico']:after {
+    content: 'Rico';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/FallenBandit']:after {
+    content: 'FallenBandit';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/TeemoLink']:after {
+    content: 'OmarGod';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/cptjack_']:after {
+    content: 'Video Producer';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/Stixxay']:after {
+    content: 'Stixxay';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+  &[href$='/NickAllenGG']:after {
+    content: 'Nick Allen';
+    background: #D4FFFA;
+    border: 1px solid #4F73FF;
+    color: #3D5EC7;
+    padding: 0 2px;
+    margin-left: 4px;
+  }
+}
+
+/* CLG Promo */
+
+/*.side {
+margin-top:207px;
+}
+.side p>a[href$="rclgpromo"] {
+position: absolute;   
+top: 205px;
+height: 210px;
+display: block;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+width: 312px;
+background: url(%%SidebarSquare-CLG-WelcomeDardoch-17-5-12%%) top left;
+right: 5px;
+font-size: 25px;
+font-family: Helvetica, Arial;
+}*/
+
+/* .side p>a[href$="rclgpromo"]:after {
+content: "";
+position: relative;
+display: block;
+border-top: 1px solid #399eff;  
+text-indent:0;
+background-color: rgba(0,0,0,0);
+padding:0.5em;
+top: 200px;
+height:100px;
+white-space: normal;
+transition: all 1s;
+}
+.side p>a[href$="rclgpromo"]:hover:after {
+content: attr(title);
+background-color: rgba(0,0,0,0.5);
+color: #EFF3FA;
+top:80px;
+}
+.side p>a[href$="rclgpromo"]:hover:lang(dd):after {
+background-color: rgba(10, 121, 227,0.6);
+}
+ */
+
+/* Domain Filters for r/CLG 
+League of Legends f1
+Halo f2
+CS:GO f3
+Fluff f4
+Meta f5
+Smash f6
+ */
+
+html {
+  &:lang(f1) .link:not(.linkflair-lol-link), &:lang(f2) .link:not(.linkflair-halo-link), &:lang(f3) .link:not(.linkflair-cs-link), &:lang(f4) .link:not(.linkflair-meta-link), &:lang(f5) .link:not(.linkflair-smash-link) {
+    display: none;
+  }
+}
+
+/* Hide Rank Numbers */
+
+.rank {
+  display: none;
+}
+
+/* Link Flairs */
+
+.linkflairlabel {
+  font-size: 12px;
+  font-weight: bold;
+  max-width: 10em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: #0a79e3;
+  border: 1px solid #399eff;
+  color: #eee;
+}
+
+/* Livestream Feed */
+
+/* Basically disable blockquotes */
+
+.side {
+  blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .md {
+    blockquote:hover > blockquote:before {
+      display: none;
+    }
+    > blockquote {
+      > blockquote > blockquote {
+        background: #0f141a;
+        margin: 0;
+        padding: 5px 40px 5px 55px;
+        height: 30px;
+        position: relative;
+      }
+      &:hover {
+        max-height: 100%;
+        background-image: none;
+      }
+      > blockquote > blockquote h1 {
+        font-size: 13px;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 210px;
+        a:before {
+          content: "";
+          height: 30px;
+          width: 45px;
+          position: absolute;
+          left: 5px;
+        }
+      }
+    }
+    a {
+      &[href*='profile-0']:before {
+        background-position: 0px 0px;
+      }
+      &[href*='profile-1']:before {
+        background-position: -45px 0px;
+      }
+      &[href*='profile-2']:before {
+        background-position: -90px 0px;
+      }
+      &[href*='profile-3']:before {
+        background-position: -135px 0px;
+      }
+      &[href*='profile-4']:before {
+        background-position: -180px 0px;
+      }
+      &[href*='profile-5']:before {
+        background-position: -225px 0px;
+      }
+      &[href*='profile-6']:before {
+        background-position: -270px 0px;
+      }
+      &[href*='profile-7']:before {
+        background-position: -315px 0px;
+      }
+      &[href*='profile-8']:before {
+        background-position: -360px 0px;
+      }
+      &[href*='profile-9']:before {
+        background-position: -405px 0px;
+      }
+      &[href*='profile-10']:before {
+        background-position: -450px 0px;
+      }
+      &[href*='twitch.tv']:after {
+        background-position: 0 0;
+      }
+      &[href*='tv.majorleaguegaming.com']:after {
+        background-position: -40px 0;
+      }
+      &[href*='hitbox.tv']:after {
+        background-position: -80px 0;
+      }
+      &[href*='azubu.tv']:after {
+        background-position: -120px 0;
+      }
+    }
+    > blockquote > blockquote > blockquote h1 a:after {
+      content: "";
+      height: 40px;
+      width: 40px;
+      background: #0a79e3 url(%%stream-sources%%) no-repeat 0 0;
+      display: block;
+      position: absolute;
+      right: 0;
+      margin-top: -23px;
+    }
+    > blockquote > blockquote > blockquote h3 {
+      font-size: 10px;
+      line-height: 15px;
+      margin: 0 0 0 15px;
+      font-weight: normal;
+      color: #fff;
+      &:before {
+        content: "";
+        height: 7px;
+        width: 11px;
+        background: url(%%extra-icons%%) no-repeat -80px 0;
+        display: block;
+        position: absolute;
+        left: 55px;
+        margin-top: 3px;
+      }
+    }
+  }
+  a {
+    &[href*='#separator'] {
+      font-size: 0;
+      margin-bottom: 3px;
+      display: block;
+    }
+    &[href*='#eye-icon'] {
+      width: 5px;
+    }
+  }
+}
+
+/*
+ *  Uncomment these two rules if you want the height of the
+ *  livestream feed maxed out and require a hover to see all
+ *  listed streams
+ */
+
+/*
+.side .md blockquote > blockquote:before {
+display: block;
+content: "";
+position: relative;
+top: 120px;
+width: 340px;
+height: 0;
+z-index: 1;
+box-shadow: -55px 35px 50px 25px #010713 ;
+}
+
+.side .md > blockquote {
+max-height: 150px;
+overflow: hidden;
+}
+ */
+
+/* --- Social Icons --- */
+
+.md a {
+  &[href*="twitch.tv"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: 0px 0px;
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  &[href*="twitter.com"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: -20px 0px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  &[href*="instagram.com"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: -40px 0px;
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  &[href*="facebook.com"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: 0px -20px;
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  &[href*="youtube.com"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: -20px -20px;
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  &[href*="snapchat.com"]:empty {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url(%%socialicons%%) no-repeat;
+    background-position: -40px -20px;
+    opacity: 1;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+/* Sidebar Headers */
+
+.side .md h6 {
+  background: url(%%tabGradient%%) repeat-x;
+  color: #eee;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  a {
+    color: #eee;
+    text-decoration: none !important;
+  }
+  text-decoration: none !important;
+}
+
+.down {
+  display: none;
+}
+
+/* Code in GOB wiki pages */
+
+body[class*='wiki-page-gob'] code {
+  color: #000;
+}
+
+/* Smash Stock Icons (from r/smashbros) */
+
+a {
+  &[href^="#S64"], &[href^="#Melee"], &[href^="#Brawl"], &[href^="#Pm"], &[href^="#Sm4sh"], &[href="/Bowser"], &[href="/CF"], &[href="/DK"], &[href="/DrMario"], &[href="/Falco"], &[href="/Fox"], &[href="/Ganon"], &[href="/Icies"], &[href="/Puff"], &[href="/Kirby"], &[href="/Link"], &[href="/Luigi"], &[href="/Mario"], &[href="/Marth"], &[href="/Mewtwo"], &[href="/GNW"], &[href="/Ness"], &[href="/Peach"], &[href="/Pichu"], &[href="/Pikachu"], &[href="/Roy"], &[href="/Samus"], &[href="/Sheik"], &[href="/Yoshi"], &[href="/YL"], &[href="/Zelda"] {
+    background-image: url(%%smash-sprites%%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    color: transparent !important;
+    overflow: hidden;
+  }
+  &[href="#S64CaptainFalcon"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 0;
+  }
+  &[href="#S64DonkeyKong"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px 0;
+  }
+  &[href="#S64Fox"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px 0;
+  }
+  &[href="#S64Jigglypuff"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px 0;
+  }
+  &[href="#S64Kirby"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px 0;
+  }
+  &[href="#S64Link"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px 0;
+  }
+  &[href="#S64Luigi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px 0;
+  }
+  &[href="#S64Mario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px 0;
+  }
+  &[href="#S64Ness"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px 0;
+  }
+  &[href="#S64Pikachu"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px 0;
+  }
+  &[href="#S64Samus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px 0;
+  }
+  &[href="#S64Yoshi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px 0;
+  }
+  &[href="#BrawlBowser"], &[href="#PmBowser"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -28px;
+  }
+  &[href="#BrawlCaptainFalcon"], &[href="#PmCaptainFalcon"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -28px;
+  }
+  &[href="#BrawlCharizard"], &[href="#PmCharizard"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -28px;
+  }
+  &[href="#BrawlDiddyKong"], &[href="#PmDiddyKong"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -28px;
+  }
+  &[href="#BrawlDonkeyKong"], &[href="#PmDonkeyKong"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -28px;
+  }
+  &[href="#BrawlFalco"], &[href="#PmFalco"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -28px;
+  }
+  &[href="#BrawlFox"], &[href="#PmFox"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -28px;
+  }
+  &[href="#BrawlGanondorf"], &[href="#PmGanondorf"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -28px;
+  }
+  &[href="#BrawlIceClimbers"], &[href="#PmIceClimbers"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -28px;
+  }
+  &[href="#BrawlIke"], &[href="#PmIke"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -28px;
+  }
+  &[href="#BrawlIvysaur"], &[href="#PmIvysaur"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -28px;
+  }
+  &[href="#BrawlJigglypuff"], &[href="#PmJigglypuff"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -28px;
+  }
+  &[href="#BrawlKingDeDeDe"], &[href="#PmKingDeDeDe"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -56px;
+  }
+  &[href="#BrawlKirby"], &[href="#PmKirby"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -56px;
+  }
+  &[href="#BrawlLink"], &[href="#PmLink"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -56px;
+  }
+  &[href="#BrawlLucario"], &[href="#PmLucario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -56px;
+  }
+  &[href="#BrawlLucas"], &[href="#PmLucas"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -56px;
+  }
+  &[href="#BrawlLuigi"], &[href="#PmLuigi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -56px;
+  }
+  &[href="#BrawlMario"], &[href="#PmMario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -56px;
+  }
+  &[href="#BrawlMarth"], &[href="#PmMarth"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -56px;
+  }
+  &[href="#BrawlMetaKnight"], &[href="#PmMetaKnight"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -56px;
+  }
+  &[href="#PmMewtwo"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -56px;
+  }
+  &[href="#BrawlMrGameAndWatch"], &[href="#PmMrGameAndWatch"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -56px;
+  }
+  &[href="#BrawlNess"], &[href="#PmNess"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -56px;
+  }
+  &[href="#BrawlOlimar"], &[href="#PmOlimar"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -84px;
+  }
+  &[href="#BrawlPeach"], &[href="#PmPeach"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -84px;
+  }
+  &[href="#BrawlPikachu"], &[href="#PmPikachu"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -84px;
+  }
+  &[href="#BrawlPit"], &[href="#PmPit"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -84px;
+  }
+  &[href="#BrawlROB"], &[href="#PmROB"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -84px;
+  }
+  &[href="#PmRoy"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -84px;
+  }
+  &[href="#BrawlSamus"], &[href="#PmSamus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -84px;
+  }
+  &[href="#BrawlSheik"], &[href="#PmSheik"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -84px;
+  }
+  &[href="#BrawlSnake"], &[href="#PmSnake"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -84px;
+  }
+  &[href="#BrawlSonic"], &[href="#PmSonic"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -84px;
+  }
+  &[href="#BrawlSquirtle"], &[href="#PmSquirtle"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -84px;
+  }
+  &[href="#BrawlToonLink"], &[href="#PmToonLink"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -84px;
+  }
+  &[href="#BrawlWario"], &[href="#PmWario"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -112px;
+  }
+  &[href="#BrawlWolf"], &[href="#PmWolf"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -112px;
+  }
+  &[href="#BrawlYoshi"], &[href="#PmYoshi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -112px;
+  }
+  &[href="#BrawlZelda"], &[href="#PmZelda"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -112px;
+  }
+  &[href="#BrawlZeroSuitSamus"], &[href="#PmZeroSuitSamus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -112px;
+  }
+  &[href="#MeleeBowser"], &[href="/Bowser"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -112px;
+  }
+  &[href="#MeleeCaptainFalcon"], &[href="/CF"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -112px;
+  }
+  &[href="#MeleeDonkeyKong"], &[href="/DK"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -112px;
+  }
+  &[href="#MeleeDrMario"], &[href="/DrMario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -112px;
+  }
+  &[href="#MeleeFalco"], &[href="/Falco"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -112px;
+  }
+  &[href="#MeleeFox"], &[href="/Fox"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -112px;
+  }
+  &[href="#MeleeGanondorf"], &[href="/Ganon"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -112px;
+  }
+  &[href="#MeleeIceClimbers"], &[href="/Icies"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -140px;
+  }
+  &[href="#MeleeJigglypuff"], &[href="/Puff"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -140px;
+  }
+  &[href="#MeleeKirby"], &[href="/Kirby"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -140px;
+  }
+  &[href="#MeleeLink"], &[href="/Link"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -140px;
+  }
+  &[href="#MeleeLuigi"], &[href="/Luigi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -140px;
+  }
+  &[href="#MeleeMario"], &[href="/Mario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -140px;
+  }
+  &[href="#MeleeMarth"], &[href="/Marth"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -140px;
+  }
+  &[href="#MeleeMewtwo"], &[href="/Mewtwo"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -140px;
+  }
+  &[href="#MeleeMrGameAndWatch"], &[href="/GNW"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -140px;
+  }
+  &[href="#MeleeNess"], &[href="/Ness"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -140px;
+  }
+  &[href="#MeleePeach"], &[href="/Peach"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -140px;
+  }
+  &[href="#MeleePichu"], &[href="/Pichu"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -140px;
+  }
+  &[href="#MeleePikachu"], &[href="/Pikachu"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -168px;
+  }
+  &[href="#MeleeRoy"], &[href="/Roy"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -168px;
+  }
+  &[href="#MeleeSamus"], &[href="/Samus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -168px;
+  }
+  &[href="#MeleeSheik"], &[href="/Sheik"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -168px;
+  }
+  &[href="#MeleeYoshi"], &[href="/Yoshi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -168px;
+  }
+  &[href="#MeleeYoungLink"], &[href="/YL"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -168px;
+  }
+  &[href="#MeleeZelda"], &[href="/Zelda"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -168px;
+  }
+  &[href="#Sm4shAlph"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -168px;
+  }
+  &[href="#Sm4shBayonetta"] {
+    width: 28px;
+    height: 28px;
+    background-position: -336px -112px;
+  }
+  &[href="#Sm4shBowser"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -168px;
+  }
+  &[href="#Sm4shBowserJr"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -168px;
+  }
+  &[href="#Sm4shCaptainFalcon"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -168px;
+  }
+  &[href="#Sm4shCharizard"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -168px;
+  }
+  &[href="#Sm4shCloud"] {
+    width: 28px;
+    height: 28px;
+    background-position: -336px -28px;
+  }
+  &[href="#Sm4shDarkPit"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -196px;
+  }
+  &[href="#Sm4shDiddyKong"], &[href="#Sm4shDiddy"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -196px;
+  }
+  &[href="#Sm4shDonkeyKong"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -196px;
+  }
+  &[href="#Sm4shDrMario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -196px;
+  }
+  &[href="#Sm4shDuckHunt"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -196px;
+  }
+  &[href="#Sm4shFalco"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -196px;
+  }
+  &[href="#Sm4shFemaleCorrin"] {
+    width: 28px;
+    height: 28px;
+    background-position: -336px -84px;
+  }
+  &[href="#Sm4shFemaleRobin"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -196px;
+  }
+  &[href="#Sm4shFemaleVillager"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -196px;
+  }
+  &[href="#Sm4shFemaleWiiFitTrainer"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -196px;
+  }
+  &[href="#Sm4shFox"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -196px;
+  }
+  &[href="#Sm4shGanondorf"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -196px;
+  }
+  &[href="#Sm4shGreninja"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -196px;
+  }
+  &[href="#Sm4shIggy"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -224px;
+  }
+  &[href="#Sm4shIke"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -224px;
+  }
+  &[href="#Sm4shJigglypuff"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -224px;
+  }
+  &[href="#Sm4shKingDeDeDe"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -224px;
+  }
+  &[href="#Sm4shKirby"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -224px;
+  }
+  &[href="#Sm4shLarry"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -224px;
+  }
+  &[href="#Sm4shLemmy"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -224px;
+  }
+  &[href="#Sm4shLink"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -224px;
+  }
+  &[href="#Sm4shLittleMac"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -224px;
+  }
+  &[href="#Sm4shLucario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -224px;
+  }
+  &[href="#Sm4shLucas"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -224px;
+  }
+  &[href="#Sm4shLucina"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -224px;
+  }
+  &[href="#Sm4shLudwig"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -252px;
+  }
+  &[href="#Sm4shLuigi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -252px;
+  }
+  &[href="#Sm4shMaleCorrin"] {
+    width: 28px;
+    height: 28px;
+    background-position: -336px -56px;
+  }
+  &[href="#Sm4shMaleRobin"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -252px;
+  }
+  &[href="#Sm4shMaleVillager"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -252px;
+  }
+  &[href="#Sm4shMaleWiiFitTrainer"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -252px;
+  }
+  &[href="#Sm4shMario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -252px;
+  }
+  &[href="#Sm4shMarth"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -252px;
+  }
+  &[href="#Sm4shMegaman"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -252px;
+  }
+  &[href="#Sm4shMetaKnight"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -252px;
+  }
+  &[href="#Sm4shMewtwo"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -252px;
+  }
+  &[href="#Sm4shMiiBrawler"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -252px;
+  }
+  &[href="#Sm4shMiiGunner"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -252px;
+  }
+  &[href="#Sm4shMiiSwordfighter"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -280px;
+  }
+  &[href="#Sm4shMorton"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -280px;
+  }
+  &[href="#Sm4shMrGameAndWatch"], &[href="#Sm4shMrG&W"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -280px;
+  }
+  &[href="#Sm4shNess"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -280px;
+  }
+  &[href="#Sm4shOlimar"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -280px;
+  }
+  &[href="#Sm4shPacman"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -280px;
+  }
+  &[href="#Sm4shPalutena"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -280px;
+  }
+  &[href="#Sm4shPeach"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -280px;
+  }
+  &[href="#Sm4shPikachu"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -280px;
+  }
+  &[href="#Sm4shPit"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -280px;
+  }
+  &[href="#Sm4shROB"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -280px;
+  }
+  &[href="#Sm4shRosalina"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -280px;
+  }
+  &[href="#Sm4shRoy"] {
+    width: 28px;
+    height: 28px;
+    background-position: 0 -308px;
+  }
+  &[href="#Sm4shRoyKoopa"] {
+    width: 28px;
+    height: 28px;
+    background-position: -28px -308px;
+  }
+  &[href="#Sm4shRyu"] {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -308px;
+  }
+  &[href="#Sm4shSamus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -84px -308px;
+  }
+  &[href="#Sm4shSheik"] {
+    width: 28px;
+    height: 28px;
+    background-position: -112px -308px;
+  }
+  &[href="#Sm4shShulk"] {
+    width: 28px;
+    height: 28px;
+    background-position: -140px -308px;
+  }
+  &[href="#Sm4shSonic"] {
+    width: 28px;
+    height: 28px;
+    background-position: -168px -308px;
+  }
+  &[href="#Sm4shToonLink"] {
+    width: 28px;
+    height: 28px;
+    background-position: -196px -308px;
+  }
+  &[href="#Sm4shWario"] {
+    width: 28px;
+    height: 28px;
+    background-position: -224px -308px;
+  }
+  &[href="#Sm4shWendy"] {
+    width: 28px;
+    height: 28px;
+    background-position: -252px -308px;
+  }
+  &[href="#Sm4shYoshi"] {
+    width: 28px;
+    height: 28px;
+    background-position: -280px -308px;
+  }
+  &[href="#Sm4shZelda"] {
+    width: 28px;
+    height: 28px;
+    background-position: -308px -308px;
+  }
+  &[href="#Sm4shZeroSuitSamus"], &[href="#Sm4shZSSamus"] {
+    width: 28px;
+    height: 28px;
+    background-position: -336px 0;
+  }
+  &[title="fade"] {
+    opacity: .2;
+  }
+}
+
+.spoiler-stamp {
+  color: #d10023;
+}
+
+/* spoilers img */
+
+.thumbnail.spoiler {
+  background-image: url(%%clg-spoilericon-17-1%%);
+  background-position: 0 0;
+}
+
+/* code block background */
+
+.md {
+  pre {
+    background-color: #343434;
+    border: 1px solid #000;
+    code {
+      background-color: #343434;
+    }
+  }
+  blockquote {
+    color: #888;
+  }
+}
+
+/* make blockquotes lighter */
+
+/* fix link text color in new comments */
+
+.new-comment .entry:not(.RES-keyNav-activeElement) .md p a {
+  color: purple !important;
+}
+
+/* Fix for RES select highlight */
+
+.thing .entry.res-selected, .usertext .entry.res-selected {
+  background: transparent !important;
+  .md-container {
+    background: transparent !important;
+  }
+}
+
+/** Champion Icons **/
+
+.md a[href^="#c-"] {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  background-image: url(%%champion-flair%%);
+  border-radius: 2px;
+  font-size: 0;
+}
+
+.flair-aatrox::before, a[href="#c-aatrox"] {
+  background-position: -1px -3px;
+}
+
+.flair-ahri::before, a[href="#c-ahri"] {
+  background-position: -25px -3px;
+}
+
+.flair-akali::before, a[href="#c-akali"] {
+  background-position: -49px -3px;
+}
+
+.flair-alistar::before, a[href="#c-alistar"] {
+  background-position: -73px -3px;
+}
+
+.flair-amumu::before, a[href="#c-amumu"] {
+  background-position: -97px -3px;
+}
+
+.flair-anivia::before, a[href="#c-anivia"] {
+  background-position: -121px -3px;
+}
+
+.flair-annie::before, a[href="#c-annie"] {
+  background-position: -145px -3px;
+}
+
+.flair-ashe::before, a[href="#c-ashe"] {
+  background-position: -169px -3px;
+}
+
+.flair-aurelionsol::before, a[href="#c-aurelionsol"] {
+  background-position: -193px -3px;
+}
+
+.flair-azir::before, a[href="#c-azir"] {
+  background-position: -217px -3px;
+}
+
+.flair-bard::before, a[href="#c-bard"] {
+  background-position: -1px -27px;
+}
+
+.flair-blitzcrank::before, a[href="#c-blitzcrank"] {
+  background-position: -25px -27px;
+}
+
+.flair-brand::before, a[href="#c-brand"] {
+  background-position: -49px -27px;
+}
+
+.flair-braum::before, a[href="#c-braum"] {
+  background-position: -73px -27px;
+}
+
+.flair-caitlyn::before, a[href="#c-caitlyn"] {
+  background-position: -97px -27px;
+}
+
+.flair-camille::before, a[href="#c-camille"] {
+  background-position: -121px -27px;
+}
+
+.flair-cassiopeia::before, a[href="#c-cassiopeia"] {
+  background-position: -145px -27px;
+}
+
+.flair-chogath::before, a[href="#c-chogath"] {
+  background-position: -169px -27px;
+}
+
+.flair-corki::before, a[href="#c-corki"] {
+  background-position: -193px -27px;
+}
+
+.flair-darius::before, a[href="#c-darius"] {
+  background-position: -217px -27px;
+}
+
+.flair-diana::before, a[href="#c-diana"] {
+  background-position: -1px -51px;
+}
+
+.flair-draven::before, a[href="#c-draven"] {
+  background-position: -25px -51px;
+}
+
+.flair-drmundo::before, a[href="#c-drmundo"] {
+  background-position: -49px -51px;
+}
+
+.flair-ekko::before, a[href="#c-ekko"] {
+  background-position: -73px -51px;
+}
+
+.flair-elise::before, a[href="#c-elise"] {
+  background-position: -97px -51px;
+}
+
+.flair-evelynn::before, a[href="#c-evelynn"] {
+  background-position: -121px -51px;
+}
+
+.flair-ezreal::before, a[href="#c-ezreal"] {
+  background-position: -145px -51px;
+}
+
+.flair-fiddlesticks::before, a[href="#c-fiddlesticks"] {
+  background-position: -169px -51px;
+}
+
+.flair-fiora::before, a[href="#c-fiora"] {
+  background-position: -193px -51px;
+}
+
+.flair-fizz::before, a[href="#c-fizz"] {
+  background-position: -217px -51px;
+}
+
+.flair-galio::before, a[href="#c-galio"] {
+  background-position: -1px -75px;
+}
+
+.flair-gangplank::before, a[href="#c-gangplank"] {
+  background-position: -25px -75px;
+}
+
+.flair-garen::before, a[href="#c-garen"] {
+  background-position: -49px -75px;
+}
+
+.flair-gnar::before, a[href="#c-gnar"] {
+  background-position: -73px -75px;
+}
+
+.flair-gragas::before, a[href="#c-gragas"] {
+  background-position: -97px -75px;
+}
+
+.flair-graves::before, a[href="#c-graves"] {
+  background-position: -121px -75px;
+}
+
+.flair-hecarim::before, a[href="#c-hecarim"] {
+  background-position: -145px -75px;
+}
+
+.flair-heimerdinger::before, a[href="#c-heimerdinger"] {
+  background-position: -169px -75px;
+}
+
+.flair-illaoi::before, a[href="#c-illaoi"] {
+  background-position: -193px -75px;
+}
+
+.flair-irelia::before, a[href="#c-irelia"] {
+  background-position: -217px -75px;
+}
+
+.flair-ivern::before, a[href="#c-ivern"] {
+  background-position: -1px -99px;
+}
+
+.flair-janna::before, a[href="#c-janna"] {
+  background-position: -25px -99px;
+}
+
+.flair-jarvaniv::before, a[href="#c-jarvaniv"] {
+  background-position: -49px -99px;
+}
+
+.flair-jax::before, a[href="#c-jax"] {
+  background-position: -73px -99px;
+}
+
+.flair-jayce::before, a[href="#c-jayce"] {
+  background-position: -97px -99px;
+}
+
+.flair-jhin::before, a[href="#c-jhin"] {
+  background-position: -121px -99px;
+}
+
+.flair-jinx::before, a[href="#c-jinx"] {
+  background-position: -145px -99px;
+}
+
+.flair-kalista::before, a[href="#c-kalista"] {
+  background-position: -169px -99px;
+}
+
+.flair-karma::before, a[href="#c-karma"] {
+  background-position: -193px -99px;
+}
+
+.flair-karthus::before, a[href="#c-karthus"] {
+  background-position: -217px -99px;
+}
+
+.flair-kassadin::before, a[href="#c-kassadin"] {
+  background-position: -1px -123px;
+}
+
+.flair-katarina::before, a[href="#c-katarina"] {
+  background-position: -25px -123px;
+}
+
+.flair-kayle::before, a[href="#c-kayle"] {
+  background-position: -49px -123px;
+}
+
+.flair-kayn::before, a[href="#c-kayn"] {
+  background-position: -73px -123px;
+}
+
+.flair-kennen::before, a[href="#c-kennen"] {
+  background-position: -97px -123px;
+}
+
+.flair-khazix::before, a[href="#c-khazix"] {
+  background-position: -121px -123px;
+}
+
+.flair-kindred::before, a[href="#c-kindred"] {
+  background-position: -145px -123px;
+}
+
+.flair-kled::before, a[href="#c-kled"] {
+  background-position: -169px -123px;
+}
+
+.flair-kogmaw::before, a[href="#c-kogmaw"] {
+  background-position: -193px -123px;
+}
+
+.flair-leblanc::before, a[href="#c-leblanc"] {
+  background-position: -217px -123px;
+}
+
+.flair-leesin::before, a[href="#c-leesin"] {
+  background-position: -1px -147px;
+}
+
+.flair-leona::before, a[href="#c-leona"] {
+  background-position: -25px -147px;
+}
+
+.flair-lissandra::before, a[href="#c-lissandra"] {
+  background-position: -49px -147px;
+}
+
+.flair-lucian::before, a[href="#c-lucian"] {
+  background-position: -73px -147px;
+}
+
+.flair-lulu::before, a[href="#c-lulu"] {
+  background-position: -97px -147px;
+}
+
+.flair-lux::before, a[href="#c-lux"] {
+  background-position: -121px -147px;
+}
+
+.flair-malphite::before, a[href="#c-malphite"] {
+  background-position: -145px -147px;
+}
+
+.flair-malzahar::before, a[href="#c-malzahar"] {
+  background-position: -169px -147px;
+}
+
+.flair-maokai::before, a[href="#c-maokai"] {
+  background-position: -193px -147px;
+}
+
+.flair-masteryi::before, a[href="#c-masteryi"] {
+  background-position: -217px -147px;
+}
+
+.flair-missfortune::before, a[href="#c-missfortune"] {
+  background-position: -1px -171px;
+}
+
+.flair-mordekaiser::before, a[href="#c-mordekaiser"] {
+  background-position: -49px -171px;
+}
+
+.flair-morgana::before, a[href="#c-morgana"] {
+  background-position: -73px -171px;
+}
+
+.flair-nami::before, a[href="#c-nami"] {
+  background-position: -97px -171px;
+}
+
+.flair-nasus::before, a[href="#c-nasus"] {
+  background-position: -121px -171px;
+}
+
+.flair-nautilus::before, a[href="#c-nautilus"] {
+  background-position: -145px -171px;
+}
+
+.flair-nidalee::before, a[href="#c-nidalee"] {
+  background-position: -169px -171px;
+}
+
+.flair-nocturne::before, a[href="#c-nocturne"] {
+  background-position: -193px -171px;
+}
+
+.flair-nunu::before, a[href="#c-nunu"] {
+  background-position: -217px -171px;
+}
+
+.flair-olaf::before, a[href="#c-olaf"] {
+  background-position: -1px -195px;
+}
+
+.flair-orianna::before, a[href="#c-orianna"] {
+  background-position: -25px -195px;
+}
+
+.flair-ornn::before, a[href="#c-ornn"] {
+  background-position: -49px -195px;
+}
+
+.flair-pantheon::before, a[href="#c-pantheon"] {
+  background-position: -73px -195px;
+}
+
+.flair-poppy::before, a[href="#c-poppy"] {
+  background-position: -97px -195px;
+}
+
+.flair-quinn::before, a[href="#c-quinn"] {
+  background-position: -121px -195px;
+}
+
+.flair-rakan::before, a[href="#c-rakan"] {
+  background-position: -145px -195px;
+}
+
+.flair-rammus::before, a[href="#c-rammus"] {
+  background-position: -169px -195px;
+}
+
+.flair-reksai::before, a[href="#c-reksai"] {
+  background-position: -193px -195px;
+}
+
+.flair-renekton::before, a[href="#c-renekton"] {
+  background-position: -217px -195px;
+}
+
+.flair-rengar::before, a[href="#c-rengar"] {
+  background-position: -1px -219px;
+}
+
+.flair-riven::before, a[href="#c-riven"] {
+  background-position: -25px -219px;
+}
+
+.flair-rumble::before, a[href="#c-rumble"] {
+  background-position: -49px -219px;
+}
+
+.flair-ryze::before, a[href="#c-ryze"] {
+  background-position: -73px -219px;
+}
+
+.flair-sejuani::before, a[href="#c-sejuani"] {
+  background-position: -97px -219px;
+}
+
+.flair-shaco::before, a[href="#c-shaco"] {
+  background-position: -121px -219px;
+}
+
+.flair-shen::before, a[href="#c-shen"] {
+  background-position: -145px -219px;
+}
+
+.flair-shyvana::before, a[href="#c-shyvana"] {
+  background-position: -169px -219px;
+}
+
+.flair-singed::before, a[href="#c-singed"] {
+  background-position: -193px -219px;
+}
+
+.flair-sion::before, a[href="#c-sion"] {
+  background-position: -217px -219px;
+}
+
+.flair-sivir::before, a[href="#c-sivir"] {
+  background-position: -1px -243px;
+}
+
+.flair-skarner::before, a[href="#c-skarner"] {
+  background-position: -25px -243px;
+}
+
+.flair-sona::before, a[href="#c-sona"] {
+  background-position: -49px -243px;
+}
+
+.flair-soraka::before, a[href="#c-soraka"] {
+  background-position: -73px -243px;
+}
+
+.flair-swain::before, a[href="#c-swain"] {
+  background-position: -97px -243px;
+}
+
+.flair-syndra::before, a[href="#c-syndra"] {
+  background-position: -121px -243px;
+}
+
+.flair-tahmkench::before, a[href="#c-tahmkench"] {
+  background-position: -145px -243px;
+}
+
+.flair-taliyah::before, a[href="#c-taliyah"] {
+  background-position: -169px -243px;
+}
+
+.flair-talon::before, a[href="#c-talon"] {
+  background-position: -193px -243px;
+}
+
+.flair-taric::before, a[href="#c-taric"] {
+  background-position: -217px -243px;
+}
+
+.flair-teemo::before, a[href="#c-teemo"] {
+  background-position: -1px -267px;
+}
+
+.flair-thresh::before, a[href="#c-thresh"] {
+  background-position: -25px -267px;
+}
+
+.flair-tristana::before, a[href="#c-tristana"] {
+  background-position: -49px -267px;
+}
+
+.flair-trundle::before, a[href="#c-trundle"] {
+  background-position: -73px -267px;
+}
+
+.flair-tryndamere::before, a[href="#c-tryndamere"] {
+  background-position: -97px -267px;
+}
+
+.flair-twistedfate::before, a[href="#c-twistedfate"] {
+  background-position: -121px -267px;
+}
+
+.flair-twitch::before, a[href="#c-twitch"] {
+  background-position: -145px -267px;
+}
+
+.flair-udyr::before, a[href="#c-udyr"] {
+  background-position: -169px -267px;
+}
+
+.flair-urgot::before, a[href="#c-urgot"] {
+  background-position: -193px -267px;
+}
+
+.flair-varus::before, a[href="#c-varus"] {
+  background-position: -217px -267px;
+}
+
+.flair-vayne::before, a[href="#c-vayne"] {
+  background-position: -1px -291px;
+}
+
+.flair-veigar::before, a[href="#c-veigar"] {
+  background-position: -25px -291px;
+}
+
+.flair-velkoz::before, a[href="#c-velkoz"] {
+  background-position: -49px -291px;
+}
+
+.flair-vi::before, a[href="#c-vi"] {
+  background-position: -73px -291px;
+}
+
+.flair-viktor::before, a[href="#c-viktor"] {
+  background-position: -97px -291px;
+}
+
+.flair-vladimir::before, a[href="#c-vladimir"] {
+  background-position: -121px -291px;
+}
+
+.flair-volibear::before, a[href="#c-volibear"] {
+  background-position: -145px -291px;
+}
+
+.flair-warwick::before, a[href="#c-warwick"] {
+  background-position: -169px -291px;
+}
+
+.flair-wukong::before, a[href="#c-wukong"] {
+  background-position: -25px -171px;
+}
+
+.flair-xayah::before, a[href="#c-xayah"] {
+  background-position: -193px -291px;
+}
+
+.flair-xerath::before, a[href="#c-xerath"] {
+  background-position: -217px -291px;
+}
+
+.flair-xinzhao::before, a[href="#c-xinzhao"] {
+  background-position: -1px -315px;
+}
+
+.flair-yasuo::before, a[href="#c-yasuo"] {
+  background-position: -25px -315px;
+}
+
+.flair-yorick::before, a[href="#c-yorick"] {
+  background-position: -49px -315px;
+}
+
+.flair-zac::before, a[href="#c-zac"] {
+  background-position: -73px -315px;
+}
+
+.flair-zed::before, a[href="#c-zed"] {
+  background-position: -97px -315px;
+}
+
+.flair-ziggs::before, a[href="#c-ziggs"] {
+  background-position: -121px -315px;
+}
+
+.flair-zilean::before, a[href="#c-zilean"] {
+  background-position: -145px -315px;
+}
+
+.flair-zoe::before, a[href="#c-zoe"] {
+  background-position: -169px -315px;
+}
+
+.flair-zyra::before {
+  background-position: -193px -315px;
+}
+
+a {
+  &[href="#c-zyra"] {
+    background-position: -193px -315px;
+  }
+  &[href^="#mt-"] {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(%%match-thread-icons%%);
+    font-size: 0;
+  }
+  &[href^="#mt-infernal"] {
+    background-position: 0 0;
+  }
+  &[href^="#mt-mountain"] {
+    background-position: -22px 0;
+  }
+  &[href^="#mt-ocean"] {
+    background-position: -44px 0;
+  }
+  &[href^="#mt-cloud"] {
+    background-position: -66px 0;
+  }
+  &[href^="#mt-elder"] {
+    background-position: 0 -22px;
+  }
+  &[href^="#mt-barons"] {
+    background-position: -66px -22px;
+  }
+  &[href^="#mt-gold"] {
+    background-position: -22px -22px;
+  }
+  &[href^="#mt-towers"] {
+    background-position: 0 -44px;
+  }
+  &[href^="#mt-herald"] {
+    background-position: -22px -44px;
+  }
+  &[href^="#c-noban"] {
+    background-image: url(%%match-thread-icons%%) !important;
+    background-position: -44px -44px;
+  }
+  &[href^="#mt-kills"] {
+    background-position: -44px -22px;
+  }
+}
+
+/** Math Thread Icons **/
+
+/** Item Icons **/
+
+.md a[href^="#i-"] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(%%item-flair%%);
+  border-radius: 2px;
+  font-size: 0;
+}
+
+a {
+  &[href="#i-abyssalmask"] {
+    background-position: -48px -168px;
+  }
+  &[href="#i-adaptivehelm"] {
+    background-position: -120px -432px;
+  }
+  &[href="#i-aegisofthelegion"] {
+    background-position: -216px -312px;
+  }
+  &[href="#i-aetherwisp"] {
+    background-position: -144px -336px;
+  }
+  &[href="#i-amplifyingtome"] {
+    background-position: -216px -24px;
+  }
+  &[href="#i-ancientcoin"] {
+    background-position: -96px -456px;
+  }
+  &[href="#i-arcanesweeper"] {
+    background-position: -216px -480px;
+  }
+  &[href="#i-archangelsstaff"] {
+    background-position: -72px -168px;
+  }
+  &[href="#i-ardentcenser"] {
+    background-position: -48px -552px;
+  }
+  &[href="#i-athenesunholygrail"] {
+    background-position: -144px -408px;
+  }
+  &[href="#i-bamiscinder"] {
+    background-position: 0px -648px;
+  }
+  &[href="#i-bannerofcommand"] {
+    background-position: -168px -240px;
+  }
+  &[href="#i-bansheesveil"] {
+    background-position: -168px -312px;
+  }
+  &[href="#i-berserkersgreaves"] {
+    background-position: -120px -168px;
+  }
+  &[href="#i-bfsword"] {
+    background-position: -72px -24px;
+  }
+  &[href="#i-bilgewatercutlass"] {
+    background-position: -72px -384px;
+  }
+  &[href="#i-bladeoftheruinedking"] {
+    background-position: -216px -384px;
+  }
+  &[href="#i-blastingwand"] {
+    background-position: -120px 0px;
+  }
+  &[href="#i-bootsofmobility"] {
+    background-position: 0px -360px;
+  }
+  &[href="#i-bootsofspeed"] {
+    background-position: 0px 0px;
+  }
+  &[href="#i-bootsofswiftness"] {
+    background-position: -192px -168px;
+  }
+  &[href="#i-bramblevest"] {
+    background-position: -192px -264px;
+  }
+  &[href="#i-brawlersgloves"] {
+    background-position: -192px -24px;
+  }
+  &[href="#i-brokenstopwatch"] {
+    background-position: -24px -168px;
+  }
+  &[href="#i-catalystofaeons"] {
+    background-position: -216px -168px;
+  }
+  &[href="#i-caulfieldswarhammer"] {
+    background-position: -96px -360px;
+  }
+  &[href="#i-chainvest"] {
+    background-position: -216px 0px;
+  }
+  &[href="#i-chaliceofharmony"] {
+    background-position: -144px -192px;
+  }
+  &[href="#i-circletoftheironsolari"] {
+    background-position: 0px -528px;
+  }
+  &[href="#i-cloakofagility"] {
+    background-position: -96px 0px;
+  }
+  &[href="#i-cloakofstars"] {
+    background-position: -96px -624px;
+  }
+  &[href="#i-clotharmor"] {
+    background-position: -192px 0px;
+  }
+  &[href="#i-commencingstopwatch"] {
+    background-position: -144px -144px;
+  }
+  &[href="#i-controlward"] {
+    background-position: -72px -120px;
+  }
+  &[href="#i-corruptingpotion"] {
+    background-position: -144px -96px;
+  }
+  &[href="#i-cosmicshackle"] {
+    background-position: 0px -624px;
+  }
+  &[href="#i-crystallinebracer"] {
+    background-position: -48px -648px;
+  }
+  &[href="#i-cull"] {
+    background-position: -168px -48px;
+  }
+  &[href="#i-dagger"] {
+    background-position: -144px -24px;
+  }
+  &[href="#i-darkmatterscythe"] {
+    background-position: -48px -624px;
+  }
+  &[href="#i-darkstarsigil"] {
+    background-position: -120px -624px;
+  }
+  &[href="#i-deadmansplate"] {
+    background-position: -192px -624px;
+  }
+  &[href="#i-deathsdance"] {
+    background-position: -96px -648px;
+  }
+  &[href="#i-deathsdaughter"] {
+    background-position: -168px -648px;
+  }
+  &[href="#i-dervishblade"] {
+    background-position: -192px -360px;
+  }
+  &[href="#i-dietporosnax"] {
+    background-position: -48px -120px;
+  }
+  &[href="#i-doransblade"] {
+    background-position: -48px -48px;
+  }
+  &[href="#i-doransring"] {
+    background-position: -72px -48px;
+  }
+  &[href="#i-doransshield"] {
+    background-position: -24px -48px;
+  }
+  &[href="#i-duskbladeofdraktharr"] {
+    background-position: -144px -384px;
+  }
+  &[href="#i-edgeofnight"] {
+    background-position: -120px -648px;
+  }
+  &[href="#i-elixirofiron"] {
+    background-position: -24px -144px;
+  }
+  &[href="#i-elixirofskill"] {
+    background-position: 0px -96px;
+  }
+  &[href="#i-elixirofsorcery"] {
+    background-position: -48px -144px;
+  }
+  &[href="#i-elixirofwrath"] {
+    background-position: -72px -144px;
+  }
+  &[href="#i-enchantmentbloodrazor"] {
+    background-position: -120px -600px;
+  }
+  &[href="#i-enchantmentcinderhulk"] {
+    background-position: -72px -600px;
+  }
+  &[href="#i-enchantmentrunicechoes"] {
+    background-position: -96px -600px;
+  }
+  &[href="#i-enchantmentwarrior"] {
+    background-position: -48px -600px;
+  }
+  &[href="#i-entropyfield"] {
+    background-position: -168px -576px;
+  }
+  &[href="#i-espressosnax"] {
+    background-position: -192px -600px;
+  }
+  &[href="#i-essencereaver"] {
+    background-position: -72px -552px;
+  }
+  &[href="#i-executionerscalling"] {
+    background-position: -48px -360px;
+  }
+  &[href="#i-explorersward"] {
+    background-position: -192px -96px;
+  }
+  &[href="#i-eyeoftheherald"] {
+    background-position: -120px -552px;
+  }
+  &[href="#i-faeriecharm"] {
+    background-position: -24px 0px;
+  }
+  &[href="#i-farsightalteration"] {
+    background-position: -48px -504px;
+  }
+  &[href="#i-fiendishcodex"] {
+    background-position: -24px -336px;
+  }
+  &[href="#i-fireatwill"] {
+    background-position: -144px -648px;
+  }
+  &[href="#i-flashzone"] {
+    background-position: -96px -576px;
+  }
+  &[href="#i-forbiddenidol"] {
+    background-position: -168px -336px;
+  }
+  &[href="#i-forgefirecape"] {
+    background-position: -120px -504px;
+  }
+  &[href="#i-frostedsnax"] {
+    background-position: -144px -600px;
+  }
+  &[href="#i-frostfang"] {
+    background-position: -96px -312px;
+  }
+  &[href="#i-frozenheart"] {
+    background-position: -72px -336px;
+  }
+  &[href="#i-frozenmallet"] {
+    background-position: -24px -192px;
+  }
+  &[href="#i-gargoylestoneplate"] {
+    background-position: -96px -432px;
+  }
+  &[href="#i-giantsbelt"] {
+    background-position: -72px 0px;
+  }
+  &[href="#i-giantslayer"] {
+    background-position: -24px -216px;
+  }
+  &[href="#i-glacialshroud"] {
+    background-position: -48px -192px;
+  }
+  &[href="#i-goldentranscendence"] {
+    background-position: -216px -528px;
+  }
+  &[href="#i-gravityboots"] {
+    background-position: -72px -624px;
+  }
+  &[href="#i-greaterstealthtotemtrinket"] {
+    background-position: 0px -504px;
+  }
+  &[href="#i-greatervisiontotemtrinket"] {
+    background-position: -24px -504px;
+  }
+  &[href="#i-guardianangel"] {
+    background-position: -96px -192px;
+  }
+  &[href="#i-guardianshammer"] {
+    background-position: -216px -408px;
+  }
+  &[href="#i-guardianshorn"] {
+    background-position: -216px -96px;
+  }
+  &[href="#i-guardiansorb"] {
+    background-position: -120px -336px;
+  }
+  &[href="#i-guinsoosrageblade"] {
+    background-position: -72px -360px;
+  }
+  &[href="#i-hauntingguise"] {
+    background-position: -168px -360px;
+  }
+  &[href="#i-headofkhazix"] {
+    background-position: -192px -528px;
+  }
+  &[href="#i-healthpotion"] {
+    background-position: -144px -72px;
+  }
+  &[href="#i-hexdrinker"] {
+    background-position: 0px -408px;
+  }
+  &[href="#i-hextechglp800"] {
+    background-position: -192px -192px;
+  }
+  &[href="#i-hextechgunblade"] {
+    background-position: -120px -384px;
+  }
+  &[href="#i-hextechprotobelt01"] {
+    background-position: -192px -384px;
+  }
+  &[href="#i-hextechrevolver"] {
+    background-position: -96px -384px;
+  }
+  &[href="#i-huntersmachete"] {
+    background-position: -120px -24px;
+  }
+  &[href="#i-hunterspotion"] {
+    background-position: -120px -96px;
+  }
+  &[href="#i-hunterstalisman"] {
+    background-position: -96px -24px;
+  }
+  &[href="#i-iceborngauntlet"] {
+    background-position: -72px -192px;
+  }
+  &[href="#i-infernalmask"] {
+    background-position: -168px -504px;
+  }
+  &[href="#i-infinityedge"] {
+    background-position: -216px -192px;
+  }
+  &[href="#i-ionianbootsoflucidity"] {
+    background-position: -72px -408px;
+  }
+  &[href="#i-jaurimsfist"] {
+    background-position: -72px -240px;
+  }
+  &[href="#i-kindlegem"] {
+    background-position: -216px -240px;
+  }
+  &[href="#i-kircheisshard"] {
+    background-position: -72px -96px;
+  }
+  &[href="#i-knightsvow"] {
+    background-position: -48px -336px;
+  }
+  &[href="#i-lastwhisper"] {
+    background-position: -48px -216px;
+  }
+  &[href="#i-liandrystorment"] {
+    background-position: -168px -384px;
+  }
+  &[href="#i-lichbane"] {
+    background-position: -120px -312px;
+  }
+  &[href="#i-locketoftheironsolari"] {
+    background-position: -48px -432px;
+  }
+  &[href="#i-longsword"] {
+    background-position: -24px -24px;
+  }
+  &[href="#i-lootedbiscuitofrejuvenation"] {
+    background-position: -24px -96px;
+  }
+  &[href="#i-lootedoraclesextract"] {
+    background-position: -48px -96px;
+  }
+  &[href="#i-lorddominiksregards"] {
+    background-position: -72px -216px;
+  }
+  &[href="#i-lordvandammspillager"] {
+    background-position: -192px -312px;
+  }
+  &[href="#i-lostchapter"] {
+    background-position: -72px -648px;
+  }
+  &[href="#i-ludensecho"] {
+    background-position: -72px -456px;
+  }
+  &[href="#i-manamune"] {
+    background-position: -96px -168px;
+  }
+  &[href="#i-manapotion"] {
+    background-position: -168px -72px;
+  }
+  &[href="#i-mawofmalmortius"] {
+    background-position: -24px -408px;
+  }
+  &[href="#i-mejaissoulstealer"] {
+    background-position: -120px -216px;
+  }
+  &[href="#i-mercurialscimitar"] {
+    background-position: -216px -360px;
+  }
+  &[href="#i-mercurystreads"] {
+    background-position: -96px -336px;
+  }
+  &[href="#i-mikaelscrucible"] {
+    background-position: -24px -456px;
+  }
+  &[href="#i-miniondematerializer"] {
+    background-position: -120px -144px;
+  }
+  &[href="#i-moltenedge"] {
+    background-position: -96px -504px;
+  }
+  &[href="#i-moonflairspellblade"] {
+    background-position: -120px -408px;
+  }
+  &[href="#i-morellonomicon"] {
+    background-position: -96px -408px;
+  }
+  &[href="#i-mortalreminder"] {
+    background-position: 0px -216px;
+  }
+  &[href="#i-muramana"] {
+    background-position: -168px -216px;
+  }
+  &[href="#i-nashorstooth"] {
+    background-position: -192px -336px;
+  }
+  &[href="#i-needlesslylargerod"] {
+    background-position: -120px -48px;
+  }
+  &[href="#i-negatroncloak"] {
+    background-position: -96px -48px;
+  }
+  &[href="#i-ninjatabi"] {
+    background-position: 0px -240px;
+  }
+  &[href="#i-nomadsmedallion"] {
+    background-position: -48px -312px;
+  }
+  &[href="#i-nullmagicmantle"] {
+    background-position: 0px -24px;
+  }
+  &[href="#i-oblivionorb"] {
+    background-position: -24px -672px;
+  }
+  &[href="#i-ohmwrecker"] {
+    background-position: -120px -240px;
+  }
+  &[href="#i-oraclealteration"] {
+    background-position: -72px -504px;
+  }
+  &[href="#i-oraclesextract"] {
+    background-position: -168px -96px;
+  }
+  &[href="#i-overlordsbloodmail"] {
+    background-position: -72px -288px;
+  }
+  &[href="#i-peeringfarsightward"] {
+    background-position: -120px -120px;
+  }
+  &[href="#i-perfecthexcore"] {
+    background-position: -192px -432px;
+  }
+  &[href="#i-phage"] {
+    background-position: -192px -216px;
+  }
+  &[href="#i-phantomdancer"] {
+    background-position: -216px -216px;
+  }
+  &[href="#i-pickaxe"] {
+    background-position: -48px -24px;
+  }
+  &[href="#i-pilferedhealthpotion"] {
+    background-position: -216px -120px;
+  }
+  &[href="#i-pilferedpotionofrouge"] {
+    background-position: 0px -144px;
+  }
+  &[href="#i-pilferedstealthward"] {
+    background-position: -96px -120px;
+  }
+  &[href="#i-poachersdirk"] {
+    background-position: -48px -456px;
+  }
+  &[href="#i-porosnax"] {
+    background-position: 0px -120px;
+  }
+  &[href="#i-portpad"] {
+    background-position: -24px -576px;
+  }
+  &[href="#i-prototypehexcore"] {
+    background-position: -216px -432px;
+  }
+  &[href="#i-quicksilversash"] {
+    background-position: 0px -384px;
+  }
+  &[href="#i-rabadonsdeathcap"] {
+    background-position: -168px -288px;
+  }
+  &[href="#i-rabadonsdeathcrown"] {
+    background-position: -144px -504px;
+  }
+  &[href="#i-rainbowsnaxpartypack"] {
+    background-position: -216px -600px;
+  }
+  &[href="#i-raisemorale"] {
+    background-position: -192px -648px;
+  }
+  &[href="#i-randuinsomen"] {
+    background-position: -48px -384px;
+  }
+  &[href="#i-rapidfirecannon"] {
+    background-position: -24px -312px;
+  }
+  &[href="#i-raptorcloak"] {
+    background-position: -24px -120px;
+  }
+  &[href="#i-ravenoushydra"] {
+    background-position: -144px -264px;
+  }
+  &[href="#i-recurvebow"] {
+    background-position: -168px -24px;
+  }
+  &[href="#i-redemption"] {
+    background-position: 0px -336px;
+  }
+  &[href="#i-refillablepotion"] {
+    background-position: -96px -96px;
+  }
+  &[href="#i-rejuvenationbead"] {
+    background-position: -48px 0px;
+  }
+  &[href="#i-relicshield"] {
+    background-position: -120px -456px;
+  }
+  &[href="#i-remnantoftheascended"] {
+    background-position: -24px -264px;
+  }
+  &[href="#i-remnantoftheaspect"] {
+    background-position: -96px -528px;
+  }
+  &[href="#i-remnantofthewatchers"] {
+    background-position: 0px -312px;
+  }
+  &[href="#i-righteousglory"] {
+    background-position: -24px -648px;
+  }
+  &[href="#i-rodofages"] {
+    background-position: -120px -192px;
+  }
+  &[href="#i-rubycrystal"] {
+    background-position: -168px 0px;
+  }
+  &[href="#i-runaanshurricane"] {
+    background-position: -96px -288px;
+  }
+  &[href="#i-rylaiscrystalscepter"] {
+    background-position: -216px -336px;
+  }
+  &[href="#i-salvation"] {
+    background-position: -216px -504px;
+  }
+  &[href="#i-sanguineblade"] {
+    background-position: -192px -408px;
+  }
+  &[href="#i-sapphirecrystal"] {
+    background-position: -144px 0px;
+  }
+  &[href="#i-seekersarmguard"] {
+    background-position: -72px -432px;
+  }
+  &[href="#i-seerstonetrinket"] {
+    background-position: -192px -576px;
+  }
+  &[href="#i-seraphsembrace"] {
+    background-position: -24px -240px;
+  }
+  &[href="#i-serrateddirk"] {
+    background-position: -120px -360px;
+  }
+  &[href="#i-sheen"] {
+    background-position: -144px -240px;
+  }
+  &[href="#i-shieldtotem"] {
+    background-position: -216px -576px;
+  }
+  &[href="#i-siegeballista"] {
+    background-position: -192px -552px;
+  }
+  &[href="#i-siegerefund"] {
+    background-position: -144px -576px;
+  }
+  &[href="#i-siegesightwarder"] {
+    background-position: -24px -600px;
+  }
+  &[href="#i-siegeteleport"] {
+    background-position: -216px -552px;
+  }
+  &[href="#i-singularitylantern"] {
+    background-position: -24px -624px;
+  }
+  &[href="#i-skirmisherssabre"] {
+    background-position: -168px -624px;
+  }
+  &[href="#i-slightlymagicalboots"] {
+    background-position: -216px -144px;
+  }
+  &[href="#i-slysackofgold"] {
+    background-position: -96px -144px;
+  }
+  &[href="#i-sorcerersshoes"] {
+    background-position: 0px -192px;
+  }
+  &[href="#i-soulanchortrinket"] {
+    background-position: -192px -480px;
+  }
+  &[href="#i-spectrescowl"] {
+    background-position: 0px -456px;
+  }
+  &[href="#i-spellbinder"] {
+    background-position: 0px -672px;
+  }
+  &[href="#i-spellthiefsedge"] {
+    background-position: -144px -456px;
+  }
+  &[href="#i-spiritvisage"] {
+    background-position: -192px -240px;
+  }
+  &[href="#i-stalkersblade"] {
+    background-position: -144px -624px;
+  }
+  &[href="#i-statikkshiv"] {
+    background-position: -144px -288px;
+  }
+  &[href="#i-steraksgage"] {
+    background-position: -96px -240px;
+  }
+  &[href="#i-stinger"] {
+    background-position: -144px -312px;
+  }
+  &[href="#i-stopwatch"] {
+    background-position: 0px -168px;
+  }
+  &[href="#i-sunfirecape"] {
+    background-position: 0px -264px;
+  }
+  &[href="#i-superspicysnax"] {
+    background-position: -168px -600px;
+  }
+  &[href="#i-sweepinglenstrinket"] {
+    background-position: -168px -480px;
+  }
+  &[href="#i-targonsbrace"] {
+    background-position: -72px -312px;
+  }
+  &[href="#i-tearofthegoddess"] {
+    background-position: -48px -264px;
+  }
+  &[href="#i-theblackcleaver"] {
+    background-position: -72px -264px;
+  }
+  &[href="#i-theblackspear"] {
+    background-position: -144px -552px;
+  }
+  &[href="#i-thebloodthirster"] {
+    background-position: -96px -264px;
+  }
+  &[href="#i-thedarkseal"] {
+    background-position: -144px -48px;
+  }
+  &[href="#i-thehexcoremk1"] {
+    background-position: -144px -432px;
+  }
+  &[href="#i-thehexcoremk2"] {
+    background-position: -168px -432px;
+  }
+  &[href="#i-thelightbringer"] {
+    background-position: 0px -432px;
+  }
+  &[href="#i-theobsidiancleaver"] {
+    background-position: -192px -504px;
+  }
+  &[href="#i-thornmail"] {
+    background-position: -168px -264px;
+  }
+  &[href="#i-tiamat"] {
+    background-position: -216px -264px;
+  }
+  &[href="#i-timewornancientcoin"] {
+    background-position: -168px -456px;
+  }
+  &[href="#i-timewornfaceofthemountain"] {
+    background-position: -48px -480px;
+  }
+  &[href="#i-timewornfrostfang"] {
+    background-position: -96px -480px;
+  }
+  &[href="#i-timewornfrostqueensclaim"] {
+    background-position: -120px -480px;
+  }
+  &[href="#i-timewornnomadsmedallion"] {
+    background-position: -192px -456px;
+  }
+  &[href="#i-timewornrelicshield"] {
+    background-position: 0px -480px;
+  }
+  &[href="#i-timewornspellthiefsedge"] {
+    background-position: -72px -480px;
+  }
+  &[href="#i-timeworntalismanofascension"] {
+    background-position: -216px -456px;
+  }
+  &[href="#i-timeworntargonsbrace"] {
+    background-position: -24px -480px;
+  }
+  &[href="#i-titanichydra"] {
+    background-position: -216px -624px;
+  }
+  &[href="#i-totalbiscuitofeverlastingwill"] {
+    background-position: -216px -72px;
+  }
+  &[href="#i-totalbiscuitofrejuvenation"] {
+    background-position: -192px -72px;
+  }
+  &[href="#i-travelsizeelixirofiron"] {
+    background-position: -144px -120px;
+  }
+  &[href="#i-travelsizeelixirofsorcery"] {
+    background-position: -168px -120px;
+  }
+  &[href="#i-travelsizeelixirofwrath"] {
+    background-position: -192px -120px;
+  }
+  &[href="#i-trinityforce"] {
+    background-position: 0px -288px;
+  }
+  &[href="#i-trinityfusion"] {
+    background-position: -24px -528px;
+  }
+  &[href="#i-twinshadows"] {
+    background-position: -216px -648px;
+  }
+  &[href="#i-vampiricscepter"] {
+    background-position: 0px -48px;
+  }
+  &[href="#i-vanguardbanner"] {
+    background-position: -120px -576px;
+  }
+  &[href="#i-voidstaff"] {
+    background-position: -144px -360px;
+  }
+  &[href="#i-wardensmail"] {
+    background-position: -24px -288px;
+  }
+  &[href="#i-wardingtotemtrinket"] {
+    background-position: -144px -480px;
+  }
+  &[href="#i-warmogsarmor"] {
+    background-position: -48px -288px;
+  }
+  &[href="#i-wickedhatchet"] {
+    background-position: -24px -360px;
+  }
+  &[href="#i-witsend"] {
+    background-position: -216px -288px;
+  }
+  &[href="#i-woogletswitchcap"] {
+    background-position: -192px -288px;
+  }
+  &[href="#i-woogletswitchcrown"] {
+    background-position: -48px -528px;
+  }
+  &[href="#i-youmuusghostblade"] {
+    background-position: -24px -384px;
+  }
+  &[href="#i-zeal"] {
+    background-position: -120px -288px;
+  }
+  &[href="#i-zekesconvergence"] {
+    background-position: -48px -240px;
+  }
+  &[href="#i-zhonyashourglass"] {
+    background-position: -48px -408px;
+  }
+  &[href="#i-zhonyasparadox"] {
+    background-position: -72px -528px;
+  }
+  &[href="#i-zzrotportal"] {
+    background-position: -96px -552px;
+  }
+  &[href^="#mt-"] {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(%%match-thread-icons%%);
+    font-size: 0;
+  }
+  &[href^="#mt-infernal"] {
+    background-position: 0 0;
+  }
+  &[href^="#mt-mountain"] {
+    background-position: -22px 0;
+  }
+  &[href^="#mt-ocean"] {
+    background-position: -44px 0;
+  }
+  &[href^="#mt-cloud"] {
+    background-position: -66px 0;
+  }
+  &[href^="#mt-elder"] {
+    background-position: 0 -22px;
+  }
+  &[href^="#mt-barons"] {
+    background-position: -66px -22px;
+  }
+  &[href^="#mt-gold"] {
+    background-position: -22px -22px;
+  }
+  &[href^="#mt-towers"] {
+    background-position: 0 -44px;
+  }
+  &[href^="#mt-herald"] {
+    background-position: -22px -44px;
+  }
+  &[href^="#c-noban"] {
+    background-image: url(%%match-thread-icons%%) !important;
+    background-position: -44px -44px;
+  }
+  &[href^="#mt-kills"] {
+    background-position: -44px -22px;
+  }
+}
+
+/** Match Thread Icons **/
+
+/** Summoner Flairs **/
+
+.md a[href^="#ss-"] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(%%summoner-flair%%);
+  border-radius: 2px;
+  font-size: 0;
+}
+
+a {
+  &[href="#ss-barrier"] {
+    background-position: 0px 0px;
+  }
+  &[href="#ss-clarity"] {
+    background-position: -216px 0px;
+  }
+  &[href="#ss-cleanse"] {
+    background-position: -24px 0px;
+  }
+  &[href="#ss-disabledsummonerspells"] {
+    background-position: -72px 0px;
+  }
+  &[href="#ss-exhaust"] {
+    background-position: -120px 0px;
+  }
+  &[href="#ss-flash"] {
+    background-position: -144px 0px;
+  }
+  &[href="#ss-ghost"] {
+    background-position: -168px 0px;
+  }
+  &[href="#ss-heal"] {
+    background-position: -192px 0px;
+  }
+  &[href="#ss-ignite"] {
+    background-position: -96px 0px;
+  }
+  &[href="#ss-mark"] {
+    background-position: -168px -24px;
+  }
+  &[href="#ss-nexussiegesiegeweaponslot"] {
+    background-position: -72px -24px;
+  }
+  &[href="#ss-porotoss"] {
+    background-position: -24px -24px;
+  }
+  &[href="#ss-smite"] {
+    background-position: -96px -24px;
+  }
+  &[href="#ss-teleport"] {
+    background-position: -192px -24px;
+  }
+  &[href="#ss-totheking"] {
+    background-position: 0px -24px;
+  }
+  &[href="#ss-ultrarapidlyflungmark"] {
+    background-position: -120px -24px;
+  }
+  &[href="#ss-ultrareallyfastdash"] {
+    background-position: -144px -24px;
+  }
+}
+
+/** Comment Faces **/
+
+.md a {
+  &[href^="#face-"] {
+    display: inline-block;
+    width: 100px;
+    height: 101px;
+    background-image: url(%%comment-faces%%);
+    font-size: 0;
+  }
+  &[href="#face-wink"] {
+    background-position: 0 0;
+  }
+  &[href="#face-ok"] {
+    background-position: -100px 0;
+  }
+  &[href="#face-palm"] {
+    background-position: -200px 0;
+  }
+  &[href="#face-angry"] {
+    background-position: -300px 0;
+  }
+  &[href="#face-cry"] {
+    background-position: 0 -101px;
+  }
+  &[href="#face-success"] {
+    background-position: -100px -101px;
+  }
+  &[href="#face-draaaven"] {
+    background-position: -200px -101px;
+  }
+  &[href="#face-fiteme"] {
+    background-position: -300px -101px;
+  }
+  &[href="#face-love"] {
+    background-position: 0 -202px;
+  }
+  &[href="#face-yuck"] {
+    background-position: -100px -202px;
+  }
+  &[href="#face-dwi"] {
+    background-position: -200px -202px;
+  }
+  &[href="#face-flip"] {
+    background-position: -300px -202px;
+  }
+  &[href="#face-party"] {
+    background-position: 0 -303px;
+  }
+  &[href="#face-tear"] {
+    background-position: -100px -303px;
+  }
+  &[href="#face-troll"] {
+    background-position: -200px -303px;
+  }
+  &[href="#face-support"] {
+    background-position: -300px -303px;
+  }
+  &[href="#face-yeah"] {
+    background-position: 0 -404px;
+  }
+  &[href="#face-eww"] {
+    background-position: -100px -404px;
+  }
+  &[href="#face-wat"] {
+    background-position: -200px -404px;
+  }
+  &[href="#face-yandere"] {
+    background-position: -300px -404px;
+  }
+  &[href="#face-popcorn"] {
+    background-position: 0 -505px;
+  }
+  &[href="#face-happy"] {
+    background-position: -100px -505px;
+  }
+  &[href="#face-fabulous"] {
+    background-position: -200px -505px;
+  }
+  &[href="#face-sleepy"] {
+    background-position: -300px -505px;
+  }
+  &[href="#face-whoa"] {
+    background-position: 0 -606px;
+  }
+  &[href="#face-aliens"] {
+    background-position: -100px -606px;
+  }
+  &[href="#face-hmm"] {
+    background-position: -200px -606px;
+  }
+  &[href="#face-crickets"] {
+    background-position: -300px -606px;
+  }
+}
+
+/** Item Icons **/
