@@ -3,12 +3,6 @@
   display: none;
 }
 
-/* Hide gulvan
-
-a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-child(2) .flair.flair-clg-lolmithie {display:none;}
-.tagline a[username="gulvan"] 
-
-.tagline .author.id-t2_c5wat {display:inline} */
 
 .subscribers .number:after {
   content: " CLG Fans";
@@ -48,6 +42,7 @@ a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-ch
   line-height: 18px;
 }
 
+// Flair start
 .flair-aphro {
   background-position: -5px -3px;
 }
@@ -164,25 +159,7 @@ a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-ch
   background-position: -5px -843px;
 }
 
-.flair-clg-benita {
-  background-position: -5px -1143px;
-}
 
-.flair-clg-harvey {
-  background-position: -5px -1232px;
-}
-
-.flair-clg-potter {
-  background-position: -5px -1202px;
-}
-
-.flair-clg-di {
-  background-position: -5px -1113px;
-}
-
-.flair-clg-cath {
-  background-position: -5px -1172px;
-}
 
 .flair-clg-sfat {
   background-position: -5px -963px;
@@ -334,6 +311,162 @@ a[username="gulvan"],.author.id-t2_c5wat,.sidecontentbox .content li:nth-last-ch
   height: 25px;
   line-height: 26px;
 }
+
+//CLG red
+.flair-clg-benita {
+  background-position: -5px -1143px;
+}
+
+.flair-clg-harvey {
+  background-position: -5px -1232px;
+}
+
+.flair-clg-potter {
+  background-position: -5px -1202px;
+}
+
+.flair-clg-di {
+  background-position: -5px -1113px;
+}
+
+.flair-clg-cath {
+  background-position: -5px -1172px;
+}
+
+.flair-clg-refinnej {
+  background-position: -3px -1963px;
+  text-indent: 28px;
+}
+
+.flair-clg-emy {
+  background-position: -3px -2005px;
+  text-indent: 28px;
+}
+
+.flair-clg-ProMise9k {
+  background-position: -3px -2049px;
+  text-indent: 28px;
+}
+
+// CLG academy
+.flair-clg-omargod {
+  background-position: -3px -2138px;
+  text-indent: 28px;
+}
+
+.flair-clg-fallenbandit {
+  background-position: -3px -2092px;
+  text-indent: 28px;  
+}
+
+.flair-clg-tuesday {
+  background-position: -3px -2184px;
+  text-indent: 28px;
+}
+
+.flair-clg-auto {
+  background-position: -3px -2228px;
+  text-indent: 28px;
+}
+
+.flair-clg-fill {
+  background-position: -3px -2269px;
+  text-indent: 28px;
+}
+
+// h1z1
+.flair-clg-Flamehopper {
+  background-position: -3px -2313px;
+  text-indent: 28px;
+}
+.flair-clg-NightwalkeR1H {
+  background-position: -3px -2358px;
+  text-indent: 28px;
+}
+
+.flair-clg-CaLLzyy {
+  background-position: -3px -2401px;
+  text-indent: 28px; 
+}
+
+.flair-clg-Grimmy {
+  background-position: -3px -2448px;
+  text-indent: 28px; 
+}
+
+.flair-clg-dafps {
+  background-position: -3px -2491px;
+  text-indent: 28px;
+}
+
+//Rocket league
+.flair-clg-mijo {
+  background-position: -3px -2537px;
+  text-indent: 28px; 
+}
+
+.flair-clg-timi {
+  background-position: -3px -2584px;
+  text-indent: 28px; 
+}
+
+.flair-clg-dappur {
+  background-position: -3px -2630px;
+  text-indent: 28px; 
+}
+
+// Rainbow6
+.flair-clg-england {
+  background-position: -3px -2676px;
+  text-indent: 28px; 
+}
+
+.flair-clg-skys {
+  background-position: -3px -2721px;
+  text-indent: 28px; 
+}
+
+.flair-clg-shuttle {
+  background-position: -3px -2766px;
+  text-indent: 28px; 
+}
+
+.flair-clg-LaXInG {
+  background-position: -3px -2816px;
+  text-indent: 28px; 
+}
+
+// Streamers
+
+.flair-clg-tehmorag {
+  background-position: -3px -2864px;
+  text-indent: 28px; 
+}
+
+.flair-clg-hjtenchi {
+  background-position: -3px -2915px;
+  text-indent: 28px; 
+}
+
+.flair-clg-ikasperr {
+  background-position: -3px -2965px;
+  text-indent: 28px; 
+}
+
+.flair-clg-yassuo {
+  background-position: -3px -3014px;
+  text-indent: 28px; 
+}
+
+.flair-clg-shiptur {
+  background-position: -3px -3065px;
+  text-indent: 28px; 
+}
+
+
+
+
+// Flair end
 
 /* ALTERATIONS */
 
